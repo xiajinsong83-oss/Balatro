@@ -1,7 +1,6 @@
 baseURL = "https://www.starchoice.com.cn/"
 languageCode = "en-us"
 title = "Balatro Guide Hub - Calculators, Bugs, FAQ & Joker Database"
-theme = "bare"
 
 enableRobotsTXT = true
 enableGitInfo = true
