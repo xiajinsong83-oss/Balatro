@@ -1,0 +1,25 @@
+- question: How do I unlock new decks in Balatro?
+  summary: "Decks are unlocked by defeating each Ante's boss Blind on increasing stake levels. Start with the Red Deck. Beat Ante 8 on White Stake to unlock the Blue Deck. There are 15 total decks to unlock."
+  workaround: ""
+  source_note: Community knowledge base
+  updated_at: 2026-10-08
+- question: What is the best Joker build for Gold Stake?
+  summary: "Most consistent winning builds revolve around scaling Mult with jokers like Campfire, Raised Fist, or Fibonacci. Legendary jokers like Blueprint and Brainstorm double your scaling. Avoid single-card luck builds."
+  workaround: "Prioritize consistent Mult scaling across all hands."
+  source_note: Community strategy guides
+  updated_at: 2026-10-08
+- question: Why does my game crash after the latest update?
+  summary: "The v1.0.1o update introduced a crash bug related to the Blueprint Joker. If experiencing crashes, avoid picking up Blueprint Joker until the next patch."
+  workaround: "Verify game files through Steam. Back up save files before updates."
+  source_note: Community bug reports
+  updated_at: 2026-10-08
+- question: How does the scoring system work?
+  summary: "Score = (Base Chips + Card Chips) × (Base Mult + Joker Mult) × Retriggers. Poker hand rankings give base values: Pair = 10×2, Straight = 30×4, Four of a Kind = 60×7, Five of a Kind = 120×12."
+  workaround: ""
+  source_note: Official game mechanics
+  updated_at: 2026-10-08
+- question: What are Stake levels?
+  summary: "Stake levels are difficulty modifiers: White = none, Red = -1 hand, Green = -1 discard, Black = +1 Ante requirement, Blue = higher shop prices, Purple = less starting money, Orange = enhanced boss effects, Gold = all combined."
+  workaround: ""
+  source_note: Community knowledge base
+  updated_at: 2026-10-08

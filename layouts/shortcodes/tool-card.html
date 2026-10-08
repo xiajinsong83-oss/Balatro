@@ -1,0 +1,11 @@
+{{ $icon := .Get "icon" | default "🎮" }}
+{{ $color := .Get "color" | default "gold" }}
+{{ $title := .Get "title" | default "Tool" }}
+{{ $desc := .Get "desc" | default "" }}
+{{ $link := .Get "link" | default "#" }}
+
+<a href="{{ $link | relURL }}" class="tool-card">
+  <div class="tool-icon {{ $color }}">{{ $icon }}</div>
+  <h3>{{ $title }}</h3>
+  <p>{{ $desc }}</p>
+</a>

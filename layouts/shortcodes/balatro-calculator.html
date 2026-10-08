@@ -1,0 +1,38 @@
+<div class="calc-panel">
+  <div class="calc-row">
+    <div class="calc-group">
+      <label>Poker Hand Type</label>
+      <select id="hand-type">
+        <option value="high-card">High Card (5 × 1)</option>
+        <option value="pair">Pair (10 × 2)</option>
+        <option value="two-pair">Two Pair (20 × 2)</option>
+        <option value="three-kind">Three of a Kind (30 × 3)</option>
+        <option value="straight">Straight (30 × 4)</option>
+        <option value="flush">Flush (35 × 4)</option>
+        <option value="full-house">Full House (40 × 4)</option>
+        <option value="four-kind">Four of a Kind (60 × 7)</option>
+        <option value="straight-flush">Straight Flush (100 × 8)</option>
+        <option value="royal-flush">Royal Flush (100 × 8)</option>
+        <option value="five-kind">Five of a Kind (120 × 12)</option>
+      </select>
+    </div>
+  </div>
+  <div class="calc-row">
+    <div class="calc-group">
+      <label>Card Chips Bonus</label>
+      <input type="number" id="card-chips" value="0" min="0">
+    </div>
+    <div class="calc-group">
+      <label>Joker Mult Bonus</label>
+      <input type="number" id="joker-mult" value="0" min="0">
+    </div>
+    <div class="calc-group">
+      <label>Retriggers</label>
+      <input type="number" id="retriggers" value="1" min="1">
+    </div>
+  </div>
+  <div class="calc-result">
+    <div style="font-size:0.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Estimated Score</div>
+    <div class="value" id="score-result">0</div>
+  </div>
+</div>

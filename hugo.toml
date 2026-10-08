@@ -1,0 +1,25 @@
+baseURL = "https://www.starchoice.com.cn/"
+languageCode = "en-us"
+title = "Balatro Guide Hub - Calculators, Bugs, FAQ & Joker Database"
+theme = "bare"
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Unofficial Balatro guide with score calculator, joker database, known bugs, patch notes, and community FAQ. Updated daily."
+  contactEmail = "39918849@qq.com"
+  adsenseClient = "ca-pub-XXXXXXXXXXXXXXXX"

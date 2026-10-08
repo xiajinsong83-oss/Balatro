@@ -1,0 +1,37 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="{{ .Site.BaseURL }}" class="logo">
+          <div class="logo-icon">B</div>
+          <span>BalatroHub</span>
+        </a>
+        <p>Unofficial fan-made guide and tool site for Balatro. Built by players, for players. Updated daily with the latest patches, bug fixes, and community questions.</p>
+        <div class="disclaimer">
+          This site is an unofficial fan-made resource. Not affiliated, endorsed by, or connected to LocalThunk or Playstack. All trademarks, game assets, and intellectual property belong to their respective owners.
+        </div>
+      </div>
+      <div>
+        <h5>Game Guides</h5>
+        <ul>
+          <li><a href="{{ .Site.BaseURL }}balatro/">Balatro</a></li>
+          <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">Score Calculator</a></li>
+          <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">Joker List</a></li>
+          <li><a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/">Known Bugs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="{{ .Site.BaseURL }}legal/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="{{ .Site.BaseURL }}legal/terms-of-service/">Terms of Service</a></li>
+          <li><a href="{{ .Site.BaseURL }}legal/about-us/">About Us</a></li>
+          <li><a href="{{ .Site.BaseURL }}legal/contact-us/">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © {{ now.Year }} BalatroHub. Unofficial fan site. Last updated: {{ now.Format "2006-01-02" }}
+    </div>
+  </div>
+</footer>

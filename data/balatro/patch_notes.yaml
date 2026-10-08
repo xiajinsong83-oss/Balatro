@@ -1,0 +1,22 @@
+- version: 1.0.1o
+  release_date: 2026-09-28
+  title: Balance & Bug Fixes Patch
+  changes:
+    - Fixed crash when using Blueprint with certain jokers on macOS
+    - Adjusted Rare joker spawn rate from 18.0% to 17.5%
+    - Fixed issue where Canvas joker bonus wasn't applying correctly
+    - Improved game stability on Switch handheld mode
+- version: 1.0.1n
+  release_date: 2026-09-15
+  title: Stability Update
+  changes:
+    - Fixed memory leak during long runs on PC
+    - Resolved rare soft-lock when using The Fool tarot card
+    - Added save corruption recovery for Steam Cloud sync conflicts
+- version: 1.0.1m
+  release_date: 2026-08-30
+  title: Balance Patch
+  changes:
+    - Reduced negative effect of Deck of Echoes from -2 hands to -1 hand
+    - Increased common joker value from +4 Mult to +5 Mult
+    - Fixed Manifestation spectral card duplication bug

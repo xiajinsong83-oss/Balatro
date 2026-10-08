@@ -1,0 +1,8 @@
+{{ $data := .Site.Data.balatro }}
+{{ $updated := "2026-01-01" }}
+{{ if $data.patch_notes }}
+  {{ with index $data.patch_notes 0 }}
+    {{ $updated = .release_date }}
+  {{ end }}
+{{ end }}
+<div class="last-updated">● Last updated: {{ $updated }}</div>

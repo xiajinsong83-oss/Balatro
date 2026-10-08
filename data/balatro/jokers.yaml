@@ -1,0 +1,100 @@
+- id: 1
+  name: Joker
+  rarity: Common
+  cost: 4
+  effect: "+4 Mult"
+- id: 2
+  name: Greedy Joker
+  rarity: Common
+  cost: 5
+  effect: "Diamonds suit gives +3 Mult"
+- id: 3
+  name: Lusty Joker
+  rarity: Common
+  cost: 5
+  effect: "Hearts suit gives +3 Mult"
+- id: 4
+  name: Wrathful Joker
+  rarity: Common
+  cost: 5
+  effect: "Spades suit gives +3 Mult"
+- id: 5
+  name: Gluttonous Joker
+  rarity: Common
+  cost: 5
+  effect: "Clubs suit gives +3 Mult"
+- id: 6
+  name: Jolly Joker
+  rarity: Common
+  cost: 4
+  effect: "+4 Mult for each face card played"
+- id: 7
+  name: Zany Joker
+  rarity: Common
+  cost: 5
+  effect: "Retrigger first played card twice"
+- id: 8
+  name: Sly Joker
+  rarity: Common
+  cost: 4
+  effect: "+1.5 Mult for each Ace played"
+- id: 9
+  name: Half Joker
+  rarity: Common
+  cost: 5
+  effect: "+3 Mult if hand has 3 or fewer cards"
+- id: 10
+  name: Golden Joker
+  rarity: Uncommon
+  cost: 6
+  effect: "$2 every round"
+- id: 11
+  name: Lucky Joker
+  rarity: Uncommon
+  cost: 4
+  effect: "1/5 chance each hand: +20 Mult"
+- id: 12
+  name: Baron
+  rarity: Rare
+  cost: 6
+  effect: "Kings give +1.5 Mult each"
+- id: 13
+  name: Fibonacci
+  rarity: Rare
+  cost: 6
+  effect: "Ace, 2, 3, 5, 8 give +8 Mult"
+- id: 14
+  name: Odd Todd
+  rarity: Rare
+  cost: 5
+  effect: "Odd cards give +31 Chips"
+- id: 15
+  name: Even Steven
+  rarity: Rare
+  cost: 5
+  effect: "Even cards give +4 Mult"
+- id: 16
+  name: Blueprint
+  rarity: Legendary
+  cost: 10
+  effect: "Copies ability of Joker to its left"
+- id: 17
+  name: Brainstorm
+  rarity: Legendary
+  cost: 10
+  effect: "Copies abilities of all Jokers to its left"
+- id: 18
+  name: Pareidolia
+  rarity: Legendary
+  cost: 6
+  effect: "All cards are also face cards"
+- id: 19
+  name: Madness
+  rarity: Legendary
+  cost: 7
+  effect: "After playing 23 cards: +15 Mult"
+- id: 20
+  name: Seance
+  rarity: Legendary
+  cost: 7
+  effect: "After Straight Flush: create a Tarot card"

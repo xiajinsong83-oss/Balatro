@@ -1,0 +1,36 @@
+- title: Game crashes when selecting Blueprint Joker after Blind 3
+  version: 1.0.1o
+  platform: PC / Steam
+  severity: Critical
+  reports: 47
+  description: "Multiple players report the game crashing immediately after picking up the Blueprint Joker card on or after Blind 3."
+  workaround: "Save before selecting Blueprint. Load previous save if crash occurs."
+  status: Reported - Not yet fixed
+  updated_at: 2026-10-08
+- title: Save file corruption on Steam Cloud sync conflict
+  version: 1.0.1n
+  platform: PC / Steam
+  severity: Critical
+  reports: 123
+  description: "When playing on multiple machines with Steam Cloud enabled, save files can become corrupted during sync conflicts."
+  workaround: "Disable Steam Cloud before starting long runs. Back up save files regularly."
+  status: Partially fixed - recovery added
+  updated_at: 2026-10-08
+- title: Switch handheld mode frame drops with 8+ Jokers
+  version: 1.0.1o
+  platform: Nintendo Switch
+  severity: Medium
+  reports: 32
+  description: "Frame rate drops when more than 8 Joker cards are active in handheld mode."
+  workaround: "Play in docked mode. Reduce Joker count."
+  status: Reported - In progress
+  updated_at: 2026-10-08
+- title: iOS crash when entering shop with full Joker slots
+  version: 1.0.1o
+  platform: iOS / Mobile
+  severity: Critical
+  reports: 56
+  description: "Game crashes when entering the shop screen if all 5 Joker slots are filled."
+  workaround: "Sell one Joker before entering shop."
+  status: Fixed in v1.0.1o
+  updated_at: 2026-10-08
