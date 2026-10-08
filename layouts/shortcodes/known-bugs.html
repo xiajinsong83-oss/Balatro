@@ -1,7 +1,8 @@
 {{ $bugs := .Site.Data.balatro.known_bugs }}
 {{ $zh := eq .Page.Lang "zh" }}
+<div class="bug-list" data-per-page="10">
 {{ range $bugs }}
-<div class="bug-item">
+<div class="bug-item bug-entry">
   <h4>{{ .title }}</h4>
   <p><strong>{{ if $zh }}描述{{ else }}Description{{ end }}:</strong> {{ .description }}</p>
   {{ if .workaround }}<p><strong style="color:var(--gold-bright)">{{ if $zh }}临时方案{{ else }}Workaround{{ end }}:</strong> {{ .workaround }}</p>{{ end }}
@@ -9,3 +10,34 @@
   {{ if .source_url }}<p style="margin-top:8px;font-size:0.8rem;"><a href="{{ .source_url }}" target="_blank" rel="noopener" style="color:var(--gold-bright);">🔗 {{ if $zh }}错误反馈来源{{ else }}Bug Report Source ↗{{ end }}</a></p>{{ end }}
 </div>
 {{ end }}
+</div>
+<div class="pagination" id="bug-pagination" style="display:flex;gap:8px;justify-content:center;margin-top:24px;flex-wrap:wrap;"></div>
+<script>
+(function(){
+  const list = document.querySelector('.bug-list');
+  if (!list) return;
+  const items = list.querySelectorAll('.bug-entry');
+  const perPage = 10;
+  const totalPages = Math.ceil(items.length / perPage);
+  const container = document.getElementById('bug-pagination');
+  function showPage(p) {
+    items.forEach((item, i) => {
+      item.style.display = (i >= (p-1)*perPage && i < p*perPage) ? '' : 'none';
+    });
+    container.querySelectorAll('button').forEach((btn, i) => {
+      btn.classList.toggle('active', i+1 === p);
+    });
+  }
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+    btn.style.cssText = 'padding:6px 14px;border-radius:6px;border:1px solid var(--border);background:var(--bg-card);color:var(--text);cursor:pointer;font-size:0.9rem;';
+    btn.onclick = () => showPage(i);
+    container.appendChild(btn);
+  }
+  showPage(1);
+})();
+</script>
+<style>
+#bug-pagination button.active { background:var(--gold); color:#1a1a1a; border-color:var(--gold); font-weight:700; }
+</style>

@@ -38,3 +38,113 @@
   status: Fixed in v1.0.1o
   updated_at: 2026-10-08
   source_url: "https://www.reddit.com/r/batardre/"
+- title: Android 14 Tarot card crash
+  version: 1.0.1p
+  platform: Android
+  severity: Critical
+  reports: 89
+  description: "Game crashes immediately when using any Tarot card on Android 14 devices."
+  workaround: "Wait for hotfix. Clear app cache and reinstall."
+  status: Fixed in v1.0.1p
+  updated_at: 2026-10-05
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"
+- title: Score display wrong on Polychrome cards
+  version: 1.0.1n
+  platform: All platforms
+  severity: Medium
+  reports: 21
+  description: "Polychrome edition cards show incorrect chip values in the score breakdown popup."
+  workaround: "Recalculate manually. Display bug only, scoring is correct."
+  status: Reported - Not yet fixed
+  updated_at: 2026-09-20
+  source_url: "https://www.reddit.com/r/batardre/"
+- title: Steam Deck OLED brightness adaptation
+  version: 1.0.1q
+  platform: Steam Deck
+  severity: Low
+  reports: 14
+  description: "Auto-brightness causes flickering during animated shop sequences."
+  workaround: "Set manual brightness in Steam Deck settings."
+  status: Fixed in v1.0.1q
+  updated_at: 2026-10-08
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"
+- title: Voucher reset after game restart
+  version: 1.0.1m
+  platform: PC / Steam
+  severity: High
+  reports: 38
+  description: "Purchased Vouchers disappear after closing and restarting the game mid-run."
+  workaround: "Don't restart mid-run. Complete the run in one session."
+  status: Fixed in v1.0.1n
+  updated_at: 2026-09-15
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"
+- title: The Fool tarot soft-lock
+  version: 1.0.1n
+  platform: All platforms
+  severity: Critical
+  reports: 67
+  description: "Using The Fool tarot card when hand selection is open causes a soft-lock requiring force quit."
+  workaround: "Close hand selection first, then use The Fool."
+  status: Fixed in v1.0.1n
+  updated_at: 2026-09-15
+  source_url: "https://www.reddit.com/r/batardre/"
+- title: Gros Michel joker not counting cards
+  version: 1.0.1k
+  platform: All platforms
+  severity: Medium
+  reports: 19
+  description: "Gros Michel joker bonus does not apply when face cards are scored in certain hand types."
+  workaround: "Use other Mult-scaling jokers instead."
+  status: Fixed in v1.0.1l
+  updated_at: 2026-08-12
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"
+- title: Achievement not unlocking on GOG
+  version: 1.0.1a
+  platform: GOG
+  severity: Low
+  reports: 8
+  description: "Blue Deck unlock achievement does not trigger on GOG version despite meeting conditions."
+  workaround: "Unlock works in-game; achievement tracker is bugged."
+  status: Reported - Waiting on GOG integration
+  updated_at: 2026-02-15
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"
+- title: Ultrawide monitor UI stretching
+  version: 1.0.1b
+  platform: PC
+  severity: Low
+  reports: 11
+  description: "UI elements stretch on ultrawide monitors (21:9), cards appear distorted."
+  workaround: "Use windowed mode with 16:9 resolution."
+  status: Fixed in v1.0.1b
+  updated_at: 2026-02-28
+  source_url: "https://www.reddit.com/r/batardre/"
+- title: Manifestation spectral card duplication
+  version: 1.0.1m
+  platform: All platforms
+  severity: High
+  reports: 44
+  description: "Manifestation spectral card duplicates itself when used on certain joker combinations."
+  workaround: "Use Manifestation carefully. Avoid combining with Blueprint."
+  status: Fixed in v1.0.1m
+  updated_at: 2026-08-30
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"
+- title: Memory leak on 30+ Ante runs
+  version: 1.0.1n
+  platform: PC
+  severity: High
+  reports: 52
+  description: "Game memory usage grows continuously on long runs, eventually crashing after 2+ hours."
+  workaround: "Restart game every hour. Use save and quit."
+  status: Partially fixed in v1.0.1n
+  updated_at: 2026-09-15
+  source_url: "https://www.reddit.com/r/batardre/"
+- title: Touch input delay on iPad
+  version: 1.0.1l
+  platform: iPad / iOS
+  severity: Medium
+  reports: 27
+  description: "Card dragging has noticeable input delay on iPad Pros with ProMotion display."
+  workaround: "Disable ProMotion in iOS display settings."
+  status: Fixed in v1.0.1l
+  updated_at: 2026-08-12
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"

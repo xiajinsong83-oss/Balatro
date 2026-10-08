@@ -1,11 +1,44 @@
 {{ $patches := .Site.Data.balatro.patch_notes }}
+{{ $zh := eq .Page.Lang "zh" }}
+<div class="patch-list" data-per-page="10">
 {{ range $patches }}
-<div class="bug-item">
+<div class="bug-item patch-item">
   <h4>{{ .title }} <span style="color:var(--text-dim);font-weight:400;font-size:0.85rem">v{{ .version }}</span></h4>
   <ul>
     {{ range .changes }}<li>{{ . }}</li>{{ end }}
   </ul>
-  <p><em>{{ if eq $.Page.Lang "zh" }}发布日期{{ else }}Released{{ end }}: {{ .release_date }}</em></p>
-  {{ if .source_url }}<p style="margin-top:8px;font-size:0.8rem;"><a href="{{ .source_url }}" target="_blank" rel="noopener" style="color:var(--gold-bright);">📥 {{ if eq $.Page.Lang "zh"}}官方补丁来源{{ else }}Official Patch Source ↗{{ end }}</a></p>{{ end }}
+  <p><em>{{ if $zh }}发布日期{{ else }}Released{{ end }}: {{ .release_date }}</em></p>
+  {{ if .source_url }}<p style="margin-top:8px;font-size:0.8rem;"><a href="{{ .source_url }}" target="_blank" rel="noopener" style="color:var(--gold-bright);">📥 {{ if $zh}}官方补丁来源{{ else }}Official Patch Source ↗{{ end }}</a></p>{{ end }}
 </div>
 {{ end }}
+</div>
+<div class="pagination" id="patch-pagination" style="display:flex;gap:8px;justify-content:center;margin-top:24px;flex-wrap:wrap;"></div>
+<script>
+(function(){
+  const list = document.querySelector('.patch-list');
+  if (!list) return;
+  const items = list.querySelectorAll('.patch-item');
+  const perPage = 10;
+  const totalPages = Math.ceil(items.length / perPage);
+  const container = document.getElementById('patch-pagination');
+  function showPage(p) {
+    items.forEach((item, i) => {
+      item.style.display = (i >= (p-1)*perPage && i < p*perPage) ? '' : 'none';
+    });
+    container.querySelectorAll('button').forEach((btn, i) => {
+      btn.classList.toggle('active', i+1 === p);
+    });
+  }
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+    btn.style.cssText = 'padding:6px 14px;border-radius:6px;border:1px solid var(--border);background:var(--bg-card);color:var(--text);cursor:pointer;font-size:0.9rem;';
+    btn.onclick = () => showPage(i);
+    container.appendChild(btn);
+  }
+  showPage(1);
+})();
+</script>
+<style>
+#patch-pagination button.active { background:var(--gold); color:#1a1a1a; border-color:var(--gold); font-weight:700; }
+</style>

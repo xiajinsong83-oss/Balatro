@@ -1,4 +1,5 @@
 {{ $faqData := .Site.Data.balatro.player_faq }}
+{{ $zh := eq .Page.Lang "zh" }}
 {{ if $faqData }}
 <script type="application/ld+json">
 {
@@ -20,14 +21,46 @@
 </script>
 {{ end }}
 
+<div class="faq-list" data-per-page="10">
 {{ range $faqData }}
-<div class="faq-item">
+<div class="faq-item faq-entry">
   <h3 class="faq-question" style="cursor:pointer;padding:18px 24px;margin:0;">{{ .question }}</h3>
   <div class="faq-answer" style="padding:0 24px 18px;">
     <p>{{ .summary }}</p>
-    {{ if .workaround }}<p><strong>Workaround:</strong> {{ .workaround }}</p>{{ end }}
+    {{ if .workaround }}<p><strong>{{ if $zh }}建议{{ else }}Workaround{{ end }}:</strong> {{ .workaround }}</p>{{ end }}
     <p class="faq-note"><em>{{ .source_note }} | {{ .updated_at }}</em></p>
-    {{ if .source_url }}<p style="margin-top:8px;font-size:0.8rem;"><a href="{{ .source_url }}" target="_blank" rel="noopener" style="color:var(--gold-bright);">🔗 {{ if eq $.Page.Lang "zh"}}参考来源{{ else }}Reference Source ↗{{ end }}</a></p>{{ end }}
+    {{ if .source_url }}<p style="margin-top:8px;font-size:0.8rem;"><a href="{{ .source_url }}" target="_blank" rel="noopener" style="color:var(--gold-bright);">🔗 {{ if $zh}}参考来源{{ else }}Reference Source ↗{{ end }}</a></p>{{ end }}
   </div>
 </div>
 {{ end }}
+</div>
+<div class="pagination" id="faq-pagination" style="display:flex;gap:8px;justify-content:center;margin-top:24px;flex-wrap:wrap;"></div>
+<script>
+(function(){
+  const list = document.querySelector('.faq-list');
+  if (!list) return;
+  const items = list.querySelectorAll('.faq-entry');
+  const perPage = 10;
+  const totalPages = Math.ceil(items.length / perPage);
+  const container = document.getElementById('faq-pagination');
+  function showPage(p) {
+    items.forEach((item, i) => {
+      item.style.display = (i >= (p-1)*perPage && i < p*perPage) ? '' : 'none';
+    });
+    container.querySelectorAll('button').forEach((btn, i) => {
+      btn.classList.toggle('active', i+1 === p);
+    });
+  }
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+    btn.style.cssText = 'padding:6px 14px;border-radius:6px;border:1px solid var(--border);background:var(--bg-card);color:var(--text);cursor:pointer;font-size:0.9rem;';
+    btn.onclick = () => showPage(i);
+    container.appendChild(btn);
+  }
+  showPage(1);
+})();
+</script>
+<style>
+#faq-pagination button.active { background:var(--gold); color:#1a1a1a; border-color:var(--gold); font-weight:700; }
+</style>

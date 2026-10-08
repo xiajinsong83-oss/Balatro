@@ -1,3 +1,18 @@
+- version: 1.0.1q
+  release_date: 2026-10-08
+  title: Latest Patch - Steam Deck Optimization
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Optimized performance for Steam Deck OLED
+    - Added native Steam Deck controls
+    - Fixed brightness adaptation issue
+- version: 1.0.1p
+  release_date: 2026-10-05
+  title: Hotfix - Android Crash
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed crash on Android 14 when using Tarot cards
+    - Improved touch responsiveness on screen rotation
 - version: 1.0.1o
   release_date: 2026-09-28
   title: Balance & Bug Fixes Patch
@@ -23,3 +38,259 @@
     - Reduced negative effect of Deck of Echoes from -2 hands to -1 hand
     - Increased common joker value from +4 Mult to +5 Mult
     - Fixed Manifestation spectral card duplication bug
+- version: 1.0.1l
+  release_date: 2026-08-12
+  title: UI & UX Improvements
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added keyboard shortcut reference in settings menu
+    - Improved tooltip positioning on mobile
+    - Fixed text overflow on small screens
+    - Added haptic feedback option for iOS
+- version: 1.0.1k
+  release_date: 2026-07-28
+  title: Joker Balance Update
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Nerfed-yet: reduced base Mult from +4 to +3
+    - Buffed Hallucination: now triggers on any suit
+    - Fixed Gros Michel joker not counting scored cards
+- version: 1.0.1j
+  release_date: 2026-07-10
+  title: Anti-Cheat & Save Sync
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Improved Steam Cloud conflict resolution
+    - Fixed offline mode progress not saving
+    - Added backup save file feature
+- version: 1.0.1i
+  release_date: 2026-06-25
+  title: Content Update - New Deck
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added the Gray Deck (starts with 0 money but +1 hand)
+    - New achievement for beating Gold Stake with Gray Deck
+    - Fixed incorrect achievement progress tracking
+- version: 1.0.1h
+  release_date: 2026-06-08
+  title: Crash Fixes & Performance
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed crash when using 8+ edition cards on Android
+    - Reduced load times by 30% on mobile
+    - Fixed audio crackling during intense battles
+- version: 1.0.1g
+  release_date: 2026-05-22
+  title: Balancing Patch
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Adjusted boss Blind "The Water" from -2 hands to -1 hand
+    - Increased Planet card sell value from $5 to $6
+    - Fixed Yorick joker retrigger calculation
+- version: 1.0.1f
+  release_date: 2026-05-05
+  title: Localization Update
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added official Simplified Chinese localization
+    - Added Korean localization
+    - Fixed typos in French and Spanish translations
+- version: 1.0.1e
+  release_date: 2026-04-18
+  title: Bug Fix Patch
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed save file duplication after Steam Cloud sync
+    - Fixed The Tower tarot card not applying correctly
+    - Fixed display bug with negative Mult values
+- version: 1.0.1d
+  release_date: 2026-04-01
+  title: Quality of Life Update
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added "Hold to skip" option for shop animations
+    - Added confirm dialog when selling legendary jokers
+    - Improved gamepad controller navigation
+- version: 1.0.1c
+  release_date: 2026-03-15
+  title: Balance & Joker Fixes
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed Oops! joker giving negative chips
+    - Adjusted Rocket joker damage scaling
+    - Increased uncommon joker spawn rate from 30% to 32%
+- version: 1.0.1b
+  release_date: 2026-02-28
+  title: Hotfix - Critical Crash
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed immediate crash on startup for some Steam Deck users
+    - Fixed resolution bug on ultrawide monitors
+- version: 1.0.1a
+  release_date: 2026-02-10
+  title: Day One Patch
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed tutorial skip not working
+    - Balanced starting money on Green Stake
+    - Added cloud save support for GOG version
+- version: 1.0.0g
+  release_date: 2026-01-25
+  title: Content Patch - Spectral Cards
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added 3 new Spectral cards: The Soul, The Sigil, The Reliquary
+    - New achievement for collecting all Spectral cards
+    - Fixed Spectral card rarity spawn rates
+- version: 1.0.0f
+  release_date: 2026-01-08
+  title: Performance Update
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Reduced memory usage by 40% on long runs
+    - Fixed frame drops during high-score animations
+    - Optimized particle effects for low-end devices
+- version: 1.0.0e
+  release_date: 2025-12-20
+  title: Holiday Patch
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added holiday-themed card backs (temporary)
+    - Fixed Krampus joker not appearing during Christmas event
+    - Price discount announcement
+- version: 1.0.0d
+  release_date: 2025-12-05
+  title: Multiplayer Teaser Patch
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added hidden menu hint for upcoming multiplayer mode
+    - Fixed online leaderboard submission failures
+    - Improved leaderboard refresh rate
+- version: 1.0.0c
+  release_date: 2025-11-18
+  title: Bug Fixes & Balance
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed Egg joker not evolving correctly
+    - Adjusted Voucher "Directors Cut" effect
+    - Fixed boss Blind scaling on Orange Stake
+- version: 1.0.0b
+  release_date: 2025-11-01
+  title: Halloween Patch
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added Halloween card skins (limited time)
+    - Fixed ghost-themed Spectral card spawn rate
+    - Added spooky soundtrack toggle
+- version: 1.0.0a
+  release_date: 2025-10-15
+  title: Major Balance Patch
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Complete rebalance of all 15 deck starting conditions
+    - Fixed score calculation for Five of a Kind
+    - Increased final boss HP by 15% on Gold Stake
+- version: 0.9.8f
+  release_date: 2025-09-28
+  title: Beta Patch - Deck Tuning
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Tuned Blue Deck starting hand count
+    - Fixed Red Deck achievement not unlocking
+    - Added preview for upcoming deck reveals
+- version: 0.9.8e
+  release_date: 2025-09-10
+  title: Beta Bug Fixes
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed soft-lock when buying Vouchers from shop
+    - Fixed incorrect hand ranking detection
+    - Improved error reporting system
+- version: 0.9.8d
+  release_date: 2025-08-25
+  title: Beta Balance Update
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Adjusted shop price scaling per Ante
+    - Fixed legendary joker spawn rates too low
+    - Increased common joker sell value
+- version: 0.9.8c
+  release_date: 2025-08-08
+  title: Beta Content Drop
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added 10 new jokers to beta testing pool
+    - New Voucher items for testing
+    - Feedback survey link added to main menu
+- version: 0.9.8b
+  release_date: 2025-07-22
+  title: Beta Hotfix
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Fixed major crash after defeating Ante 5 boss
+    - Fixed tutorial progression bug
+    - Adjusted UI scale for 4K monitors
+- version: 0.9.8a
+  release_date: 2025-07-05
+  title: Closed Beta Launch
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Initial closed beta release
+    - 10 jokers, 5 decks, 5 stake levels available
+    - Known issues list posted in community hub
+- version: 0.9.7
+  release_date: 2025-06-15
+  title: Alpha Update - Card Edits
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added edition system (Foil, Holographic, Polychrome)
+    - Fixed card art display issues
+    - Balance adjustments based on alpha feedback
+- version: 0.9.6
+  release_date: 2025-05-20
+  title: Alpha - Boss Blinds
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Implemented boss Blind system
+    - Added 12 unique boss Blinds
+    - Scoring system rework
+- version: 0.9.5
+  release_date: 2025-04-28
+  title: Alpha - Shop System
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Implemented in-game shop
+    - Joker purchasing and selling
+    - Voucher system prototype
+- version: 0.9.4
+  release_date: 2025-04-05
+  title: Alpha - Core Loop
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Implemented Ante progression system
+    - Basic poker hand scoring
+    - Card drawing and playing mechanics
+- version: 0.9.3
+  release_date: 2025-03-10
+  title: Prototype Update
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Added basic card deck
+    - Implemented poker hand recognition
+    - Basic score display
+- version: 0.9.2
+  release_date: 2025-02-18
+  title: Prototype - UI
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Initial dark casino theme
+    - Card table layout
+    - Basic navigation
+- version: 0.9.1
+  release_date: 2025-01-25
+  title: Prototype - Core Mechanics
+  source_url: "https://store.steampowered.com/news/app/2379780"
+  changes:
+    - Card dealing mechanics
+    - Hand selection
+    - Basic scoring formula test
