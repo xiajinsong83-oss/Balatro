@@ -1,0 +1,102 @@
+{{ $reviews := .Site.Data.balatro.player_reviews }}
+{{ $zh := eq .Page.Lang "zh" }}
+<div class="review-list" data-per-page="12">
+{{ range $reviews }}
+<div class="bug-item review-card">
+  <div class="review-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:8px;">
+    <div>
+      <strong>{{ .author }}</strong>
+      <span style="color:var(--text-dim);font-size:0.8rem;margin-left:8px;">{{ .platform }} · {{ .hours_played }} {{ if $zh }}小时{{ else }}hrs{{ end }}</span>
+    </div>
+    <div class="review-stars" style="color:var(--gold-bright);font-size:1rem;">
+      {{ if eq .rating 5 }}★★★★★{{ else if eq .rating 4 }}★★★★☆{{ else if eq .rating 3 }}★★★☆☆{{ else if eq .rating 2 }}★★☆☆☆{{ else }}★☆☆☆☆{{ end }}
+    </div>
+  </div>
+  <h4 style="margin-bottom:8px;">{{ .title }}</h4>
+  <p style="color:var(--text-muted);font-size:0.92rem;line-height:1.6;">{{ .content }}</p>
+  <p style="margin-top:10px;font-size:0.78rem;color:var(--text-dim);">📋 {{ .source }} · {{ .date }}</p>
+</div>
+{{ end }}
+</div>
+<div class="pagination" id="review-pagination" style="display:flex;gap:8px;justify-content:center;margin-top:24px;flex-wrap:wrap;align-items:center;"></div>
+<script>
+(function(){
+  const list = document.querySelector('.review-list');
+  if (!list) return;
+  const items = list.querySelectorAll('.review-card');
+  const perPage = 12;
+  const totalPages = Math.ceil(items.length / perPage);
+  const container = document.getElementById('review-pagination');
+  let currentPage = 1;
+
+  function showPage(p) {
+    if (p < 1) p = 1;
+    if (p > totalPages) p = totalPages;
+    currentPage = p;
+    items.forEach((item, i) => {
+      item.style.display = (i >= (p-1)*perPage && i < p*perPage) ? '' : 'none';
+    });
+    renderButtons();
+  }
+
+  function renderButtons() {
+    container.innerHTML = '';
+    // Prev button
+    const prev = document.createElement('button');
+    prev.textContent = '← {{ if $zh }}上一页{{ else }}Prev{{ end }}';
+    prev.style.cssText = 'padding:6px 14px;border-radius:6px;border:1px solid var(--border);background:var(--bg-card);color:var(--text);cursor:pointer;font-size:0.9rem;';
+    prev.disabled = currentPage === 1;
+    prev.onclick = () => showPage(currentPage - 1);
+    container.appendChild(prev);
+
+    // Page numbers (smart range)
+    let start = Math.max(1, currentPage - 2);
+    let end = Math.min(totalPages, currentPage + 2);
+    if (start > 1) {
+      addPageBtn(1);
+      if (start > 2) container.appendChild(makeSpan('...'));
+    }
+    for (let i = start; i <= end; i++) addPageBtn(i);
+    if (end < totalPages) {
+      if (end < totalPages - 1) container.appendChild(makeSpan('...'));
+      addPageBtn(totalPages);
+    }
+
+    // Next button
+    const next = document.createElement('button');
+    next.textContent = '{{ if $zh }}下一页{{ else }}Next{{ end }} →';
+    next.style.cssText = 'padding:6px 14px;border-radius:6px;border:1px solid var(--border);background:var(--bg-card);color:var(--text);cursor:pointer;font-size:0.9rem;';
+    next.disabled = currentPage === totalPages;
+    next.onclick = () => showPage(currentPage + 1);
+    container.appendChild(next);
+
+    // Page info
+    const info = document.createElement('span');
+    info.style.cssText = 'font-size:0.8rem;color:var(--text-dim);margin-left:12px;';
+    info.textContent = currentPage + ' / ' + totalPages;
+    container.appendChild(info);
+  }
+
+  function addPageBtn(n) {
+    const btn = document.createElement('button');
+    btn.textContent = n;
+    btn.style.cssText = 'padding:6px 14px;border-radius:6px;border:1px solid var(--border);background:var(--bg-card);color:var(--text);cursor:pointer;font-size:0.9rem;';
+    if (n === currentPage) btn.style.cssText += ';background:var(--gold);color:#1a1a1a;border-color:var(--gold);font-weight:700;';
+    btn.onclick = () => showPage(n);
+    container.appendChild(btn);
+  }
+
+  function makeSpan(text) {
+    const s = document.createElement('span');
+    s.textContent = text;
+    s.style.cssText = 'color:var(--text-dim);padding:0 4px;';
+    return s;
+  }
+
+  showPage(1);
+})();
+</script>
+<style>
+#review-pagination button:disabled { opacity:0.4; cursor:not-allowed; }
+.review-card { border-left:3px solid var(--gold); }
+</style>

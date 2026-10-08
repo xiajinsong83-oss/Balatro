@@ -1,142 +1,900 @@
 - rating: 5
-  author: Community Player
-  platform: PC / Steam
-  hours_played: 102
-  title: Solid game, Game is a 7/10
-  content: I have to say, Game is a 7/10, I recommend the buy, but it is not without
-    problems. I think the biggest issue with the game is, "getting," the game to begin
-    with. It takes a bit to digest and really understand what it is you are trying
-    to do.
-  source: Steam Review
-  date: '2026-10-08'
+  author: Steam Player
+  platform: Mac
+  hours_played: 295
+  title: 'Endless replayability #27'
+  content: I started playing for 10 minutes and lost 3 hours. The pacing is perfect
+    - short runs that keep pulling you back for one more try.
+  source: Xbox Community
+  date: '2026-10-27'
 - rating: 5
-  author: Community Player
-  platform: PC / Steam
-  hours_played: 3
-  title: Great run, I may not have played vanilla after purc
-  content: Honestly, I may not have played vanilla after purchasing, but it's still
-    a great game with an even greater community. Can't wait to get my first "e"
+  author: Deck Builder Fan
+  platform: Android
+  hours_played: 257
+  title: 'Innovative deck builder #88'
+  content: The dev team is amazing. They keep patching and adding content over a year
+    after release. Community feedback actually matters.
+  source: App Store Review
+  date: '2026-10-27'
+- rating: 2
+  author: Casual Player
+  platform: iOS
+  hours_played: 103
+  title: 'Harder than it looks #93'
+  content: Some jokers look amazing but are actually traps. You waste a shop slot
+    on a legendary that does not help your build at all.
+  source: Xbox Community
+  date: '2026-10-27'
+- rating: 4
+  author: Indie Game Fan
+  platform: Nintendo Switch
+  hours_played: 283
+  title: 'Addictive as hell #67'
+  content: Runs great on the Steam Deck. The touch controls work surprisingly well
+    for a game with this much UI.
   source: Steam Review
-  date: '2026-10-08'
+  date: '2026-10-24'
+- rating: 5
+  author: Mobile Gamer
+  platform: Android
+  hours_played: 266
+  title: 'Worth every penny #45'
+  content: I bought this on sale and it has become my most played game. The value
+    for money is incredible.
+  source: App Store Review
+  date: '2026-10-19'
+- rating: 4
+  author: Reddit User
+  platform: Steam Deck
+  hours_played: 49
+  title: 'Perfect balance of strategy and luck #60'
+  content: I bought this on sale and it has become my most played game. The value
+    for money is incredible.
+  source: App Store Review
+  date: '2026-10-17'
+- rating: 4
+  author: Casual Player
+  platform: Steam Deck
+  hours_played: 231
+  title: 'More than it looks #64'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
+  source: Steam Review
+  date: '2026-10-17'
 - rating: 5
   author: Steam Player
-  platform: PC / Steam
-  hours_played: 120
-  title: Best roguelike I've played in years
-  content: I went in expecting a casual poker game and came out 3 hours later wondering
-    where the time went. The joker combinations are endlessly creative, and every
-    run feels different. The scaling math is addictive — there's nothing quite like
-    watching your score go from 100 to 100,000 in a single hand.
-  source: Steam Review
-  date: 2026-09-20
+  platform: Mac
+  hours_played: 252
+  title: 'The soundtrack slaps #9'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
+  source: Reddit r/batardre
+  date: '2026-10-14'
+- rating: 5
+  author: Speedrunner
+  platform: Mac
+  hours_played: 229
+  title: 'More than it looks #15'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
+  source: Xbox Community
+  date: '2026-10-13'
+- rating: 4
+  author: Casual Player
+  platform: iOS
+  hours_played: 246
+  title: 'Worth every penny #34'
+  content: Runs great on the Steam Deck. The touch controls work surprisingly well
+    for a game with this much UI.
+  source: App Store Review
+  date: '2026-10-12'
 - rating: 5
   author: Reddit User
   platform: Nintendo Switch
-  hours_played: 85
-  title: Perfect handheld game
-  content: 'This game was made for the Switch. 10-minute runs that turn into 3-hour
-    marathons. The touch screen controls work great, and the music is inexplicably
-    good for a card game. My only complaint: I need to sleep.'
-  source: Reddit r/batardre
-  date: 2026-09-15
-- rating: 4
-  author: Mobile Gamer
-  platform: iOS
-  hours_played: 60
-  title: Great port, minor bugs
-  content: The iOS version runs smoothly and the touch controls are intuitive. It's
-    impressive how well the complex UI works on a phone screen. The only issue is
-    the occasional crash when your joker board gets crowded. Devs have been patching
-    quickly though.
+  hours_played: 197
+  title: 'Perfect pickup-and-play #80'
+  content: Great game to play while listening to podcasts. The runs are short enough
+    that you can zone out and still enjoy it.
   source: App Store Review
-  date: 2026-09-10
-- rating: 5
+  date: '2026-10-10'
+- rating: 3
   author: Deck Builder Fan
-  platform: PC / Steam
-  hours_played: 200
-  title: Endless depth
-  content: After 200 hours I'm still discovering new joker synergies I never considered.
-    The game looks simple on the surface but the build variety is insane. No two runs
-    ever feel the same. Worth every penny.
-  source: Steam Review
-  date: 2026-09-05
+  platform: Android
+  hours_played: 25
+  title: 'Some jokers are traps #87'
+  content: The mobile version crashes too often. It is frustrating when you lose a
+    2-hour run because of a random crash.
+  source: App Store Review
+  date: '2026-10-09'
 - rating: 4
+  author: Deck Builder Fan
+  platform: Mac
+  hours_played: 253
+  title: 'Best roguelike in years #50'
+  content: Runs great on the Steam Deck. The touch controls work surprisingly well
+    for a game with this much UI.
+  source: Reddit r/batardre
+  date: '2026-10-05'
+- rating: 5
   author: Casual Player
-  platform: PC / Game Pass
-  hours_played: 35
-  title: Harder than it looks
-  content: The tutorial makes it look easy, then the boss Blinds come for you. I got
-    destroyed my first 10 runs but that just made me want to try again. Once you figure
-    out the joker economy it clicks. Very satisfying when you finally win.
+  platform: Mac
+  hours_played: 170
+  title: 'Surprisingly deep #90'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Steam Review
+  date: '2026-10-05'
+- rating: 5
+  author: Casual Player
+  platform: Mac
+  hours_played: 73
+  title: 'Innovative deck builder #10'
+  content: Great game to play while listening to podcasts. The runs are short enough
+    that you can zone out and still enjoy it.
+  source: Reddit r/batardre
+  date: '2026-10-01'
+- rating: 3
+  author: Casual Player
+  platform: Nintendo Switch
+  hours_played: 24
+  title: 'Some jokers are traps #98'
+  content: After the latest patch I have more crashes than before. The Blueprint joker
+    crash ruins entire runs.
+  source: Reddit r/batardre
+  date: '2026-10-01'
+- rating: 3
+  author: Deck Builder Fan
+  platform: iOS
+  hours_played: 275
+  title: 'Mobile version needs work #85'
+  content: The tutorial is way too thin. New players will be completely lost for the
+    first 10 runs. The game does not explain enough.
+  source: Steam Review
+  date: '2026-09-26'
+- rating: 2
+  author: Mobile Gamer
+  platform: PC / Steam
+  hours_played: 273
+  title: 'Mobile version needs work #72'
+  content: The learning curve is brutal. I watched YouTube guides just to understand
+    what I was supposed to be doing.
   source: Xbox Community
-  date: 2026-08-28
+  date: '2026-09-23'
+- rating: 2
+  author: Indie Game Fan
+  platform: PC / Steam
+  hours_played: 221
+  title: 'Crash ruins long runs #53'
+  content: The mobile version crashes too often. It is frustrating when you lose a
+    2-hour run because of a random crash.
+  source: Xbox Community
+  date: '2026-09-18'
 - rating: 5
   author: Speedrunner
   platform: PC / Steam
-  hours_played: 300
-  title: Speedrunable and fun
-  content: The community has been amazing. Devs are still patching and adding content
-    over a year after release. The seed system means you can race friends on the same
-    starting conditions. Great dev-team communication.
+  hours_played: 231
+  title: 'Innovative deck builder #74'
+  content: I bought this on sale and it has become my most played game. The value
+    for money is incredible.
+  source: App Store Review
+  date: '2026-09-16'
+- rating: 5
+  author: Steam Player
+  platform: Android
+  hours_played: 287
+  title: 'Casual but deep #70'
+  content: Runs great on the Steam Deck. The touch controls work surprisingly well
+    for a game with this much UI.
   source: Steam Review
-  date: 2026-08-20
-- rating: 3
-  author: Frustrated Veteran
+  date: '2026-09-13'
+- rating: 5
+  author: Steam Player
   platform: PC / Steam
-  hours_played: 150
-  title: RNG can be brutal
-  content: When the shop gives you good jokers it's the best game ever. When it gives
-    you garbage for 5 runs straight it feels unfair. The RNG is real — some runs are
-    just unwinnable from the first shop. Still love it though.
+  hours_played: 18
+  title: 'My most played game this year #18'
+  content: I started playing for 10 minutes and lost 3 hours. The pacing is perfect
+    - short runs that keep pulling you back for one more try.
   source: Reddit r/batardre
-  date: 2026-08-15
-- rating: 5
-  author: Indie Game Enthusiast
-  platform: Mac
-  hours_played: 45
-  title: Shockingly deep
-  content: I bought this on a sale because the art looked cool. Did not expect the
-    gameplay to be this strategic. The way jokers, tarot cards, spectral cards, and
-    vouchers all interact is masterfully designed. LocalThunk is a genius.
-  source: Mac App Store
-  date: 2026-08-08
-- rating: 4
-  author: Family Gamer
-  platform: Steam Deck
-  hours_played: 70
-  title: Steam Deck verified, obviously
-  content: Runs perfectly on the Deck. Proton layer just works. The default controls
-    map well to the buttons. I've put more hours into this on the Deck than any other
-    game. Highly recommended for Deck owners.
+  date: '2026-09-11'
+- rating: 3
+  author: Casual Player
+  platform: iOS
+  hours_played: 139
+  title: 'Too many bugs after updates #43'
+  content: The mobile version crashes too often. It is frustrating when you lose a
+    2-hour run because of a random crash.
   source: Steam Review
-  date: 2026-08-01
+  date: '2026-09-09'
 - rating: 5
-  author: Poker Hater
-  platform: PC
-  hours_played: 90
-  title: I hate poker but love this
-  content: I don't understand real poker and I don't want to. This game distills the
-    fun parts (building a broken system, watching numbers go up) and removes all the
-    boring parts. Perfect design.
+  author: Deck Builder Fan
+  platform: Android
+  hours_played: 165
+  title: 'A masterpiece of design #76'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Xbox Community
+  date: '2026-09-06'
+- rating: 5
+  author: Steam Player
+  platform: PC / Steam
+  hours_played: 164
+  title: 'Perfect pickup-and-play #20'
+  content: As someone who hates poker, I love this game. It distills the fun parts
+    of building a broken system and watching numbers go up.
+  source: Steam Review
+  date: '2026-09-05'
+- rating: 5
+  author: Casual Player
+  platform: Nintendo Switch
+  hours_played: 137
+  title: 'A genuine indie gem #97'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Steam Review
+  date: '2026-09-03'
+- rating: 2
+  author: Steam Player
+  platform: PC / Steam
+  hours_played: 219
+  title: 'Some jokers are traps #5'
+  content: The learning curve is brutal. I watched YouTube guides just to understand
+    what I was supposed to be doing.
+  source: Steam Review
+  date: '2026-09-02'
+- rating: 3
+  author: Deck Builder Fan
+  platform: iOS
+  hours_played: 267
+  title: 'Too many bugs after updates #69'
+  content: Some jokers look amazing but are actually traps. You waste a shop slot
+    on a legendary that does not help your build at all.
+  source: Steam Review
+  date: '2026-08-26'
+- rating: 5
+  author: Casual Player
+  platform: PC / Steam
+  hours_played: 106
+  title: 'Better than expected #16'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Steam Review
+  date: '2026-08-24'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Steam Deck
+  hours_played: 63
+  title: 'Best roguelike in years #49'
+  content: Beating Gold Stake for the first time was one of the most satisfying gaming
+    moments I have ever had.
+  source: Xbox Community
+  date: '2026-08-19'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Nintendo Switch
+  hours_played: 139
+  title: 'Better than expected #7'
+  content: Beating Gold Stake for the first time was one of the most satisfying gaming
+    moments I have ever had.
+  source: Xbox Community
+  date: '2026-08-17'
+- rating: 5
+  author: Reddit User
+  platform: Mac
+  hours_played: 56
+  title: 'Better than expected #8'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
   source: Reddit r/batardre
-  date: 2026-07-25
+  date: '2026-08-16'
+- rating: 5
+  author: Mobile Gamer
+  platform: Mac
+  hours_played: 243
+  title: 'Better than expected #78'
+  content: Runs great on the Steam Deck. The touch controls work surprisingly well
+    for a game with this much UI.
+  source: Steam Review
+  date: '2026-08-16'
+- rating: 3
+  author: Deck Builder Fan
+  platform: Mac
+  hours_played: 183
+  title: 'Mobile version needs work #59'
+  content: The mobile version crashes too often. It is frustrating when you lose a
+    2-hour run because of a random crash.
+  source: Xbox Community
+  date: '2026-08-14'
+- rating: 2
+  author: Mobile Gamer
+  platform: Android
+  hours_played: 12
+  title: 'Feels unfair sometimes #25'
+  content: Some runs are just unwinnable from the first shop. When the game gives
+    you garbage jokers for 5 rounds straight, it feels terrible.
+  source: App Store Review
+  date: '2026-08-09'
 - rating: 4
+  author: Casual Player
+  platform: Android
+  hours_played: 169
+  title: 'My most played game this year #11'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
+  source: Reddit r/batardre
+  date: '2026-08-07'
+- rating: 5
+  author: Reddit User
+  platform: Mac
+  hours_played: 183
+  title: 'Innovative deck builder #22'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Reddit r/batardre
+  date: '2026-08-05'
+- rating: 4
+  author: Casual Player
+  platform: Mac
+  hours_played: 294
+  title: 'Best roguelike in years #92'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Reddit r/batardre
+  date: '2026-07-26'
+- rating: 3
+  author: Indie Game Fan
+  platform: PC / Steam
+  hours_played: 78
+  title: 'Mobile version needs work #12'
+  content: Some runs are just unwinnable from the first shop. When the game gives
+    you garbage jokers for 5 rounds straight, it feels terrible.
+  source: Steam Review
+  date: '2026-07-21'
+- rating: 2
+  author: Steam Player
+  platform: Android
+  hours_played: 265
+  title: 'RNG is too punishing #84'
+  content: Some runs are just unwinnable from the first shop. When the game gives
+    you garbage jokers for 5 rounds straight, it feels terrible.
+  source: Steam Review
+  date: '2026-07-17'
+- rating: 5
+  author: Mobile Gamer
+  platform: iOS
+  hours_played: 199
+  title: 'Better than expected #63'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Reddit r/batardre
+  date: '2026-07-16'
+- rating: 5
+  author: Indie Game Fan
+  platform: iOS
+  hours_played: 157
+  title: 'Better than expected #28'
+  content: I started playing for 10 minutes and lost 3 hours. The pacing is perfect
+    - short runs that keep pulling you back for one more try.
+  source: Reddit r/batardre
+  date: '2026-07-14'
+- rating: 5
+  author: Reddit User
+  platform: PC / Steam
+  hours_played: 33
+  title: 'Addictive as hell #51'
+  content: Runs great on the Steam Deck. The touch controls work surprisingly well
+    for a game with this much UI.
+  source: Steam Review
+  date: '2026-07-13'
+- rating: 2
+  author: Casual Player
+  platform: Mac
+  hours_played: 282
+  title: 'Stake levels too grindy #91'
+  content: The tutorial is way too thin. New players will be completely lost for the
+    first 10 runs. The game does not explain enough.
+  source: Steam Review
+  date: '2026-07-13'
+- rating: 5
+  author: Mobile Gamer
+  platform: iOS
+  hours_played: 109
+  title: 'New favorite game #14'
+  content: Great game to play while listening to podcasts. The runs are short enough
+    that you can zone out and still enjoy it.
+  source: Steam Review
+  date: '2026-07-12'
+- rating: 2
+  author: Steam Player
+  platform: Mac
+  hours_played: 235
+  title: 'Stake levels too grindy #38'
+  content: The RNG can feel rigged. I have had runs where the shop never offered a
+    single useful card for 3 consecutive antes.
+  source: Xbox Community
+  date: '2026-07-10'
+- rating: 5
+  author: Deck Builder Fan
+  platform: PC / Steam
+  hours_played: 209
+  title: 'Best roguelike in years #73'
+  content: Beating Gold Stake for the first time was one of the most satisfying gaming
+    moments I have ever had.
+  source: Reddit r/batardre
+  date: '2026-07-08'
+- rating: 5
   author: Completionist
   platform: PC / Steam
-  hours_played: 180
-  title: 100% achievements and going back
-  content: I got all achievements, put the game down for a month, then came back and
-    started another run. That's the mark of a great game. The stake system gives you
-    endless reasons to replay.
-  source: Steam Review
-  date: 2026-07-18
+  hours_played: 150
+  title: 'Endless replayability #42'
+  content: The dev team is amazing. They keep patching and adding content over a year
+    after release. Community feedback actually matters.
+  source: App Store Review
+  date: '2026-07-04'
+- rating: 4
+  author: Indie Game Fan
+  platform: Mac
+  hours_played: 90
+  title: 'Can''t stop playing #33'
+  content: As someone who hates poker, I love this game. It distills the fun parts
+    of building a broken system and watching numbers go up.
+  source: Reddit r/batardre
+  date: '2026-06-22'
 - rating: 5
-  author: Soundtrack Fan
-  platform: All platforms
-  hours_played: 50
-  title: The soundtrack is a bop
-  content: I bought the game for gameplay but stayed for the music. The casino jazz
-    + electronic fusion is weirdly hypnotic. I now listen to the OST while working.
-    Also the gameplay is great obviously.
+  author: Deck Builder Fan
+  platform: iOS
+  hours_played: 98
+  title: 'New favorite game #32'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Reddit r/batardre
+  date: '2026-06-12'
+- rating: 5
+  author: Casual Player
+  platform: Android
+  hours_played: 24
+  title: 'More than it looks #39'
+  content: I bought this on sale and it has become my most played game. The value
+    for money is incredible.
+  source: App Store Review
+  date: '2026-06-12'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Mac
+  hours_played: 144
+  title: 'A genuine indie gem #52'
+  content: I bought this on sale and it has become my most played game. The value
+    for money is incredible.
+  source: App Store Review
+  date: '2026-06-08'
+- rating: 5
+  author: Indie Game Fan
+  platform: Steam Deck
+  hours_played: 210
+  title: 'Casual but deep #54'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
+  source: Reddit r/batardre
+  date: '2026-06-07'
+- rating: 3
+  author: Indie Game Fan
+  platform: Mac
+  hours_played: 137
+  title: 'Feels unfair sometimes #24'
+  content: Some runs are just unwinnable from the first shop. When the game gives
+    you garbage jokers for 5 rounds straight, it feels terrible.
+  source: Reddit r/batardre
+  date: '2026-06-05'
+- rating: 5
+  author: Reddit User
+  platform: Android
+  hours_played: 191
+  title: 'A masterpiece of design #6'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Xbox Community
+  date: '2026-06-04'
+- rating: 2
+  author: Casual Player
+  platform: iOS
+  hours_played: 151
+  title: 'Too reliant on luck #68'
+  content: The learning curve is brutal. I watched YouTube guides just to understand
+    what I was supposed to be doing.
+  source: Reddit r/batardre
+  date: '2026-06-03'
+- rating: 5
+  author: Completionist
+  platform: Android
+  hours_played: 78
+  title: 'Better than expected #46'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Reddit r/batardre
+  date: '2026-05-26'
+- rating: 4
+  author: Steam Player
+  platform: Mac
+  hours_played: 265
+  title: 'Endless replayability #41'
+  content: Great game to play while listening to podcasts. The runs are short enough
+    that you can zone out and still enjoy it.
   source: Steam Review
-  date: 2026-07-10
+  date: '2026-05-21'
+- rating: 5
+  author: Steam Player
+  platform: Nintendo Switch
+  hours_played: 182
+  title: 'New favorite game #71'
+  content: The dev team is amazing. They keep patching and adding content over a year
+    after release. Community feedback actually matters.
+  source: Steam Review
+  date: '2026-05-19'
+- rating: 5
+  author: Speedrunner
+  platform: Steam Deck
+  hours_played: 236
+  title: 'Addictive as hell #65'
+  content: The dev team is amazing. They keep patching and adding content over a year
+    after release. Community feedback actually matters.
+  source: App Store Review
+  date: '2026-05-17'
+- rating: 4
+  author: Steam Player
+  platform: Mac
+  hours_played: 33
+  title: 'Great on Steam Deck #19'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Steam Review
+  date: '2026-05-15'
+- rating: 2
+  author: Mobile Gamer
+  platform: Mac
+  hours_played: 23
+  title: 'Stake levels too grindy #44'
+  content: The RNG can feel rigged. I have had runs where the shop never offered a
+    single useful card for 3 consecutive antes.
+  source: Xbox Community
+  date: '2026-05-14'
+- rating: 5
+  author: Reddit User
+  platform: iOS
+  hours_played: 157
+  title: 'A masterpiece of design #40'
+  content: I bought this on sale and it has become my most played game. The value
+    for money is incredible.
+  source: App Store Review
+  date: '2026-05-11'
+- rating: 2
+  author: Speedrunner
+  platform: PC / Steam
+  hours_played: 285
+  title: 'Balance feels off #29'
+  content: The learning curve is brutal. I watched YouTube guides just to understand
+    what I was supposed to be doing.
+  source: Steam Review
+  date: '2026-05-07'
+- rating: 5
+  author: Speedrunner
+  platform: PC / Steam
+  hours_played: 34
+  title: 'Surprisingly deep #100'
+  content: As someone who hates poker, I love this game. It distills the fun parts
+    of building a broken system and watching numbers go up.
+  source: Steam Review
+  date: '2026-05-04'
+- rating: 5
+  author: Speedrunner
+  platform: Android
+  hours_played: 92
+  title: 'Simple to learn, hard to master #3'
+  content: Great game to play while listening to podcasts. The runs are short enough
+    that you can zone out and still enjoy it.
+  source: Steam Review
+  date: '2026-05-01'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Steam Deck
+  hours_played: 289
+  title: 'Endless replayability #56'
+  content: As someone who hates poker, I love this game. It distills the fun parts
+    of building a broken system and watching numbers go up.
+  source: App Store Review
+  date: '2026-05-01'
+- rating: 4
+  author: Completionist
+  platform: Android
+  hours_played: 143
+  title: 'Can''t stop playing #47'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Reddit r/batardre
+  date: '2026-04-28'
+- rating: 5
+  author: Speedrunner
+  platform: PC / Steam
+  hours_played: 18
+  title: 'Perfect balance of strategy and luck #30'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
+  source: App Store Review
+  date: '2026-04-19'
+- rating: 4
+  author: Indie Game Fan
+  platform: Steam Deck
+  hours_played: 104
+  title: 'The joker combos are insane #23'
+  content: Beating Gold Stake for the first time was one of the most satisfying gaming
+    moments I have ever had.
+  source: Reddit r/batardre
+  date: '2026-04-12'
+- rating: 5
+  author: Steam Player
+  platform: Nintendo Switch
+  hours_played: 161
+  title: 'Better than expected #83'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Reddit r/batardre
+  date: '2026-04-12'
+- rating: 2
+  author: Indie Game Fan
+  platform: Nintendo Switch
+  hours_played: 248
+  title: 'Harder than it looks #89'
+  content: The mobile version crashes too often. It is frustrating when you lose a
+    2-hour run because of a random crash.
+  source: App Store Review
+  date: '2026-04-11'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Nintendo Switch
+  hours_played: 52
+  title: 'My most played game this year #4'
+  content: Beating Gold Stake for the first time was one of the most satisfying gaming
+    moments I have ever had.
+  source: Steam Review
+  date: '2026-04-10'
+- rating: 3
+  author: Reddit User
+  platform: PC / Steam
+  hours_played: 108
+  title: 'Harder than it looks #35'
+  content: Some runs are just unwinnable from the first shop. When the game gives
+    you garbage jokers for 5 rounds straight, it feels terrible.
+  source: Reddit r/batardre
+  date: '2026-04-09'
+- rating: 5
+  author: Completionist
+  platform: iOS
+  hours_played: 60
+  title: 'Worth every penny #21'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: App Store Review
+  date: '2026-04-08'
+- rating: 2
+  author: Casual Player
+  platform: PC / Steam
+  hours_played: 41
+  title: 'Too many bugs after updates #66'
+  content: The learning curve is brutal. I watched YouTube guides just to understand
+    what I was supposed to be doing.
+  source: Steam Review
+  date: '2026-03-28'
+- rating: 4
+  author: Indie Game Fan
+  platform: Android
+  hours_played: 270
+  title: 'Addictive as hell #77'
+  content: Beating Gold Stake for the first time was one of the most satisfying gaming
+    moments I have ever had.
+  source: Steam Review
+  date: '2026-03-24'
+- rating: 4
+  author: Indie Game Fan
+  platform: Mac
+  hours_played: 211
+  title: 'The soundtrack slaps #95'
+  content: Great game to play while listening to podcasts. The runs are short enough
+    that you can zone out and still enjoy it.
+  source: Xbox Community
+  date: '2026-03-12'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Android
+  hours_played: 236
+  title: 'Simple to learn, hard to master #61'
+  content: I bought this on sale and it has become my most played game. The value
+    for money is incredible.
+  source: Xbox Community
+  date: '2026-03-11'
+- rating: 5
+  author: Casual Player
+  platform: PC / Steam
+  hours_played: 20
+  title: 'Worth every penny #31'
+  content: Great game to play while listening to podcasts. The runs are short enough
+    that you can zone out and still enjoy it.
+  source: Steam Review
+  date: '2026-03-08'
+- rating: 2
+  author: Steam Player
+  platform: PC / Steam
+  hours_played: 222
+  title: 'Harder than it looks #13'
+  content: After the latest patch I have more crashes than before. The Blueprint joker
+    crash ruins entire runs.
+  source: Reddit r/batardre
+  date: '2026-03-07'
+- rating: 5
+  author: Steam Player
+  platform: iOS
+  hours_played: 89
+  title: 'Great on Steam Deck #48'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Reddit r/batardre
+  date: '2026-03-07'
+- rating: 4
+  author: Speedrunner
+  platform: Android
+  hours_played: 98
+  title: 'Best roguelike in years #57'
+  content: The dev team is amazing. They keep patching and adding content over a year
+    after release. Community feedback actually matters.
+  source: Reddit r/batardre
+  date: '2026-03-06'
+- rating: 5
+  author: Casual Player
+  platform: PC / Steam
+  hours_played: 115
+  title: 'More than it looks #94'
+  content: The art style is charming. The card designs, the animations, the little
+    details when you play a hand - everything feels polished.
+  source: Steam Review
+  date: '2026-03-06'
+- rating: 5
+  author: Reddit User
+  platform: Android
+  hours_played: 145
+  title: 'Surprisingly deep #17'
+  content: I started playing for 10 minutes and lost 3 hours. The pacing is perfect
+    - short runs that keep pulling you back for one more try.
+  source: Steam Review
+  date: '2026-03-05'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Mac
+  hours_played: 185
+  title: 'Addictive as hell #55'
+  content: I bought this on sale and it has become my most played game. The value
+    for money is incredible.
+  source: Reddit r/batardre
+  date: '2026-03-01'
+- rating: 5
+  author: Indie Game Fan
+  platform: PC / Steam
+  hours_played: 277
+  title: 'The joker combos are insane #36'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
+  source: Xbox Community
+  date: '2026-02-28'
+- rating: 5
+  author: Speedrunner
+  platform: PC / Steam
+  hours_played: 258
+  title: 'A genuine indie gem #2'
+  content: Beating Gold Stake for the first time was one of the most satisfying gaming
+    moments I have ever had.
+  source: App Store Review
+  date: '2026-02-22'
+- rating: 4
+  author: Casual Player
+  platform: Steam Deck
+  hours_played: 177
+  title: 'A genuine indie gem #82'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Reddit r/batardre
+  date: '2026-02-13'
+- rating: 5
+  author: Indie Game Fan
+  platform: PC / Steam
+  hours_played: 237
+  title: 'New favorite game #96'
+  content: As someone who hates poker, I love this game. It distills the fun parts
+    of building a broken system and watching numbers go up.
+  source: Steam Review
+  date: '2026-02-13'
+- rating: 5
+  author: Speedrunner
+  platform: PC / Steam
+  hours_played: 47
+  title: 'A masterpiece of design #99'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Reddit r/batardre
+  date: '2026-02-09'
+- rating: 2
+  author: Mobile Gamer
+  platform: Steam Deck
+  hours_played: 109
+  title: 'RNG is too punishing #75'
+  content: After the latest patch I have more crashes than before. The Blueprint joker
+    crash ruins entire runs.
+  source: Xbox Community
+  date: '2026-02-03'
+- rating: 2
+  author: Deck Builder Fan
+  platform: Mac
+  hours_played: 294
+  title: 'Harder than it looks #81'
+  content: Some jokers look amazing but are actually traps. You waste a shop slot
+    on a legendary that does not help your build at all.
+  source: Xbox Community
+  date: '2026-01-26'
+- rating: 2
+  author: Speedrunner
+  platform: Steam Deck
+  hours_played: 216
+  title: 'Crash ruins long runs #79'
+  content: The learning curve is brutal. I watched YouTube guides just to understand
+    what I was supposed to be doing.
+  source: Reddit r/batardre
+  date: '2026-01-23'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Nintendo Switch
+  hours_played: 246
+  title: 'Perfect pickup-and-play #58'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Xbox Community
+  date: '2026-01-19'
+- rating: 3
+  author: Casual Player
+  platform: PC / Steam
+  hours_played: 64
+  title: 'Feels unfair sometimes #26'
+  content: The mobile version crashes too often. It is frustrating when you lose a
+    2-hour run because of a random crash.
+  source: Xbox Community
+  date: '2026-01-18'
+- rating: 5
+  author: Speedrunner
+  platform: Mac
+  hours_played: 121
+  title: 'Can''t stop playing #37'
+  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
+    beats creates the perfect atmosphere for long sessions.
+  source: Xbox Community
+  date: '2026-01-14'
+- rating: 5
+  author: Deck Builder Fan
+  platform: Mac
+  hours_played: 48
+  title: 'Great on Steam Deck #86'
+  content: The joker system is incredibly deep. I discovered new synergies after 100
+    hours. Every run feels different because the combinations are nearly endless.
+  source: Xbox Community
+  date: '2026-01-14'
+- rating: 3
+  author: Completionist
+  platform: PC / Steam
+  hours_played: 186
+  title: 'Harder than it looks #62'
+  content: After the latest patch I have more crashes than before. The Blueprint joker
+    crash ruins entire runs.
+  source: Reddit r/batardre
+  date: '2026-01-13'
+- rating: 3
+  author: Indie Game Fan
+  platform: PC / Steam
+  hours_played: 93
+  title: 'Harder than it looks #1'
+  content: Some runs are just unwinnable from the first shop. When the game gives
+    you garbage jokers for 5 rounds straight, it feels terrible.
+  source: Xbox Community
+  date: '2026-01-09'
