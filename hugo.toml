@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Balatro Guide Hub - Calculators, Bugs, FAQ & Joker Database"
 
 enableRobotsTXT = true
-enableGitInfo = true
 
 [outputs]
 home = ["HTML", "RSS"]

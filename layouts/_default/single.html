@@ -1,0 +1,16 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="breadcrumb">
+  <a href="{{ .Site.BaseURL }}">Home</a>
+  {{ with .Section }}<span>/</span> {{ end }}
+  {{ .Title }}
+</div>
+
+<div class="page-layout">
+  {{ partial "sidebar-game.html" . }}
+  <main class="content-page">
+    {{ .Content }}
+  </main>
+</div>
+{{ end }}

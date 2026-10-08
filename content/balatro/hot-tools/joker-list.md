@@ -19,7 +19,7 @@ Complete list of all jokers in Balatro, sorted by rarity. Jokers are the primary
 {{ end }}
 </div>
 
-{{ partial "ads-inject.html" . }}
+{{< ad >}}
 
 ### Rarity Tiers
 

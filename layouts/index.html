@@ -1,0 +1,13 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+
+{{ define "main" }}
+<div class="hero">
+  <div class="hero-badge">Daily Updated • Community Driven</div>
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Description }}</p>
+</div>
+
+<article class="content-page">
+  {{ .Content }}
+</article>
+{{ end }}

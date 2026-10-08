@@ -9,7 +9,7 @@ Enter your hand details to estimate your final score. Formula: (Base Chips + Car
 
 {{< balatro-calculator >}}
 
-{{ partial "ads-inject.html" . }}
+{{< ad >}}
 
 ### How Scoring Works
 
