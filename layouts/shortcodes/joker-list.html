@@ -1,0 +1,12 @@
+{{ $jokers := .Site.Data.balatro.jokers }}
+{{ $zh := eq .Page.Lang "zh" }}
+<div class="tools-grid">
+{{ range $jokers }}
+  <div class="tool-card">
+    <span class="joker-rarity {{ .rarity | lower }}">{{ .rarity }}</span>
+    <h3>{{ .name }}</h3>
+    <p>{{ .effect }}</p>
+    <p><strong>{{ if $zh }}费用{{ else }}Cost{{ end }}:</strong> ${{ .cost }}</p>
+  </div>
+{{ end }}
+</div>
