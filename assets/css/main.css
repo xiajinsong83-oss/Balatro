@@ -51,8 +51,45 @@ body::before {
 .nav-links { display:flex; align-items:center; gap:8px; list-style:none; }
 .nav-links a { color:var(--text-muted); text-decoration:none; padding:8px 16px; border-radius:8px; font-size:0.9rem; transition:all 0.2s; }
 .nav-links a:hover { color:var(--gold-bright); background:rgba(212,168,83,0.1); }
-.nav-search { display:flex; align-items:center; background:var(--bg-card); border:1px solid var(--border); border-radius:8px; padding:6px 12px; gap:8px; }
-.nav-search input { background:transparent; border:none; outline:none; color:var(--text); font-size:0.85rem; width:180px; }
+/* Full-width search bar */
+.search-bar {
+  background: var(--bg-main);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 0;
+}
+.search-box {
+  display:flex; align-items:center; gap:10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+}
+.search-box .search-icon { font-size: 1rem; }
+.search-box input {
+  flex:1; background: transparent; border:none; outline:none;
+  color: var(--text); font-size: 0.95rem;
+}
+.search-box input::placeholder { color: var(--text-dim); }
+.quick-tags {
+  display:flex; gap:8px; flex-wrap:wrap;
+}
+.quick-tags a {
+  display:inline-block;
+  background: rgba(212,168,83,0.08);
+  border: 1px solid rgba(212,168,83,0.25);
+  color: var(--gold-bright);
+  padding: 5px 14px;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.quick-tags a:hover {
+  background: rgba(212,168,83,0.2);
+  border-color: var(--gold);
+}
 
 /* Hero */
 .hero { padding:0; position:relative; overflow:hidden; min-height:420px; display:flex; align-items:center; justify-content:center; }
@@ -204,6 +241,17 @@ body::before {
   .page-layout { grid-template-columns:1fr; }
   .sidebar { position:static; }
   .hero h1 { font-size:2rem; }
-  .nav-links { display:none; }
+  .nav-inner { height:auto; padding:10px 0; flex-wrap:wrap; gap:8px; }
+  .nav-links {
+    display:flex; overflow-x:auto; gap:4px;
+    width:100%; order:3;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .nav-links::-webkit-scrollbar { display:none; }
+  .nav-links li { flex-shrink:0; }
+  .nav-links a { padding:6px 12px; font-size:0.82rem; }
   .footer-grid { grid-template-columns:1fr; }
+  .quick-tags { overflow-x:auto; flex-wrap:nowrap; scrollbar-width:none; }
+  .quick-tags::-webkit-scrollbar { display:none; }
 }
