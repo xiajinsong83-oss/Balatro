@@ -1,20 +1,21 @@
+{{ $zh := eq .Lang "zh" }}
 <aside class="sidebar">
-  <h4>🔥 Tools & Calculators</h4>
+  <h4>{{ if $zh }}🔥 工具与计算器{{ else }}🔥 Tools & Calculators{{ end }}</h4>
   <ul>
-    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">Score Calculator</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">Joker Database</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/seed-database/">Seed Codes</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/best-builds/">Best Builds</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">{{ if $zh }}计分计算器{{ else }}Score Calculator{{ end }}</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">{{ if $zh }}小丑图鉴{{ else }}Joker Database{{ end }}</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/seed-database/">{{ if $zh }}种子码库{{ else }}Seed Codes{{ end }}</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/best-builds/">{{ if $zh }}最强配装{{ else }}Best Builds{{ end }}</a></li>
   </ul>
-  <h4>🆕 Daily Updated</h4>
+  <h4>{{ if $zh }}🆕 每日更新{{ else }}🆕 Daily Updated{{ end }}</h4>
   <ul>
-    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/patch-notes/">Patch Notes</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/">Known Bugs</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/">Player FAQ</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/patch-notes/">{{ if $zh }}补丁日志{{ else }}Patch Notes{{ end }}</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/">{{ if $zh }}已知BUG{{ else }}Known Bugs{{ end }}</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/">{{ if $zh }}玩家FAQ{{ else }}Player FAQ{{ end }}</a></li>
   </ul>
-  <h4>📚 Reference</h4>
+  <h4>{{ if $zh }}📚 参考资料{{ else }}📚 Reference{{ end }}</h4>
   <ul>
-    <li><a href="{{ .Site.BaseURL }}balatro/static/beginner-tutorial/">Beginner Tutorial</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/static/lore-story/">Story & Lore</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/static/beginner-tutorial/">{{ if $zh }}新手教程{{ else }}Beginner Tutorial{{ end }}</a></li>
+    <li><a href="{{ .Site.BaseURL }}balatro/static/lore-story/">{{ if $zh }}故事背景{{ else }}Story & Lore{{ end }}</a></li>
   </ul>
 </aside>

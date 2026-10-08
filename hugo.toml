@@ -1,23 +1,36 @@
 baseURL = "https://www.starchoice.com.cn/"
-languageCode = "en-us"
-title = "Balatro Guide Hub - Calculators, Bugs, FAQ & Joker Database"
+title = "Balatro Guide Hub"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
 
-[outputs]
-home = ["HTML", "RSS"]
-section = ["HTML", "RSS"]
+[languages]
+  [languages.en]
+    languageName = "EN"
+    weight = 1
+    contentDir = "content/en"
+    title = "Balatro Guide Hub"
+    [languages.en.params]
+      description = "Unofficial Balatro guide with score calculator, joker database, known bugs, patch notes, and community FAQ. Updated daily."
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
+    contentDir = "content/zh"
+    title = "Balatro攻略站"
+    [languages.zh.params]
+      description = "Balatro非官方攻略站：计分计算器、小丑图鉴、已知BUG、补丁更新和玩家FAQ，每日自动更新。"
 
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
+[params]
+  contactEmail = "39918849@qq.com"
+  adsenseClient = "ca-pub-3866829862674413"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-[params]
-  description = "Unofficial Balatro guide with score calculator, joker database, known bugs, patch notes, and community FAQ. Updated daily."
-  contactEmail = "39918849@qq.com"
-  adsenseClient = "ca-pub-3866829862674413"

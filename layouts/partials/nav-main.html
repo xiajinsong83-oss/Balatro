@@ -5,14 +5,23 @@
       <span>BalatroHub</span>
     </a>
     <ul class="nav-links">
-      <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+      <li><a href="{{ .Site.BaseURL }}">{{ if eq .Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
       <li><a href="{{ .Site.BaseURL }}balatro/">Balatro</a></li>
-      <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">Calculator</a></li>
-      <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">Jokers</a></li>
-      <li><a href="{{ .Site.BaseURL }}legal/about-us/">About</a></li>
+      <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">{{ if eq .Lang "zh" }}计算器{{ else }}Calculator{{ end }}</a></li>
+      <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">{{ if eq .Lang "zh" }}图鉴{{ else }}Jokers{{ end }}</a></li>
+      <li><a href="{{ .Site.BaseURL }}legal/about-us/">{{ if eq .Lang "zh" }}关于{{ else }}About{{ end }}</a></li>
     </ul>
-    <div class="nav-search">
-      <input type="text" placeholder="Search guides...">
+    <div style="display:flex;align-items:center;gap:12px">
+      <div class="nav-search">
+        <input type="text" placeholder="{{ if eq .Lang "zh" }}搜索攻略...{{ else }}Search guides...{{ end }}">
+      </div>
+      {{ if .IsTranslated }}
+      <div class="lang-switch">
+        {{ range .Translations }}
+        <a href="{{ .RelPermalink }}" {{ if eq .Lang $.Lang }}class="active"{{ end }}>{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
     </div>
   </div>
 </nav>

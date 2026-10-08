@@ -5,4 +5,4 @@
     {{ $updated = .release_date }}
   {{ end }}
 {{ end }}
-<div class="last-updated">● Last updated: {{ $updated }}</div>
+<div class="last-updated">● {{ if eq .Lang "zh" }}最后更新{{ else }}Last updated{{ end }}: {{ $updated }}</div>

@@ -1,38 +1,39 @@
+{{ $isZh := eq .Page.Lang "zh" }}
 <div class="calc-panel">
   <div class="calc-row">
     <div class="calc-group">
-      <label>Poker Hand Type</label>
+      <label>{{ if $isZh }}牌型{{ else }}Poker Hand Type{{ end }}</label>
       <select id="hand-type">
-        <option value="high-card">High Card (5 × 1)</option>
-        <option value="pair">Pair (10 × 2)</option>
-        <option value="two-pair">Two Pair (20 × 2)</option>
-        <option value="three-kind">Three of a Kind (30 × 3)</option>
-        <option value="straight">Straight (30 × 4)</option>
-        <option value="flush">Flush (35 × 4)</option>
-        <option value="full-house">Full House (40 × 4)</option>
-        <option value="four-kind">Four of a Kind (60 × 7)</option>
-        <option value="straight-flush">Straight Flush (100 × 8)</option>
-        <option value="royal-flush">Royal Flush (100 × 8)</option>
-        <option value="five-kind">Five of a Kind (120 × 12)</option>
+        <option value="high-card">{{ if $isZh }}高牌 (5 × 1){{ else }}High Card (5 × 1){{ end }}</option>
+        <option value="pair">{{ if $isZh }}一对 (10 × 2){{ else }}Pair (10 × 2){{ end }}</option>
+        <option value="two-pair">{{ if $isZh }}两对 (20 × 2){{ else }}Two Pair (20 × 2){{ end }}</option>
+        <option value="three-kind">{{ if $isZh }}三条 (30 × 3){{ else }}Three of a Kind (30 × 3){{ end }}</option>
+        <option value="straight">{{ if $isZh }}顺子 (30 × 4){{ else }}Straight (30 × 4){{ end }}</option>
+        <option value="flush">{{ if $isZh }}同花 (35 × 4){{ else }}Flush (35 × 4){{ end }}</option>
+        <option value="full-house">{{ if $isZh }}葫芦 (40 × 4){{ else }}Full House (40 × 4){{ end }}</option>
+        <option value="four-kind">{{ if $isZh }}四条 (60 × 7){{ else }}Four of a Kind (60 × 7){{ end }}</option>
+        <option value="straight-flush">{{ if $isZh }}同花顺 (100 × 8){{ else }}Straight Flush (100 × 8){{ end }}</option>
+        <option value="royal-flush">{{ if $isZh }}皇家同花顺 (100 × 8){{ else }}Royal Flush (100 × 8){{ end }}</option>
+        <option value="five-kind">{{ if $isZh }}五条 (120 × 12){{ else }}Five of a Kind (120 × 12){{ end }}</option>
       </select>
     </div>
   </div>
   <div class="calc-row">
     <div class="calc-group">
-      <label>Card Chips Bonus</label>
+      <label>{{ if $isZh }}卡牌筹码加成{{ else }}Card Chips Bonus{{ end }}</label>
       <input type="number" id="card-chips" value="0" min="0">
     </div>
     <div class="calc-group">
-      <label>Joker Mult Bonus</label>
+      <label>{{ if $isZh }}小丑倍率加成{{ else }}Joker Mult Bonus{{ end }}</label>
       <input type="number" id="joker-mult" value="0" min="0">
     </div>
     <div class="calc-group">
-      <label>Retriggers</label>
+      <label>{{ if $isZh }}重触发次数{{ else }}Retriggers{{ end }}</label>
       <input type="number" id="retriggers" value="1" min="1">
     </div>
   </div>
   <div class="calc-result">
-    <div style="font-size:0.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Estimated Score</div>
+    <div style="font-size:0.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">{{ if $isZh }}预估得分{{ else }}Estimated Score{{ end }}</div>
     <div class="value" id="score-result">0</div>
   </div>
 </div>
