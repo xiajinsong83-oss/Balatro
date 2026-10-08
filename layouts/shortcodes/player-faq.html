@@ -27,6 +27,7 @@
     <p>{{ .summary }}</p>
     {{ if .workaround }}<p><strong>Workaround:</strong> {{ .workaround }}</p>{{ end }}
     <p class="faq-note"><em>{{ .source_note }} | {{ .updated_at }}</em></p>
+    {{ if .source_url }}<p style="margin-top:8px;font-size:0.8rem;"><a href="{{ .source_url }}" target="_blank" rel="noopener" style="color:var(--gold-bright);">🔗 {{ if eq $.Page.Lang "zh"}}参考来源{{ else }}Reference Source ↗{{ end }}</a></p>{{ end }}
   </div>
 </div>
 {{ end }}

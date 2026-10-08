@@ -7,6 +7,7 @@
   workaround: "Save before selecting Blueprint. Load previous save if crash occurs."
   status: Reported - Not yet fixed
   updated_at: 2026-10-08
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"
 - title: Save file corruption on Steam Cloud sync conflict
   version: 1.0.1n
   platform: PC / Steam
@@ -16,6 +17,7 @@
   workaround: "Disable Steam Cloud before starting long runs. Back up save files regularly."
   status: Partially fixed - recovery added
   updated_at: 2026-10-08
+  source_url: "https://steamcommunity.com/app/2379780/discussions/"
 - title: Switch handheld mode frame drops with 8+ Jokers
   version: 1.0.1o
   platform: Nintendo Switch
@@ -25,6 +27,7 @@
   workaround: "Play in docked mode. Reduce Joker count."
   status: Reported - In progress
   updated_at: 2026-10-08
+  source_url: "https://www.reddit.com/r/batardre/"
 - title: iOS crash when entering shop with full Joker slots
   version: 1.0.1o
   platform: iOS / Mobile
@@ -34,3 +37,4 @@
   workaround: "Sell one Joker before entering shop."
   status: Fixed in v1.0.1o
   updated_at: 2026-10-08
+  source_url: "https://www.reddit.com/r/batardre/"

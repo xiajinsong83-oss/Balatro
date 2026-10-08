@@ -6,5 +6,6 @@
     {{ range .changes }}<li>{{ . }}</li>{{ end }}
   </ul>
   <p><em>{{ if eq $.Page.Lang "zh" }}发布日期{{ else }}Released{{ end }}: {{ .release_date }}</em></p>
+  {{ if .source_url }}<p style="margin-top:8px;font-size:0.8rem;"><a href="{{ .source_url }}" target="_blank" rel="noopener" style="color:var(--gold-bright);">📥 {{ if eq $.Page.Lang "zh"}}官方补丁来源{{ else }}Official Patch Source ↗{{ end }}</a></p>{{ end }}
 </div>
 {{ end }}
