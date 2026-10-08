@@ -3,20 +3,29 @@
 {{ define "main" }}
 {{ $zh := eq .Lang "zh" }}
 
-<!-- Hero -->
+<!-- Hero with game art -->
 <section class="hero">
-  <div class="hero-cards">
-    <div class="hero-card card-1">♠</div>
-    <div class="hero-card card-2">♥</div>
-    <div class="hero-card card-3">♦</div>
-    <div class="hero-card card-4">♣</div>
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <img src="/images/balatro-logo.png" alt="Balatro" class="hero-logo">
+    <div class="hero-badge">{{ if $zh }}每日更新 • 社区驱动{{ else }}DAILY UPDATED • COMMUNITY DRIVEN{{ end }}</div>
+    <h1>{{ if $zh }}掌握每一局{{ else }}Master Every Run{{ end }}</h1>
+    <p>{{ if $zh }}计分计算器、小丑图鉴、已知BUG、补丁日志——你需要的答案，一秒找到。{{ else }}Calculators, joker database, bug fixes, and FAQ — find answers in seconds. No filler.{{ end }}</p>
+    <div class="hero-btns">
+      <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/" class="btn btn-gold">{{ if $zh }}打开计算器{{ else }}Open Calculator{{ end }}</a>
+      <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/" class="btn btn-outline">{{ if $zh }}浏览图鉴{{ else }}Browse Jokers{{ end }}</a>
+    </div>
   </div>
-  <div class="hero-badge">{{ if $zh }}每日更新 • 社区驱动{{ else }}DAILY UPDATED • COMMUNITY DRIVEN{{ end }}</div>
-  <h1>{{ if $zh }}Balatro攻略站{{ else }}Master Balatro{{ end }}</h1>
-  <p>{{ if $zh }}计分计算器、小丑图鉴、已知BUG、补丁日志——你需要的答案，一秒找到。{{ else }}Calculators, joker database, bug fixes, and FAQ — find answers in seconds. No filler, no fluff.{{ end }}</p>
-  <div class="hero-btns">
-    <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/" class="btn btn-gold">{{ if $zh }}打开计算器{{ else }}Open Calculator{{ end }}</a>
-    <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/" class="btn btn-outline">{{ if $zh }}浏览图鉴{{ else }}Browse Jokers{{ end }}</a>
+</section>
+
+<!-- Game Banner -->
+<section class="section">
+  <div class="game-banner">
+    <img src="/images/balatro-capsule.jpg" alt="Balatro Game Art">
+    <div class="game-banner-overlay">
+      <h3>{{ if $zh }}扑克？不，是你的Build{{ else }}Poker? No — it's your build.{{ end }}</h3>
+      <p>{{ if $zh }}LocalThunk 出品的爆款扑克肉鸽。2024年独立游戏大奖得主。{{ else }}The hit poker roguelike from LocalThunk. 2024 Indie Game Award winner.{{ end }}</p>
+    </div>
   </div>
 </section>
 
@@ -33,7 +42,7 @@
     <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/" class="tool-card">
       <div class="tool-icon green">🃏</div>
       <h3>{{ if $zh }}小丑图鉴{{ else }}Joker Database{{ end }}</h3>
-      <p>{{ if $zh }}全部小丑清单，含稀有度、费用和效果描述。普通到传说全收录。{{ else }}All 60+ jokers with rarity tiers, cost, and effect descriptions.{{ end }}</p>
+      <p>{{ if $zh }}全部小丑清单，含稀有度、费用和效果描述。普通到传说全收录。{{ else }}All jokers with rarity tiers, cost, and effect descriptions.{{ end }}</p>
     </a>
     <a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/" class="tool-card">
       <div class="tool-icon red">🐛</div>
@@ -71,7 +80,7 @@
       <div class="update-content">
         <h4>{{ .title }}</h4>
         <p>{{ .severity }} • {{ .platform }} • {{ .reports }} reports</p>
-        <div class="update-date">{{ .updated }}</div>
+        <div class="update-date">{{ .updated_at }}</div>
       </div>
     </div>
     {{ end }}
