@@ -1,0 +1,33 @@
+name: Balatro Daily Data Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # UTC 06:00 daily (before NA evening peak)
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests beautifulsoup4
+
+      - name: Run data generation script
+        run: python scripts/balatro_data_generator.py
+
+      - name: Commit & Push updated YAML data
+        run: |
+          git config --global user.name "AutoBot"
+          git config --global user.email "bot@example.com"
+          git add data/balatro/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update balatro community data $(date -u +'%Y-%m-%d')" && git push)
