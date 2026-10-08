@@ -1,0 +1,32 @@
+{{ $faqData := .Site.Data.balatro.player_faq }}
+{{ if $faqData }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $item := $faqData }}
+    {
+      "@type": "Question",
+      "name": {{ $item.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ printf "%s %s" $item.summary $item.workaround | jsonify }}
+      }
+    }{{ if ne $i (sub (len $faqData) 1) }},{{ end }}
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{ range $faqData }}
+<div class="faq-item">
+  <h3 class="faq-question" style="cursor:pointer;padding:18px 24px;margin:0;">{{ .question }}</h3>
+  <div class="faq-answer" style="padding:0 24px 18px;">
+    <p>{{ .summary }}</p>
+    {{ if .workaround }}<p><strong>Workaround:</strong> {{ .workaround }}</p>{{ end }}
+    <p class="faq-note"><em>{{ .source_note }} | {{ .updated_at }}</em></p>
+  </div>
+</div>
+{{ end }}

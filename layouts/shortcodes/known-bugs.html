@@ -1,0 +1,10 @@
+{{ $bugs := .Site.Data.balatro.known_bugs }}
+{{ $zh := eq .Page.Lang "zh" }}
+{{ range $bugs }}
+<div class="bug-item">
+  <h4>{{ .title }}</h4>
+  <p><strong>{{ if $zh }}描述{{ else }}Description{{ end }}:</strong> {{ .description }}</p>
+  {{ if .workaround }}<p><strong style="color:var(--gold-bright)">{{ if $zh }}临时方案{{ else }}Workaround{{ end }}:</strong> {{ .workaround }}</p>{{ end }}
+  <p><em>v{{ .version }} | {{ .platform }} | {{ if $zh }}严重度{{ else }}Severity{{ end }}: {{ .severity }} | {{ .reports }} {{ if $zh }}条报告{{ else }}reports{{ end }}</em></p>
+</div>
+{{ end }}

@@ -1,0 +1,10 @@
+{{ $patches := .Site.Data.balatro.patch_notes }}
+{{ range $patches }}
+<div class="bug-item">
+  <h4>{{ .title }} <span style="color:var(--text-dim);font-weight:400;font-size:0.85rem">v{{ .version }}</span></h4>
+  <ul>
+    {{ range .changes }}<li>{{ . }}</li>{{ end }}
+  </ul>
+  <p><em>{{ if eq $.Page.Lang "zh" }}发布日期{{ else }}Released{{ end }}: {{ .release_date }}</em></p>
+</div>
+{{ end }}
