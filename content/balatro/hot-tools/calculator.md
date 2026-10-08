@@ -9,6 +9,8 @@ Enter your hand details to estimate your final score. Formula: (Base Chips + Car
 
 {{< balatro-calculator >}}
 
+{{ partial "ads-inject.html" . }}
+
 ### How Scoring Works
 
 Balatro scoring follows a simple but deep formula. Every poker hand has base Chips and Mult values. Your played cards add chips, your jokers add Mult, and retriggers multiply the entire result.

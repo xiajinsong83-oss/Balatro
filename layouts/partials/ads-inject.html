@@ -1,13 +1,14 @@
 {{ if .Site.Params.adsenseClient }}
+<!-- In-Article Ad Unit -->
 <ins class="adsbygoogle"
-     style="display:block"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
      data-ad-client="{{ .Site.Params.adsenseClient }}"
-     data-ad-slot="auto"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="auto"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 {{ else }}
-<div class="ad-slot">[ AdSense Slot — replace with your ad code ]</div>
+<div class="ad-slot">[ AdSense Slot — set your adsenseClient ID in hugo.toml ]</div>
 {{ end }}

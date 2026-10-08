@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+
+  <!-- Google AdSense -->
+  {{ if .Site.Params.adsenseClient }}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ .Site.Params.adsenseClient }}"
+          crossorigin="anonymous"></script>
+  {{ end }}
+
   {{ $style := resources.Get "css/main.css" | minify }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>

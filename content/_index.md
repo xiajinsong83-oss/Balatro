@@ -38,6 +38,8 @@ Answers to the most searched Balatro questions — unlocking decks, stake levels
 
 [Browse FAQ →](/balatro/daily-update/player-faq/)
 
+{{ partial "ads-inject.html" . }}
+
 ---
 
 ### 🆕 Latest Patch Notes
