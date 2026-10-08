@@ -21,6 +21,7 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer-legal.html" . }}
+  {{ partial "cookie-consent.html" . }}
   {{ $calc := resources.Get "js/score-calc.js" }}
   <script src="{{ $calc.RelPermalink }}"></script>
 </body>

@@ -1,0 +1,23 @@
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+  <div class="cookie-text">
+    {{ if eq .Lang "zh" }}
+    我们使用Cookie确保网站正常运行，并展示相关广告（Google AdSense）。必要Cookie始终开启，广告Cookie仅在您同意后放置。我们不会自行收集或存储个人数据。<a href="{{ .Site.BaseURL }}legal/privacy-policy/" class="cookie-link">隐私政策</a>
+    {{ else }}
+    We use cookies to make our site work and to serve relevant advertising (Google AdSense). Essential cookies are always on; advertising cookies are only placed with your consent. We never collect or store personal data ourselves. <a href="{{ .Site.BaseURL }}legal/privacy-policy/" class="cookie-link">Privacy Policy</a>
+    {{ end }}
+  </div>
+  <button id="cookie-accept" class="cookie-btn">{{ if eq .Lang "zh" }}同意{{ else }}Accept{{ end }}</button>
+</div>
+<script>
+(function(){
+  var banner = document.getElementById('cookie-banner');
+  var btn = document.getElementById('cookie-accept');
+  if (!localStorage.getItem('cookieConsent')) {
+    banner.style.display = 'flex';
+  }
+  btn.addEventListener('click', function(){
+    localStorage.setItem('cookieConsent', 'accepted');
+    banner.style.display = 'none';
+  });
+})();
+</script>
