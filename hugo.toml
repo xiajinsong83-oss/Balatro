@@ -4,8 +4,6 @@ title = "Balatro Guide Hub"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-enableRobotsTXT = true
-
 [languages]
   [languages.en]
     languageName = "EN"
