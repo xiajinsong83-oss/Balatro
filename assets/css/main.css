@@ -212,6 +212,18 @@ body::before {
 .why-item h4 { font-size:1rem; font-weight:700; margin-bottom:8px; color:var(--gold-bright); }
 .why-item p { font-size:0.85rem; color:var(--text-muted); }
 
+/* Related Links (internal cross-linking) */
+.related-links { margin-top:40px; padding-top:24px; border-top:1px solid var(--border); }
+.related-links h4 { font-size:0.9rem; color:var(--gold-bright); margin-bottom:16px; text-transform:uppercase; letter-spacing:0.5px; }
+.related-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:12px; }
+.related-grid a {
+  display:block; background:var(--bg-card); border:1px solid var(--border); border-radius:10px;
+  padding:16px; text-decoration:none; color:var(--text); transition:all 0.2s;
+}
+.related-grid a:hover { border-color:var(--gold); background:var(--bg-card-hover); transform:translateY(-1px); }
+.related-grid a strong { display:block; font-size:0.9rem; margin-bottom:4px; color:var(--gold-bright); }
+.related-grid a span { font-size:0.8rem; color:var(--text-muted); }
+
 /* Ad slot */
 .ad-slot { background:rgba(255,255,255,0.02); border:1px dashed var(--border); border-radius:8px; padding:20px; text-align:center; font-size:0.72rem; color:var(--text-dim); margin:24px 0; }
 

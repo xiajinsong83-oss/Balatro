@@ -1,0 +1,158 @@
+{{ $zh := eq .Lang "zh" }}
+{{ $p := .Permalink }}
+
+{{/* Determine which section we're in and show relevant cross-links */}}
+<div class="related-links">
+  <h4>{{ if $zh }}📖 相关攻略推荐{{ else }}📖 Related Guides{{ end }}</h4>
+  <div class="related-grid">
+
+    {{/* Calculator page → link to jokers, builds, FAQ */}}
+    {{ if in $p "hot-tools/calculator" }}
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">
+      <strong>{{ if $zh }}🃏 小丑图鉴{{ else }}🃏 Joker Database{{ end }}</strong>
+      <span>{{ if $zh }}查看全部小丑效果和稀有度{{ else }}Browse all jokers and their effects{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/best-builds/">
+      <strong>{{ if $zh }}📊 最强配装{{ else }}📊 Best Builds{{ end }}</strong>
+      <span>{{ if $zh }}参考胜率最高的小丑组合{{ else }}Winning joker combinations{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/">
+      <strong>{{ if $zh }}❓ 玩家FAQ{{ else }}❓ Player FAQ{{ end }}</strong>
+      <span>{{ if $zh }}计分机制和常见问题解答{{ else }}Scoring mechanics and FAQ{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* Joker list page → link to calculator, builds */}}
+    {{ if in $p "hot-tools/joker-list" }}
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">
+      <strong>{{ if $zh }}🧮 计分计算器{{ else }}🧮 Score Calculator{{ end }}</strong>
+      <span>{{ if $zh }}计算你的预期手牌得分{{ else }}Calculate your expected score{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/best-builds/">
+      <strong>{{ if $zh }}📊 最强配装{{ else }}📊 Best Builds{{ end }}</strong>
+      <span>{{ if $zh }}哪些小丑组合最厉害{{ else }}Which jokers work best together{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/static/beginner-tutorial/">
+      <strong>{{ if $zh }}🎓 新手教程{{ else }}🎓 Beginner Tutorial{{ end }}</strong>
+      <span>{{ if $zh }}不了解小丑？从这里开始{{ else }}New to jokers? Start here{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* Seed database → link to builds, reviews */}}
+    {{ if in $p "hot-tools/seed-database" }}
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/best-builds/">
+      <strong>{{ if $zh }}📊 最强配装{{ else }}📊 Best Builds{{ end }}</strong>
+      <span>{{ if $zh }}用种子码测试这些配装{{ else }}Test these builds with seeds{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/community/player-reviews/">
+      <strong>{{ if $zh }}💬 玩家评论{{ else }}💬 Player Reviews{{ end }}</strong>
+      <span>{{ if $zh }}看看其他玩家的种子挑战{{ else }}See community seed challenges{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* Best builds → link to calculator, jokers, seeds */}}
+    {{ if in $p "hot-tools/best-builds" }}
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">
+      <strong>{{ if $zh }}🧮 计分计算器{{ else }}🧮 Score Calculator{{ end }}</strong>
+      <span>{{ if $zh }}验证你的配装能打多少分{{ else }}Test your build's expected score{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">
+      <strong>{{ if $zh }}🃏 小丑图鉴{{ else }}🃏 Joker Database{{ end }}</strong>
+      <span>{{ if $zh }}查每个小丑的具体效果{{ else }}Look up any joker's effect{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/seed-database/">
+      <strong>{{ if $zh }}🌱 种子码库{{ else }}🌱 Seed Codes{{ end }}</strong>
+      <span>{{ if $zh }}用种子复刻这些配装{{ else }}Replicate builds with seeds{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* Patch notes → link to bugs, FAQ */}}
+    {{ if in $p "daily-update/patch-notes" }}
+    <a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/">
+      <strong>{{ if $zh }}🐛 已知BUG{{ else }}🐛 Known Bugs{{ end }}</strong>
+      <span>{{ if $zh }}这个补丁修了哪些问题？{{ else }}What bugs did this patch fix?{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/">
+      <strong>{{ if $zh }}❓ 玩家FAQ{{ else }}❓ Player FAQ{{ end }}</strong>
+      <span>{{ if $zh }}更新后常见问题解答{{ else }}Common questions after updates{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/community/player-reviews/">
+      <strong>{{ if $zh }}💬 玩家评论{{ else }}💬 Player Reviews{{ end }}</strong>
+      <span>{{ if $zh }}玩家怎么评价最新更新？{{ else }}What players think of the update{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* Known bugs → link to patch notes, FAQ */}}
+    {{ if in $p "daily-update/known-bugs" }}
+    <a href="{{ .Site.BaseURL }}balatro/daily-update/patch-notes/">
+      <strong>{{ if $zh }}📝 补丁日志{{ else }}📝 Patch Notes{{ end }}</strong>
+      <span>{{ if $zh }}这个BUG在哪个版本修复了？{{ else }}Which version fixed this?{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/">
+      <strong>{{ if $zh }}❓ 玩家FAQ{{ else }}❓ Player FAQ{{ end }}</strong>
+      <span>{{ if $zh }}崩溃问题的临时解决方案{{ else }}Workarounds for crashes{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* FAQ → link to bugs, tutorial, calculator */}}
+    {{ if in $p "daily-update/player-faq" }}
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">
+      <strong>{{ if $zh }}🧮 计分计算器{{ else }}🧮 Score Calculator{{ end }}</strong>
+      <span>{{ if $zh }}自己算一下手牌得分{{ else }}Calculate your hand score{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/static/beginner-tutorial/">
+      <strong>{{ if $zh }}🎓 新手教程{{ else }}🎓 Beginner Tutorial{{ end }}</strong>
+      <span>{{ if $zh }}从零开始了解游戏机制{{ else }}Learn the basics from scratch{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/">
+      <strong>{{ if $zh }}🐛 已知BUG{{ else }}🐛 Known Bugs{{ end }}</strong>
+      <span>{{ if $zh }}遇到崩溃？看这里{{ else }}Crashing? Check this{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* Beginner tutorial → link to calculator, jokers */}}
+    {{ if in $p "static/beginner-tutorial" }}
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">
+      <strong>{{ if $zh }}🧮 计分计算器{{ else }}🧮 Score Calculator{{ end }}</strong>
+      <span>{{ if $zh }}学完试试算一把{{ else }}Try calculating after reading{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">
+      <strong>{{ if $zh }}🃏 小丑图鉴{{ else }}🃏 Joker Database{{ end }}</strong>
+      <span>{{ if $zh }}认识游戏里的小丑牌{{ else }}Get to know the jokers{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/">
+      <strong>{{ if $zh }}❓ 玩家FAQ{{ else }}❓ Player FAQ{{ end }}</strong>
+      <span>{{ if $zh }}新玩家最常问的问题{{ else }}Most common questions{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* Story/lore → link to tutorial, reviews */}}
+    {{ if in $p "static/lore-story" }}
+    <a href="{{ .Site.BaseURL }}balatro/static/beginner-tutorial/">
+      <strong>{{ if $zh }}🎓 新手教程{{ else }}🎓 Beginner Tutorial{{ end }}</strong>
+      <span>{{ if $zh }}了解故事后开始游戏{{ else }}Start playing after the story{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/community/player-reviews/">
+      <strong>{{ if $zh }}💬 玩家评论{{ else }}💬 Player Reviews{{ end }}</strong>
+      <span>{{ if $zh }}玩家怎么评价游戏剧情？{{ else }}What players say about the story{{ end }}</span>
+    </a>
+    {{ end }}
+
+    {{/* Player reviews → link to all tools */}}
+    {{ if in $p "community/player-reviews" }}
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">
+      <strong>{{ if $zh }}🧮 计分计算器{{ else }}🧮 Score Calculator{{ end }}</strong>
+      <span>{{ if $zh }}喜欢游戏？试试这个工具{{ else }}Like the game? Try our tool{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">
+      <strong>{{ if $zh }}🃏 小丑图鉴{{ else }}🃏 Joker Database{{ end }}</strong>
+      <span>{{ if $zh }}查看全部小丑卡牌{{ else }}Browse all jokers{{ end }}</span>
+    </a>
+    <a href="{{ .Site.BaseURL }}balatro/daily-update/patch-notes/">
+      <strong>{{ if $zh }}📝 补丁日志{{ else }}📝 Patch Notes{{ end }}</strong>
+      <span>{{ if $zh }}最新更新了什么？{{ else }}What's new in the latest patch{{ end }}</span>
+    </a>
+    {{ end }}
+
+  </div>
+</div>
