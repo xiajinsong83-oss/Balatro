@@ -1,25 +1,27 @@
 {{ $zh := eq .Lang "zh" }}
+{{ $fr := eq .Lang "fr" }}
+{{ $de := eq .Lang "de" }}
 <aside class="sidebar">
-  <h4>{{ if $zh }}🔥 工具与计算器{{ else }}🔥 Tools & Calculators{{ end }}</h4>
+  <h4>{{ if $zh }}🔥 工具与计算器{{ else if $fr }}🔥 Outils{{ else if $de }}🔥 Tools{{ else }}🔥 Tools & Calculators{{ end }}</h4>
   <ul>
-    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">{{ if $zh }}计分计算器{{ else }}Score Calculator{{ end }}</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">{{ if $zh }}小丑图鉴{{ else }}Joker Database{{ end }}</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/seed-database/">{{ if $zh }}种子码库{{ else }}Seed Codes{{ end }}</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/best-builds/">{{ if $zh }}最强配装{{ else }}Best Builds{{ end }}</a></li>
+    <li><a href="{{ "balatro/hot-tools/calculator/" | relLangURL }}">{{ if $zh }}计分计算器{{ else if $fr }}Calculateur{{ else if $de }}Rechner{{ else }}Score Calculator{{ end }}</a></li>
+    <li><a href="{{ "balatro/hot-tools/joker-list/" | relLangURL }}">{{ if $zh }}小丑图鉴{{ else if $fr }}Tier Liste{{ else if $de }}Tierliste{{ else }}Joker Database{{ end }}</a></li>
+    <li><a href="{{ "balatro/hot-tools/seed-database/" | relLangURL }}">{{ if $zh }}种子码库{{ else if $fr }}Codes Seed{{ else if $de }}Seed-Codes{{ else }}Seed Codes{{ end }}</a></li>
+    <li><a href="{{ "balatro/hot-tools/best-builds/" | relLangURL }}">{{ if $zh }}最强配装{{ else if $fr }}Meilleurs Decks{{ else if $de }}Beste Builds{{ else }}Best Builds{{ end }}</a></li>
   </ul>
-  <h4>{{ if $zh }}🆕 每日更新{{ else }}🆕 Daily Updated{{ end }}</h4>
+  <h4>{{ if $zh }}🆕 每日更新{{ else if $fr }}🆕 Mises à jour{{ else if $de }}🆕 Aktuelles{{ else }}🆕 Daily Updated{{ end }}</h4>
   <ul>
-    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/patch-notes/">{{ if $zh }}补丁日志{{ else }}Patch Notes{{ end }}</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/">{{ if $zh }}已知BUG{{ else }}Known Bugs{{ end }}</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/">{{ if $zh }}玩家FAQ{{ else }}Player FAQ{{ end }}</a></li>
+    <li><a href="{{ "balatro/daily-update/patch-notes/" | relLangURL }}">{{ if $zh }}补丁日志{{ else if $fr }}Notes de patch{{ else if $de }}Patchnotes{{ else }}Patch Notes{{ end }}</a></li>
+    <li><a href="{{ "balatro/daily-update/known-bugs/" | relLangURL }}">{{ if $zh }}已知BUG{{ else if $fr }}Bugs connus{{ else if $de }}Bekannte Bugs{{ else }}Known Bugs{{ end }}</a></li>
+    <li><a href="{{ "balatro/daily-update/player-faq/" | relLangURL }}">{{ if $zh }}玩家FAQ{{ else if $fr }}FAQ{{ else if $de }}FAQ{{ else }}Player FAQ{{ end }}</a></li>
   </ul>
-  <h4>{{ if $zh }}💬 社区反馈{{ else }}💬 Community{{ end }}</h4>
+  <h4>{{ if $zh }}💬 社区反馈{{ else if $fr }}💬 Communauté{{ else if $de }}💬 Community{{ else }}💬 Community{{ end }}</h4>
   <ul>
-    <li><a href="{{ .Site.BaseURL }}balatro/community/player-reviews/">{{ if $zh }}玩家评价{{ else }}Player Reviews{{ end }}</a></li>
+    <li><a href="{{ "balatro/community/player-reviews/" | relLangURL }}">{{ if $zh }}玩家评价{{ else if $fr }}Avis joueurs{{ else if $de }}Bewertungen{{ else }}Player Reviews{{ end }}</a></li>
   </ul>
-  <h4>{{ if $zh }}📚 参考资料{{ else }}📚 Reference{{ end }}</h4>
+  <h4>{{ if $zh }}📚 参考资料{{ else if $fr }}📚 Référence{{ else if $de }}📚 Referenz{{ else }}📚 Reference{{ end }}</h4>
   <ul>
-    <li><a href="{{ .Site.BaseURL }}balatro/static/beginner-tutorial/">{{ if $zh }}新手教程{{ else }}Beginner Tutorial{{ end }}</a></li>
-    <li><a href="{{ .Site.BaseURL }}balatro/static/lore-story/">{{ if $zh }}故事背景{{ else }}Story & Lore{{ end }}</a></li>
+    <li><a href="{{ "balatro/static/beginner-tutorial/" | relLangURL }}">{{ if $zh }}新手教程{{ else if $fr }}Tutoriel{{ else if $de }}Tutorial{{ else }}Beginner Tutorial{{ end }}</a></li>
+    <li><a href="{{ "balatro/static/lore-story/" | relLangURL }}">{{ if $zh }}故事背景{{ else if $fr }}Histoire{{ else if $de }}Geschichte{{ else }}Story & Lore{{ end }}</a></li>
   </ul>
 </aside>

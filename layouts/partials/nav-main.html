@@ -1,15 +1,15 @@
 <nav class="navbar">
   <div class="nav-inner container">
-    <a href="{{ .Site.BaseURL }}" class="logo">
+    <a href="{{ "" | relLangURL }}" class="logo">
       <img src="/images/balatro-logo.png" alt="Balatro" style="height:32px;width:auto;">
     </a>
     <ul class="nav-links">
-      <li><a href="{{ .Site.BaseURL }}">{{ if eq .Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
-      <li><a href="{{ .Site.BaseURL }}balatro/">Balatro</a></li>
-      <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">{{ if eq .Lang "zh" }}计算器{{ else }}Calculator{{ end }}</a></li>
-      <li><a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">{{ if eq .Lang "zh" }}图鉴{{ else }}Jokers{{ end }}</a></li>
-      <li><a href="{{ .Site.BaseURL }}balatro/community/player-reviews/">{{ if eq .Lang "zh" }}玩家评论{{ else }}Reviews{{ end }}</a></li>
-      <li><a href="{{ .Site.BaseURL }}legal/about-us/">{{ if eq .Lang "zh" }}关于{{ else }}About{{ end }}</a></li>
+      <li><a href="{{ "" | relLangURL }}">{{ if eq .Lang "zh" }}首页{{ else if eq .Lang "fr" }}Accueil{{ else if eq .Lang "de" }}Start{{ else }}Home{{ end }}</a></li>
+      <li><a href="{{ "balatro/" | relLangURL }}">Balatro</a></li>
+      <li><a href="{{ "balatro/hot-tools/calculator/" | relLangURL }}">{{ if eq .Lang "zh" }}计算器{{ else if eq .Lang "fr" }}Calculateur{{ else if eq .Lang "de" }}Rechner{{ else }}Calculator{{ end }}</a></li>
+      <li><a href="{{ "balatro/hot-tools/joker-list/" | relLangURL }}">{{ if eq .Lang "zh" }}图鉴{{ else if eq .Lang "fr" }}Jokers{{ else if eq .Lang "de" }}Jokers{{ else }}Jokers{{ end }}</a></li>
+      <li><a href="{{ "balatro/community/player-reviews/" | relLangURL }}">{{ if eq .Lang "zh" }}玩家评论{{ else if eq .Lang "fr" }}Avis{{ else if eq .Lang "de" }}Bewert.{{ else }}Reviews{{ end }}</a></li>
+      <li><a href="{{ "legal/about-us/" | relLangURL }}">{{ if eq .Lang "zh" }}关于{{ else if eq .Lang "fr" }}À propos{{ else if eq .Lang "de" }}Über{{ else }}About{{ end }}</a></li>
     </ul>
     {{ if .IsTranslated }}
     <div class="lang-switch">
@@ -25,15 +25,15 @@
   <div class="container">
     <div class="search-box">
       <span class="search-icon">🔍</span>
-      <input type="text" placeholder="{{ if eq .Lang "zh" }}搜索攻略、小丑、BUG...{{ else }}Search guides, jokers, bugs...{{ end }}">
+      <input type="text" placeholder="{{ if eq .Lang "zh" }}搜索攻略、小丑、BUG...{{ else if eq .Lang "fr" }}Rechercher guides, jokers, bugs...{{ else if eq .Lang "de" }}Suche Guides, Jokers, Bugs...{{ else }}Search guides, jokers, bugs...{{ end }}">
     </div>
     <div class="quick-tags">
-      <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/">{{ if eq .Lang "zh" }}计分计算器{{ else }}Calculator{{ end }}</a>
-      <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/">{{ if eq .Lang "zh" }}小丑图鉴{{ else }}Joker List{{ end }}</a>
-      <a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/">{{ if eq .Lang "zh" }}已知BUG{{ else }}Known Bugs{{ end }}</a>
-      <a href="{{ .Site.BaseURL }}balatro/daily-update/patch-notes/">{{ if eq .Lang "zh" }}补丁日志{{ else }}Patch Notes{{ end }}</a>
-      <a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/">{{ if eq .Lang "zh" }}FAQ{{ else }}FAQ{{ end }}</a>
-      <a href="{{ .Site.BaseURL }}balatro/community/player-reviews/">{{ if eq .Lang "zh" }}玩家评论{{ else }}Reviews{{ end }}</a>
+      <a href="{{ "balatro/hot-tools/calculator/" | relLangURL }}">{{ if eq .Lang "zh" }}计分计算器{{ else if eq .Lang "fr" }}Calculateur{{ else if eq .Lang "de" }}Rechner{{ else }}Calculator{{ end }}</a>
+      <a href="{{ "balatro/hot-tools/joker-list/" | relLangURL }}">{{ if eq .Lang "zh" }}小丑图鉴{{ else if eq .Lang "fr" }}Tier Liste{{ else if eq .Lang "de" }}Tierliste{{ else }}Joker List{{ end }}</a>
+      <a href="{{ "balatro/daily-update/known-bugs/" | relLangURL }}">{{ if eq .Lang "zh" }}已知BUG{{ else if eq .Lang "fr" }}Bugs{{ else if eq .Lang "de" }}Bugs{{ else }}Known Bugs{{ end }}</a>
+      <a href="{{ "balatro/daily-update/patch-notes/" | relLangURL }}">{{ if eq .Lang "zh" }}补丁日志{{ else if eq .Lang "fr" }}Patch Notes{{ else if eq .Lang "de" }}Patchnotes{{ else }}Patch Notes{{ end }}</a>
+      <a href="{{ "balatro/daily-update/player-faq/" | relLangURL }}">FAQ</a>
+      <a href="{{ "balatro/community/player-reviews/" | relLangURL }}">{{ if eq .Lang "zh" }}玩家评论{{ else if eq .Lang "fr" }}Avis{{ else if eq .Lang "de" }}Bewert.{{ else }}Reviews{{ end }}</a>
     </div>
   </div>
 </div>

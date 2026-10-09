@@ -2,18 +2,20 @@
 
 {{ define "main" }}
 {{ $zh := eq .Lang "zh" }}
+{{ $fr := eq .Lang "fr" }}
+{{ $de := eq .Lang "de" }}
 
 <!-- Hero with game art -->
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-content">
     <img src="/images/balatro-logo.png" alt="Balatro" class="hero-logo">
-    <div class="hero-badge">{{ if $zh }}每日更新 • 社区驱动{{ else }}DAILY UPDATED • COMMUNITY DRIVEN{{ end }}</div>
-    <h1>{{ if $zh }}掌握每一局{{ else }}Master Every Run{{ end }}</h1>
-    <p>{{ if $zh }}计分计算器、小丑图鉴、已知BUG、补丁日志——你需要的答案，一秒找到。{{ else }}Calculators, joker database, bug fixes, and FAQ — find answers in seconds. No filler.{{ end }}</p>
+    <div class="hero-badge">{{ if $zh }}每日更新 • 社区驱动{{ else if $fr }}MIS À JOUR • COMMUNAUTÉ{{ else if $de }}TÄGLICH • COMMUNITY{{ else }}DAILY UPDATED • COMMUNITY DRIVEN{{ end }}</div>
+    <h1>{{ if $zh }}掌握每一局{{ else if $fr }}Maîtrisez Chaque Run{{ else if $de }}Meistere Jeden Run{{ else }}Master Every Run{{ end }}</h1>
+    <p>{{ if $zh }}计分计算器、小丑图鉴、已知BUG、补丁日志——你需要的答案，一秒找到。{{ else if $fr }}Calculateur, tier liste, bugs et patch notes — trouvez la réponse en secondes.{{ else if $de }}Rechner, Joker-Tierliste, Bugs und Patchnotes — Antworten in Sekunden.{{ else }}Calculators, joker database, bug fixes, and FAQ — find answers in seconds. No filler.{{ end }}</p>
     <div class="hero-btns">
-      <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/" class="btn btn-gold">{{ if $zh }}打开计算器{{ else }}Open Calculator{{ end }}</a>
-      <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/" class="btn btn-outline">{{ if $zh }}浏览图鉴{{ else }}Browse Jokers{{ end }}</a>
+      <a href="{{ "balatro/hot-tools/calculator/" | relLangURL }}" class="btn btn-gold">{{ if $zh }}打开计算器{{ else if $fr }}Ouvrir le Calculateur{{ else if $de }}Rechner Öffnen{{ else }}Open Calculator{{ end }}</a>
+      <a href="{{ "balatro/hot-tools/joker-list/" | relLangURL }}" class="btn btn-outline">{{ if $zh }}浏览图鉴{{ else if $fr }}Voir les Jokers{{ else if $de }}Joker Durchsuchen{{ else }}Browse Jokers{{ end }}</a>
     </div>
   </div>
 </section>
@@ -23,49 +25,49 @@
   <div class="game-banner">
     <img src="/images/balatro-capsule.jpg" alt="Balatro Game Art">
     <div class="game-banner-overlay">
-      <h3>{{ if $zh }}扑克？不，是你的Build{{ else }}Poker? No — it's your build.{{ end }}</h3>
-      <p>{{ if $zh }}LocalThunk 出品的爆款扑克肉鸽。2024年独立游戏大奖得主。{{ else }}The hit poker roguelike from LocalThunk. 2024 Indie Game Award winner.{{ end }}</p>
+      <h3>{{ if $zh }}扑克？不，是你的Build{{ else if $fr }}Poker? Non — votre build.{{ else if $de }}Poker? Nein — dein Build.{{ else }}Poker? No — it's your build.{{ end }}</h3>
+      <p>{{ if $zh }}LocalThunk 出品的爆款扑克肉鸽。2024年独立游戏大奖得主。{{ else if $fr }}Le roguelike de poker de LocalThunk. Gagnant du prix du jeu indépendant 2024.{{ else if $de }}Das Poker-Roguelike von LocalThunk. Indie Game Award Gewinner 2024.{{ else }}The hit poker roguelike from LocalThunk. 2024 Indie Game Award winner.{{ end }}</p>
     </div>
   </div>
 </section>
 
 <!-- Tools Grid -->
 <section class="section">
-  <h2 class="section-title">{{ if $zh }}🔥 玩家常用工具{{ else }}🔥 Player Tools{{ end }}</h2>
-  <p class="section-subtitle">{{ if $zh }}打开即用，边玩边查{{ else }}Jump straight in — no sign-up needed{{ end }}</p>
+  <h2 class="section-title">{{ if $zh }}🔥 玩家常用工具{{ else if $fr }}🔥 Outils Joueurs{{ else if $de }}🔥 Spieler-Tools{{ else }}🔥 Player Tools{{ end }}</h2>
+  <p class="section-subtitle">{{ if $zh }}打开即用，边玩边查{{ else if $fr }}Accès direct — sans inscription{{ else if $de }}Direkt nutzbar — ohne Anmeldung{{ else }}Jump straight in — no sign-up needed{{ end }}</p>
   <div class="tools-grid">
-    <a href="{{ .Site.BaseURL }}balatro/hot-tools/calculator/" class="tool-card">
+    <a href="{{ "balatro/hot-tools/calculator/" | relLangURL }}" class="tool-card">
       <div class="tool-icon gold">🧮</div>
-      <h3>{{ if $zh }}计分计算器{{ else }}Score Calculator{{ end }}</h3>
-      <p>{{ if $zh }}实时计算手牌得分，输入牌型、小丑加成、重触发次数，瞬间出结果。{{ else }}Calculate expected hand score with jokers, retriggers, and poker hand multipliers.{{ end }}</p>
+      <h3>{{ if $zh }}计分计算器{{ else if $fr }}Calculateur de Score{{ else if $de }}Score-Rechner{{ else }}Score Calculator{{ end }}</h3>
+      <p>{{ if $zh }}实时计算手牌得分，输入牌型、小丑加成、重触发次数，瞬间出结果。{{ else if $fr }}Calculez le score attendu avec jokers, re-déclenchements et multiplicateurs.{{ else if $de }}Berechne die erwartete Punktzahl mit Jokern und Retriggern.{{ else }}Calculate expected hand score with jokers, retriggers, and poker hand multipliers.{{ end }}</p>
     </a>
-    <a href="{{ .Site.BaseURL }}balatro/hot-tools/joker-list/" class="tool-card">
+    <a href="{{ "balatro/hot-tools/joker-list/" | relLangURL }}" class="tool-card">
       <div class="tool-icon green">🃏</div>
-      <h3>{{ if $zh }}小丑图鉴{{ else }}Joker Database{{ end }}</h3>
-      <p>{{ if $zh }}全部小丑清单，含稀有度、费用和效果描述。普通到传说全收录。{{ else }}All jokers with rarity tiers, cost, and effect descriptions.{{ end }}</p>
+      <h3>{{ if $zh }}小丑图鉴{{ else if $fr }}Tier Liste des Jokers{{ else if $de }}Joker-Tierliste{{ else }}Joker Database{{ end }}</h3>
+      <p>{{ if $zh }}全部小丑清单，含稀有度、费用和效果描述。普通到传说全收录。{{ else if $fr }}Tous les jokers avec rareté, coût et effets.{{ else if $de }}Alle Jokers mit Seltenheit, Kosten und Effekten.{{ else }}All jokers with rarity tiers, cost, and effect descriptions.{{ end }}</p>
     </a>
-    <a href="{{ .Site.BaseURL }}balatro/daily-update/known-bugs/" class="tool-card">
+    <a href="{{ "balatro/daily-update/known-bugs/" | relLangURL }}" class="tool-card">
       <div class="tool-icon red">🐛</div>
-      <h3>{{ if $zh }}已知BUG{{ else }}Known Bugs{{ end }}</h3>
-      <p>{{ if $zh }}社区报告的崩溃问题和临时解决办法，避免2小时存档白费。{{ else }}Crash fixes and workarounds. Don't lose a 2-hour run.{{ end }}</p>
+      <h3>{{ if $zh }}已知BUG{{ else if $fr }}Bugs Connus{{ else if $de }}Bekannte Bugs{{ else }}Known Bugs{{ end }}</h3>
+      <p>{{ if $zh }}社区报告的崩溃问题和临时解决办法，避免2小时存档白费。{{ else if $fr }}Corrections de crash et solutions de contournement.{{ else if $de }}Absturzfixes und Problemumgehungen.{{ else }}Crash fixes and workarounds. Don't lose a 2-hour run.{{ end }}</p>
     </a>
-    <a href="{{ .Site.BaseURL }}balatro/daily-update/player-faq/" class="tool-card">
+    <a href="{{ "balatro/daily-update/player-faq/" | relLangURL }}" class="tool-card">
       <div class="tool-icon blue">❓</div>
-      <h3>{{ if $zh }}玩家FAQ{{ else }}Player FAQ{{ end }}</h3>
-      <p>{{ if $zh }}解锁牌组、赌注等级、计分机制、最佳配装——热门问题全有答案。{{ else }}Unlocking decks, stake levels, builds, and scoring — all answered.{{ end }}</p>
+      <h3>{{ if $zh }}玩家FAQ{{ else if $fr }}FAQ Joueur{{ else if $de }}Spieler-FAQ{{ else }}Player FAQ{{ end }}</h3>
+      <p>{{ if $zh }}解锁牌组、赌注等级、计分机制、最佳配装——热门问题全有答案。{{ else if $fr }}Déblocage des decks, mécaniques de score, builds — réponses.{{ else if $de }}Decks freischalten, Einsatzstufen, Builds — alle Antworten.{{ else }}Unlocking decks, stake levels, builds, and scoring — all answered.{{ end }}</p>
     </a>
   </div>
 </section>
 
 <!-- Daily Updates Preview -->
 <section class="section">
-  <h2 class="section-title">{{ if $zh }}🆕 每日自动更新{{ else }}🆕 Daily Updates{{ end }}</h2>
-  <p class="section-subtitle">{{ if $zh }}补丁、BUG、FAQ——每天自动刷新{{ else }}Patches, bugs, FAQ — refreshed automatically every day{{ end }}</p>
+  <h2 class="section-title">{{ if $zh }}🆕 每日自动更新{{ else if $fr }}🆕 Mises à Jour Quotidiennes{{ else if $de }}🆕 Täglich Aktualisiert{{ else }}🆕 Daily Updates{{ end }}</h2>
+  <p class="section-subtitle">{{ if $zh }}补丁、BUG、FAQ——每天自动刷新{{ else if $fr }}Patches, bugs, FAQ — rafraîchis automatiquement{{ else if $de }}Patches, Bugs, FAQ — automatisch täglich neu{{ else }}Patches, bugs, FAQ — refreshed automatically every day{{ end }}</p>
   <div class="update-feed">
     {{ $patches := .Site.Data.balatro.patch_notes }}
     {{ range first 2 $patches }}
     <div class="update-item">
-      <span class="update-badge patch">{{ if $zh }}补丁{{ else }}PATCH{{ end }}</span>
+      <span class="update-badge patch">{{ if $zh }}补丁{{ else if $fr }}PATCH{{ else if $de }}PATCH{{ else }}PATCH{{ end }}</span>
       <div class="update-content">
         <h4>{{ .title }} (v{{ .version }})</h4>
         <p>{{ index .changes 0 }}</p>
@@ -76,17 +78,17 @@
     {{ $bugs := .Site.Data.balatro.known_bugs }}
     {{ range first 2 $bugs }}
     <div class="update-item">
-      <span class="update-badge bug">{{ if $zh }}BUG{{ else }}BUG{{ end }}</span>
+      <span class="update-badge bug">{{ if $zh }}BUG{{ else if $fr }}BUG{{ else if $de }}BUG{{ else }}BUG{{ end }}</span>
       <div class="update-content">
         <h4>{{ .title }}</h4>
-        <p>{{ .severity }} • {{ .platform }} • {{ .reports }} reports</p>
+        <p>{{ .severity }} • {{ .platform }} • {{ .reports }} {{ if $zh }}条报告{{ else if $fr }}signals{{ else if $de }}Meldungen{{ else }}reports{{ end }}</p>
         <div class="update-date">{{ .updated_at }}</div>
       </div>
     </div>
     {{ end }}
   </div>
   <div style="text-align:center;margin-top:20px">
-    <a href="{{ .Site.BaseURL }}balatro/daily-update/patch-notes/" class="btn btn-outline">{{ if $zh }}查看全部更新 →{{ else }}View All Updates →{{ end }}</a>
+    <a href="{{ "balatro/daily-update/patch-notes/" | relLangURL }}" class="btn btn-outline">{{ if $zh }}查看全部更新 →{{ else if $fr }}Voir Tout →{{ else if $de }}Alle Ansehen →{{ else }}View All Updates →{{ end }}</a>
   </div>
 </section>
 
@@ -94,18 +96,18 @@
 
 <!-- New Players -->
 <section class="section">
-  <h2 class="section-title">{{ if $zh }}📚 新玩家？{{ else }}📚 New to Balatro?{{ end }}</h2>
-  <p class="section-subtitle">{{ if $zh }}先花5分钟了解核心机制{{ else }}Learn the basics in 5 minutes{{ end }}</p>
+  <h2 class="section-title">{{ if $zh }}📚 新玩家？{{ else if $fr }}📚 Nouveau Joueur ?{{ else if $de }}📚 Neues Spiel?{{ else }}📚 New to Balatro?{{ end }}</h2>
+  <p class="section-subtitle">{{ if $zh }}先花5分钟了解核心机制{{ else if $fr }}Apprenez les bases en 5 minutes{{ else if $de }}Lerne die Basics in 5 Minuten{{ else }}Learn the basics in 5 minutes{{ end }}</p>
   <div class="tools-grid">
-    <a href="{{ .Site.BaseURL }}balatro/static/beginner-tutorial/" class="tool-card">
+    <a href="{{ "balatro/static/beginner-tutorial/" | relLangURL }}" class="tool-card">
       <div class="tool-icon gold">🎓</div>
-      <h3>{{ if $zh }}新手教程{{ else }}Beginner Tutorial{{ end }}</h3>
-      <p>{{ if $zh }}核心循环、计分基础、必胜开局策略。{{ else }}Core loop, scoring basics, and winning starter strategy.{{ end }}</p>
+      <h3>{{ if $zh }}新手教程{{ else if $fr }}Tutoriel Débutant{{ else if $de }}Anfänger-Tutorial{{ else }}Beginner Tutorial{{ end }}</h3>
+      <p>{{ if $zh }}核心循环、计分基础、必胜开局策略。{{ else if $fr }}Boucle de jeu, bases du score, stratégie de départ.{{ else if $de }}Spielschleife, Grundlagen, Startstrategie.{{ else }}Core loop, scoring basics, and winning starter strategy.{{ end }}</p>
     </a>
-    <a href="{{ .Site.BaseURL }}balatro/static/lore-story/" class="tool-card">
+    <a href="{{ "balatro/static/lore-story/" | relLangURL }}" class="tool-card">
       <div class="tool-icon blue">📖</div>
-      <h3>{{ if $zh }}故事背景{{ else }}Story & Lore{{ end }}</h3>
-      <p>{{ if $zh }}零剧透了解Balatro的世界和House的秘密。{{ else }}Spoiler-free look at the world of Balatro.{{ end }}</p>
+      <h3>{{ if $zh }}故事背景{{ else if $fr }}Histoire & Lore{{ else if $de }}Geschichte & Lore{{ else }}Story & Lore{{ end }}</h3>
+      <p>{{ if $zh }}零剧透了解Balatro的世界和House的秘密。{{ else if $fr }}Découvrez le monde de Balatro sans spoilers.{{ else if $de }}Die Welt von Balatro spoilerfrei entdecken.{{ else }}Spoiler-free look at the world of Balatro.{{ end }}</p>
     </a>
   </div>
 </section>
@@ -115,23 +117,23 @@
   <div class="why-us">
     <div class="why-item">
       <div class="why-icon">⚡</div>
-      <h4>{{ if $zh }}秒查答案{{ else }}Fast Answers{{ end }}</h4>
-      <p>{{ if $zh }}不用翻长文，打开就看到结果。{{ else }}No long articles — answers front and center.{{ end }}</p>
+      <h4>{{ if $zh }}秒查答案{{ else if $fr }}Réponses Rapides{{ else if $de }}Schnelle Antworten{{ else }}Fast Answers{{ end }}</h4>
+      <p>{{ if $zh }}不用翻长文，打开就看到结果。{{ else if $fr }}Pas de longs articles — réponses directes.{{ else if $de }}Keine langen Artikel — Antworten direkt.{{ else }}No long articles — answers front and center.{{ end }}</p>
     </div>
     <div class="why-item">
       <div class="why-icon">🔄</div>
-      <h4>{{ if $zh }}每日更新{{ else }}Daily Fresh{{ end }}</h4>
-      <p>{{ if $zh }}补丁、BUG、FAQ每天自动刷新。{{ else }}Patches, bugs, FAQ refresh automatically.{{ end }}</p>
+      <h4>{{ if $zh }}每日更新{{ else if $fr }}Mis à Jour Quotidien{{ else if $de }}Täglich Neu{{ else }}Daily Fresh{{ end }}</h4>
+      <p>{{ if $zh }}补丁、BUG、FAQ每天自动刷新。{{ else if $fr }}Patches, bugs, FAQ se rafraîchissent automatiquement.{{ else if $de }}Patches, Bugs, FAQ aktualisieren sich automatisch.{{ else }}Patches, bugs, FAQ refresh automatically.{{ end }}</p>
     </div>
     <div class="why-item">
       <div class="why-icon">📱</div>
-      <h4>{{ if $zh }}手机电脑都能用{{ else }}Works Everywhere{{ end }}</h4>
-      <p>{{ if $zh }}桌面边玩边查，手机随时看。{{ else }}Desktop while you play, mobile on the go.{{ end }}</p>
+      <h4>{{ if $zh }}手机电脑都能用{{ else if $fr }}Sur Tous les Appareils{{ else if $de }}Überall Nutzbar{{ else }}Works Everywhere{{ end }}</h4>
+      <p>{{ if $zh }}桌面边玩边查，手机随时看。{{ else if $fr }}Bureau pendant le jeu, mobile en déplacement.{{ else if $de }}Desktop beim Spielen, mobil unterwegs.{{ else }}Desktop while you play, mobile on the go.{{ end }}</p>
     </div>
     <div class="why-item">
       <div class="why-icon">🎮</div>
-      <h4>{{ if $zh }}玩家做的{{ else }}Made by Players{{ end }}</h4>
-      <p>{{ if $zh }}不是官方站，是玩家为爱发电。{{ else }}Unofficial fan site, built by players.{{ end }}</p>
+      <h4>{{ if $zh }}玩家做的{{ else if $fr }}Fait par des Joueurs{{ else if $de }}Von Spielern Gemacht{{ else }}Made by Players{{ end }}</h4>
+      <p>{{ if $zh }}不是官方站，是玩家为爱发电。{{ else if $fr }}Site non officiel, fait par des joueurs.{{ else if $de }}Inoffizielle Fan-Seite, von Spielern.{{ else }}Unofficial fan site, built by players.{{ end }}</p>
     </div>
   </div>
 </section>
