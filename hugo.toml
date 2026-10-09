@@ -11,14 +11,28 @@ defaultContentLanguageInSubdir = false
     contentDir = "content/en"
     title = "Balatro Guide Hub"
     [languages.en.params]
-      description = "Unofficial Balatro guide with score calculator, joker database, known bugs, patch notes, and community FAQ. Updated daily."
+      description = "Free Balatro guide: score calculator, joker tier list, best deck builds, patch notes, known bugs, and player FAQ. Updated daily."
   [languages.zh]
     languageName = "中文"
     weight = 2
     contentDir = "content/zh"
     title = "Balatro攻略站"
     [languages.zh.params]
-      description = "Balatro非官方攻略站：计分计算器、小丑图鉴、已知BUG、补丁更新和玩家FAQ，每日自动更新。"
+      description = "Balatro小丑牌攻略站：计分计算器、小丑图鉴、配装推荐、补丁更新、已知BUG和玩家FAQ。"
+  [languages.fr]
+    languageName = "FR"
+    weight = 3
+    contentDir = "content/fr"
+    title = "Guide Balatro"
+    [languages.fr.params]
+      description = "Guide Balatro gratuit : calculateur de score, tier liste des jokers, meilleurs decks, notes de patch, bugs connus et FAQ."
+  [languages.de]
+    languageName = "DE"
+    weight = 4
+    contentDir = "content/de"
+    title = "Balatro Leitfaden"
+    [languages.de.params]
+      description = "Kostenloser Balatro-Guide: Score-Rechner, Joker-Tierliste, beste Decks, Patchnotes, bekannte Bugs und FAQ."
 
 [params]
   contactEmail = "39918849@qq.com"
