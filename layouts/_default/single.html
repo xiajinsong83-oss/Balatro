@@ -2,14 +2,19 @@
 
 {{ define "main" }}
 <div class="breadcrumb">
-  <a href="{{ .Site.BaseURL }}">Home</a>
-  {{ with .Section }}<span>/</span> {{ end }}
-  {{ .Title }}
+  <a href="{{ .Site.BaseURL }}">{{ if eq .Lang "zh" }}首页{{ else }}Home{{ end }}</a>
+  {{ with .Parent }}
+    {{ if ne .Permalink $.Site.BaseURL }}
+    <span>/</span> <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ end }}
+  {{ end }}
+  <span>/</span> {{ .Title }}
 </div>
 
 <div class="page-layout">
   {{ partial "sidebar-game.html" . }}
   <main class="content-page">
+    <h1>{{ .Title }}</h1>
     {{ .Content }}
   </main>
 </div>
