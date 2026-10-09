@@ -1,90 +1,15 @@
 - question: How do I unlock new decks in Balatro?
-  summary: "Decks are unlocked by defeating each Ante's boss Blind on increasing stake levels. Start with the Red Deck. Beat Ante 8 on White Stake to unlock the Blue Deck. There are 15 total decks to unlock."
-  workaround: ""
-  source_note: Community knowledge base
-  source_url: "https://balatro.wiki.gg/wiki/Decks"
-  updated_at: 2026-10-08
-- question: What is the best Joker build for Gold Stake?
-  summary: "Most consistent winning builds revolve around scaling Mult with jokers like Campfire, Raised Fist, or Fibonacci. Legendary jokers like Blueprint and Brainstorm double your scaling. Avoid single-card luck builds."
-  workaround: "Prioritize consistent Mult scaling across all hands."
-  source_note: Community strategy guides
-  source_url: "https://www.reddit.com/r/batardre/wiki/builds/"
-  updated_at: 2026-10-08
-- question: Why does my game crash after the latest update?
-  summary: "The v1.0.1o update introduced a crash bug related to the Blueprint Joker. If experiencing crashes, avoid picking up Blueprint Joker until the next patch."
-  workaround: "Verify game files through Steam. Back up save files before updates."
-  source_note: Community bug reports
-  source_url: "https://steamcommunity.com/app/2379780/discussions/"
-  updated_at: 2026-10-08
-- question: How does the scoring system work?
-  summary: "Score = (Base Chips + Card Chips) × (Base Mult + Joker Mult) × Retriggers. Poker hand rankings give base values: Pair = 10×2, Straight = 30×4, Four of a Kind = 60×7, Five of a Kind = 120×12."
-  workaround: ""
-  source_note: Official game mechanics
-  source_url: "https://balatro.wiki.gg/wiki/Scoring"
-  updated_at: 2026-10-08
-- question: What are Stake levels?
-  summary: "Stake levels are difficulty modifiers: White = none, Red = -1 hand, Green = -1 discard, Black = +1 Ante requirement, Blue = higher shop prices, Purple = less starting money, Orange = enhanced boss effects, Gold = all combined."
-  workaround: ""
-  source_note: Community knowledge base
-  source_url: "https://balatro.wiki.gg/wiki/Stakes"
-  updated_at: 2026-10-08
-- question: What is the fastest way to unlock legendary jokers?
-  summary: "Legendary jokers appear after you have at least 6 jokers in your collection. The chance increases with your Ante level. Buying the 'Ogloth's Cup' voucher boosts legendary spawn rate."
-  workaround: "Buy voucher early. Save up gold for legendary shop slots."
-  source_note: Community strategy
-  source_url: "https://balatro.wiki.gg/wiki/Jokers"
-  updated_at: 2026-09-28
-- question: Should I sell or upgrade low-value cards?
-  summary: "Early game: sell unnecessary cards to save space. Mid-game: upgrade high-value cards (Aces, face cards) to Foil or Holographic for chip scaling. Late game: Polychrome on your main scoring cards."
-  workaround: "Focus on one suit or one card type to avoid spreading resources thin."
-  source_note: Community tips
-  source_url: "https://www.reddit.com/r/batardre/wiki/tips/"
-  updated_at: 2026-09-20
-- question: What's the difference between Foil, Holographic, and Polychrome?
-  summary: "Foil adds +50 Chips. Holographic adds +2 Mult. Polychrome doubles the card's chips and Mult combined. Polychrome is the strongest but rarest."
-  workaround: ""
-  source_note: Game mechanics wiki
-  source_url: "https://balatro.wiki.gg/wiki/Editions"
-  updated_at: 2026-09-15
-- question: How do I beat the final boss (Ante 8)?
-  summary: "Ante 8 boss scales heavily. You need at least 500+ Mult and 500+ Chips per hand. Focus on consistency over big single hands. Bring rerolls and extra hands via jokers."
-  workaround: "Use Scaling jokers like Bloodstone, Basket Case, or Yorick for steady growth."
-  source_note: Community boss guides
-  source_url: "https://www.reddit.com/r/batardre/wiki/bosses/"
-  updated_at: 2026-09-10
-- question: What are the best Tarot cards to pick?
-  summary: "The Emperor (adds money), The Lovers (duplicates a card), The Fool (retries shop), and The Tower (upgrades card edition) are most valuable. Skip weak Tarots that only affect one suit."
-  workaround: "Prioritize Tarots that increase your long-term scaling potential."
-  source_note: Community tier list
-  source_url: "https://balatro.wiki.gg/wiki/Tarots"
-  updated_at: 2026-09-05
-- question: Can I play Balatro offline?
-  summary: "Yes, Balatro is fully playable offline. Steam Cloud sync requires internet, but single-player runs work without connection."
-  workaround: "Enable offline mode in Steam to avoid sync conflicts."
-  source_note: Steam community
-  source_url: "https://steamcommunity.com/app/2379780/discussions/"
-  updated_at: 2026-08-28
-- question: What happens when I restart a run?
-  summary: "Restarting a run forfeits all progress from that attempt. You keep your unlocked decks, jokers in collection, and achievements. Your gold and shop items reset."
-  workaround: "Save scum: quit before a risky choice, reload from last save."
-  source_note: Game mechanics
-  source_url: "https://balatro.wiki.gg/wiki/FAQ"
-  updated_at: 2026-08-20
-- question: Is there multiplayer?
-  summary: "Official multiplayer is in development but not yet released. Currently the game is single-player only. The 1.0.0d update added hints of upcoming online features."
-  workaround: "Check official social media for multiplayer beta announcements."
-  source_note: Developer updates
-  source_url: "https://x.com/balatrogame"
-  updated_at: 2026-08-15
-- question: What's the deal with the 'negative' joker?
-  summary: "Negative jokers are hidden/secret jokers that don't appear in the normal shop. They unlock by completing specific challenges or meeting hidden conditions. Each has a unique powerful effect."
-  workaround: "Check community wiki for unlock conditions of each negative joker."
-  source_note: Community discovery
-  source_url: "https://balatro.wiki.gg/wiki/Negative_Jokers"
-  updated_at: 2026-08-10
-- question: How do I get the most out of Spectral cards?
-  summary: "Spectral cards are rare tarot-like cards with powerful effects. The Soul creates a free legendary joker. The Sigil upgrades all cards of a suit. Save Spectrals for late game."
-  workaround: "Don't waste Spectral cards on early-game trivial decisions."
-  source_note: Community strategy
-  source_url: "https://balatro.wiki.gg/wiki/Spectrals"
-  updated_at: 2026-08-05
+  summary: Decks are unlocked by defeating each Ante's boss Blind on increasing stake
+    levels. Start with the Red Deck. Beat Ante 8 on White Stake to unlock the Blue
+    Deck. There are 15 total decks to unlock.
+  workaround: ''
+  source_note: Aggregated from community knowledge base
+  updated_at: '2026-10-09'
+- question: Why does Blueprint Joker crash my game?
+  summary: Multiple players report crashes after selecting Blueprint Joker on or after
+    Blind 3 in v1.0.1o. The crash appears when Blueprint copies an active Joker to
+    its left.
+  workaround: Save before selecting Blueprint. Avoid picking this joker until next
+    patch.
+  source_note: Aggregated from 47+ community reports
+  updated_at: '2026-10-09'
