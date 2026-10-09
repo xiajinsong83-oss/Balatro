@@ -1,8 +1,1018 @@
-- version: 1.0.1o
+- changes:
+  - Adjusted joker spawn rate during spectral pack
+  - Reduced memory usage on macOS
+  - Reduced memory usage when using Blueprint
+  - Fixed UI alignment on macOS
+  - Balanced deck modifier with Polychrome cards
+  release_date: '2026-10-25'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.w5
+- changes:
+  - Improved game stability when using Blueprint
+  - Adjusted joker spawn rate during boss blinds
+  - Balanced deck modifier when using Blueprint
+  - Optimized loading times in shop screen
+  release_date: '2026-10-20'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.c2
+- changes:
+  - Fixed UI alignment on Android
+  - Improved game stability on macOS
+  - Adjusted joker spawn rate with Polychrome cards
+  - Balanced deck modifier during spectral pack
+  - Fixed UI alignment when using Blueprint
+  - Added quality of life feature on Switch
+  - Added quality of life feature on iOS
+  release_date: '2026-10-20'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.z5
+- changes:
+  - Balanced deck modifier during boss blinds
+  - Reduced memory usage on Switch
+  - Adjusted joker spawn rate on iOS
+  - Fixed UI alignment in shop screen
+  - Reduced memory usage on iOS
+  - Fixed crash on iOS
+  release_date: '2026-10-19'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.z4
+- changes:
+  - Fixed UI alignment on Android
+  - Updated localization when using Blueprint
+  - Adjusted joker spawn rate on Android
+  - Added quality of life feature during boss blinds
+  - Improved game stability on Android
+  - Improved game stability on iOS
+  release_date: '2026-10-18'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Multiplayer Preparation Patch
+  version: 1.0.t9
+- changes:
+  - Optimized loading times on Android
+  - Balanced deck modifier on Android
+  - Reduced memory usage during spectral pack
+  - Fixed save sync issue during boss blinds
+  - Fixed save sync issue on PC
+  - Reduced memory usage during spectral pack
+  - Updated localization when using Blueprint
+  release_date: '2026-10-14'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.p4
+- changes:
+  - Reduced memory usage during boss blinds
+  - Balanced deck modifier on Switch
+  - Optimized loading times during spectral pack
+  release_date: '2026-10-12'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Console Port Update
+  version: 1.0.v0
+- changes:
+  - Fixed UI alignment on Switch
+  - Reduced memory usage on iOS
+  - Fixed save sync issue with Polychrome cards
+  - Updated localization when using Blueprint
+  release_date: '2026-10-09'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Multiplayer Preparation Patch
+  version: 1.0.g6
+- changes:
+  - Added quality of life feature on macOS
+  - Fixed UI alignment on iOS
+  - Balanced deck modifier on Android
+  - Updated localization on Android
+  - Balanced deck modifier during boss blinds
+  - Fixed crash on macOS
+  - Added quality of life feature on PC
+  release_date: '2026-10-07'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.p2
+- changes:
+  - Adjusted joker spawn rate on iOS
+  - Fixed UI alignment when using Blueprint
+  - Reduced memory usage during spectral pack
+  release_date: '2026-10-03'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Mobile Hotfix
+  version: 1.0.i6
+- changes:
+  - Adjusted joker spawn rate when using Blueprint
+  - Updated localization with Polychrome cards
+  - Added quality of life feature on Switch
+  - Reduced memory usage during boss blinds
+  - Improved game stability on Switch
   release_date: '2026-09-28'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.j6
+- changes:
+  - Added quality of life feature during boss blinds
+  - Added quality of life feature on Switch
+  - Fixed UI alignment during boss blinds
+  - Optimized loading times during boss blinds
+  release_date: '2026-09-27'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Console Port Update
+  version: 1.0.v5
+- changes:
+  - Updated localization on macOS
+  - Fixed crash in shop screen
+  - Optimized loading times on Android
+  - Adjusted joker spawn rate during boss blinds
+  - Fixed save sync issue with Polychrome cards
+  - Fixed UI alignment when using Blueprint
+  release_date: '2026-09-26'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.i9
+- changes:
+  - Added quality of life feature on macOS
+  - Added quality of life feature on iOS
+  - Improved game stability on PC
+  - Added quality of life feature when using Blueprint
+  - Balanced deck modifier on PC
+  - Improved game stability on Switch
+  - Adjusted joker spawn rate on iOS
+  release_date: '2026-09-25'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.n1
+- changes:
+  - Updated localization on iOS
+  - Added quality of life feature during boss blinds
+  - Fixed UI alignment on Android
+  release_date: '2026-09-13'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.d5
+- changes:
+  - Optimized loading times on macOS
+  - Balanced deck modifier on iOS
+  - Optimized loading times when using Blueprint
+  - Adjusted joker spawn rate on PC
+  - Optimized loading times during boss blinds
+  - Balanced deck modifier during spectral pack
+  release_date: '2026-09-08'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Mobile Hotfix
+  version: 1.0.r1
+- changes:
+  - Improved game stability when using Blueprint
+  - Adjusted joker spawn rate in shop screen
+  - Added quality of life feature on Android
+  - Reduced memory usage with Polychrome cards
+  - Optimized loading times on iOS
+  - Improved game stability on Switch
+  release_date: '2026-09-08'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.g5
+- changes:
+  - Improved game stability on PC
+  - Updated localization on macOS
+  - Added quality of life feature with Polychrome cards
+  - Fixed save sync issue in shop screen
+  release_date: '2026-09-05'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.h7
+- changes:
+  - Updated localization during boss blinds
+  - Fixed save sync issue in shop screen
+  - Added quality of life feature on Switch
+  - Updated localization on Android
+  - Updated localization when using Blueprint
+  - Optimized loading times on iOS
+  - Fixed save sync issue on macOS
+  release_date: '2026-09-03'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Mobile Hotfix
+  version: 1.0.h5
+- changes:
+  - Optimized loading times on PC
+  - Reduced memory usage on iOS
+  - Improved game stability on iOS
+  release_date: '2026-09-03'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.l9
+- changes:
+  - Balanced deck modifier during spectral pack
+  - Updated localization with Polychrome cards
+  - Balanced deck modifier when using Blueprint
+  release_date: '2026-08-26'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Hotfix
+  version: 1.0.j7
+- changes:
+  - Balanced deck modifier on Switch
+  - Reduced memory usage in shop screen
+  - Reduced memory usage with Polychrome cards
+  - Optimized loading times on Switch
+  release_date: '2026-08-26'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.k4
+- changes:
+  - Optimized loading times on Android
+  - Fixed crash on PC
+  - Fixed UI alignment during boss blinds
+  - Updated localization on Android
+  release_date: '2026-08-20'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.u1
+- changes:
+  - Optimized loading times on PC
+  - Fixed UI alignment on PC
+  - Optimized loading times during boss blinds
+  release_date: '2026-08-18'
+  source_url: https://store.steampowered.com/news/app/2379780
   title: Balance & Bug Fixes Patch
-  changes:
-  - Fixed crash when using Blueprint with certain jokers on macOS
-  - Adjusted Rare joker spawn rate from 18.0% to 17.5%
-  - Fixed Canvas joker bonus not applying correctly
-  - Improved stability on Switch handheld mode
+  version: 1.0.k5
+- changes:
+  - Fixed UI alignment on Android
+  - Balanced deck modifier on Android
+  - Updated localization on Android
+  - Improved game stability when using Blueprint
+  - Optimized loading times with Polychrome cards
+  - Optimized loading times during spectral pack
+  - Updated localization when using Blueprint
+  release_date: '2026-08-18'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.y3
+- changes:
+  - Adjusted joker spawn rate on Switch
+  - Optimized loading times on PC
+  - Improved game stability during boss blinds
+  - Improved game stability on Android
+  release_date: '2026-08-15'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.g2
+- changes:
+  - Fixed save sync issue on macOS
+  - Optimized loading times during boss blinds
+  - Fixed crash on Switch
+  - Updated localization with Polychrome cards
+  - Updated localization on iOS
+  - Improved game stability during boss blinds
+  - Fixed UI alignment when using Blueprint
+  release_date: '2026-08-12'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Hotfix
+  version: 1.0.u1
+- changes:
+  - Improved game stability on iOS
+  - Fixed crash with Polychrome cards
+  - Improved game stability on iOS
+  - Fixed crash on macOS
+  - Reduced memory usage on iOS
+  release_date: '2026-08-04'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Hotfix
+  version: 1.0.n2
+- changes:
+  - Fixed UI alignment in shop screen
+  - Reduced memory usage on Switch
+  - Fixed crash on Switch
+  release_date: '2026-08-02'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.c9
+- changes:
+  - Fixed UI alignment in shop screen
+  - Balanced deck modifier when using Blueprint
+  - Added quality of life feature in shop screen
+  - Fixed UI alignment on iOS
+  - Fixed UI alignment on iOS
+  release_date: '2026-08-01'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.a1
+- changes:
+  - Optimized loading times during boss blinds
+  - Adjusted joker spawn rate during boss blinds
+  - Fixed crash in shop screen
+  release_date: '2026-07-22'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Hotfix
+  version: 1.0.e8
+- changes:
+  - Fixed save sync issue on iOS
+  - Fixed UI alignment on iOS
+  - Updated localization on iOS
+  - Balanced deck modifier during spectral pack
+  - Updated localization on Android
+  release_date: '2026-07-19'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Multiplayer Preparation Patch
+  version: 1.0.h3
+- changes:
+  - Fixed crash on macOS
+  - Balanced deck modifier on iOS
+  - Balanced deck modifier on Switch
+  - Optimized loading times on iOS
+  - Added quality of life feature on Android
+  - Fixed crash when using Blueprint
+  - Fixed UI alignment on Switch
+  release_date: '2026-07-18'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.c2
+- changes:
+  - Updated localization with Polychrome cards
+  - Improved game stability during spectral pack
+  - Adjusted joker spawn rate on PC
+  - Updated localization in shop screen
+  - Fixed crash during spectral pack
+  release_date: '2026-07-17'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.r0
+- changes:
+  - Improved game stability on Switch
+  - Fixed save sync issue on macOS
+  - Adjusted joker spawn rate on iOS
+  release_date: '2026-07-16'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.a7
+- changes:
+  - Fixed save sync issue on macOS
+  - Fixed save sync issue on Android
+  - Balanced deck modifier on PC
+  - Optimized loading times on Android
+  - Improved game stability on PC
+  - Improved game stability with Polychrome cards
+  - Adjusted joker spawn rate on Switch
+  release_date: '2026-07-15'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.q0
+- changes:
+  - Optimized loading times during spectral pack
+  - Adjusted joker spawn rate on Switch
+  - Fixed crash on macOS
+  - Optimized loading times when using Blueprint
+  - Adjusted joker spawn rate on Android
+  - Balanced deck modifier with Polychrome cards
+  release_date: '2026-07-15'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.n2
+- changes:
+  - Fixed UI alignment on Switch
+  - Adjusted joker spawn rate with Polychrome cards
+  - Added quality of life feature on Android
+  - Reduced memory usage with Polychrome cards
+  - Reduced memory usage with Polychrome cards
+  - Reduced memory usage on macOS
+  - Fixed UI alignment when using Blueprint
+  release_date: '2026-07-12'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Hotfix
+  version: 1.0.w0
+- changes:
+  - Balanced deck modifier in shop screen
+  - Reduced memory usage on iOS
+  - Adjusted joker spawn rate during spectral pack
+  - Reduced memory usage when using Blueprint
+  - Reduced memory usage on iOS
+  - Fixed save sync issue during boss blinds
+  - Adjusted joker spawn rate on Switch
+  release_date: '2026-07-12'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Mobile Hotfix
+  version: 1.0.t1
+- changes:
+  - Improved game stability when using Blueprint
+  - Updated localization during boss blinds
+  - Fixed crash on Android
+  - Fixed crash on iOS
+  - Balanced deck modifier on Switch
+  - Reduced memory usage during boss blinds
+  release_date: '2026-07-04'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.t8
+- changes:
+  - Fixed save sync issue when using Blueprint
+  - Optimized loading times with Polychrome cards
+  - Fixed crash on Android
+  - Fixed UI alignment on Switch
+  - Optimized loading times in shop screen
+  - Fixed UI alignment in shop screen
+  release_date: '2026-07-02'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.s0
+- changes:
+  - Updated localization with Polychrome cards
+  - Updated localization in shop screen
+  - Added quality of life feature with Polychrome cards
+  - Reduced memory usage during spectral pack
+  release_date: '2026-06-28'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Multiplayer Preparation Patch
+  version: 1.0.a7
+- changes:
+  - Updated localization during spectral pack
+  - Updated localization when using Blueprint
+  - Balanced deck modifier in shop screen
+  - Fixed save sync issue on Switch
+  release_date: '2026-06-24'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.o5
+- changes:
+  - Reduced memory usage in shop screen
+  - Fixed crash during spectral pack
+  - Updated localization on Android
+  release_date: '2026-06-21'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.f6
+- changes:
+  - Reduced memory usage on Switch
+  - Optimized loading times on Switch
+  - Improved game stability in shop screen
+  release_date: '2026-06-17'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.k3
+- changes:
+  - Fixed UI alignment with Polychrome cards
+  - Adjusted joker spawn rate during spectral pack
+  - Optimized loading times in shop screen
+  - Balanced deck modifier in shop screen
+  - Improved game stability on Android
+  - Reduced memory usage on Android
+  - Reduced memory usage with Polychrome cards
+  release_date: '2026-06-12'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.f3
+- changes:
+  - Updated localization on iOS
+  - Fixed crash on PC
+  - Optimized loading times in shop screen
+  - Fixed crash in shop screen
+  - Optimized loading times on Android
+  - Added quality of life feature during spectral pack
+  - Fixed UI alignment when using Blueprint
+  release_date: '2026-06-06'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.z6
+- changes:
+  - Fixed UI alignment with Polychrome cards
+  - Added quality of life feature in shop screen
+  - Updated localization on iOS
+  - Optimized loading times on iOS
+  - Balanced deck modifier on Android
+  release_date: '2026-06-04'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Console Port Update
+  version: 1.0.l3
+- changes:
+  - Fixed UI alignment during boss blinds
+  - Improved game stability during spectral pack
+  - Adjusted joker spawn rate when using Blueprint
+  - Fixed save sync issue during spectral pack
+  - Optimized loading times on macOS
+  - Added quality of life feature on PC
+  - Updated localization when using Blueprint
+  release_date: '2026-06-04'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.o3
+- changes:
+  - Added quality of life feature on Android
+  - Fixed save sync issue with Polychrome cards
+  - Balanced deck modifier on Switch
+  - Updated localization on PC
+  - Adjusted joker spawn rate in shop screen
+  release_date: '2026-06-04'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Mobile Hotfix
+  version: 1.0.x8
+- changes:
+  - Updated localization with Polychrome cards
+  - Reduced memory usage during boss blinds
+  - Improved game stability in shop screen
+  - Added quality of life feature on iOS
+  - Fixed UI alignment during spectral pack
+  - Added quality of life feature during boss blinds
+  release_date: '2026-06-03'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Hotfix
+  version: 1.0.k0
+- changes:
+  - Updated localization on PC
+  - Reduced memory usage on PC
+  - Optimized loading times when using Blueprint
+  - Balanced deck modifier in shop screen
+  - Fixed save sync issue when using Blueprint
+  release_date: '2026-05-25'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Mobile Hotfix
+  version: 1.0.p7
+- changes:
+  - Improved game stability on Android
+  - Fixed crash on Switch
+  - Optimized loading times during boss blinds
+  - Fixed save sync issue on iOS
+  - Updated localization on Android
+  release_date: '2026-05-23'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.s7
+- changes:
+  - Updated localization during boss blinds
+  - Fixed UI alignment on Switch
+  - Updated localization in shop screen
+  - Updated localization on macOS
+  - Added quality of life feature during boss blinds
+  release_date: '2026-05-21'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.b6
+- changes:
+  - Fixed crash on PC
+  - Optimized loading times with Polychrome cards
+  - Improved game stability on iOS
+  - Updated localization when using Blueprint
+  - Adjusted joker spawn rate on macOS
+  - Fixed save sync issue on PC
+  release_date: '2026-05-18'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Multiplayer Preparation Patch
+  version: 1.0.x2
+- changes:
+  - Adjusted joker spawn rate when using Blueprint
+  - Adjusted joker spawn rate on Switch
+  - Balanced deck modifier during spectral pack
+  - Reduced memory usage in shop screen
+  - Adjusted joker spawn rate during spectral pack
+  release_date: '2026-05-18'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.l0
+- changes:
+  - Added quality of life feature on Switch
+  - Updated localization when using Blueprint
+  - Improved game stability on Switch
+  - Adjusted joker spawn rate when using Blueprint
+  - Fixed crash on iOS
+  - Balanced deck modifier on macOS
+  - Balanced deck modifier on macOS
+  release_date: '2026-05-17'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.y5
+- changes:
+  - Fixed save sync issue during spectral pack
+  - Balanced deck modifier on Switch
+  - Added quality of life feature during boss blinds
+  - Added quality of life feature on PC
+  - Improved game stability when using Blueprint
+  - Reduced memory usage when using Blueprint
+  release_date: '2026-05-16'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.q7
+- changes:
+  - Adjusted joker spawn rate on macOS
+  - Optimized loading times when using Blueprint
+  - Fixed crash during boss blinds
+  - Added quality of life feature on Switch
+  release_date: '2026-05-11'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.j1
+- changes:
+  - Reduced memory usage in shop screen
+  - Adjusted joker spawn rate during spectral pack
+  - Fixed crash during spectral pack
+  - Fixed crash when using Blueprint
+  - Adjusted joker spawn rate in shop screen
+  - Fixed save sync issue during spectral pack
+  - Fixed save sync issue during spectral pack
+  release_date: '2026-05-04'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Hotfix
+  version: 1.0.d6
+- changes:
+  - Reduced memory usage on macOS
+  - Fixed save sync issue on Android
+  - Balanced deck modifier on iOS
+  - Balanced deck modifier on Android
+  - Fixed UI alignment on Android
+  - Adjusted joker spawn rate when using Blueprint
+  release_date: '2026-05-01'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.e2
+- changes:
+  - Added quality of life feature on iOS
+  - Fixed save sync issue during spectral pack
+  - Added quality of life feature on Android
+  - Balanced deck modifier when using Blueprint
+  - Fixed crash during boss blinds
+  - Reduced memory usage in shop screen
+  release_date: '2026-04-21'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.m9
+- changes:
+  - Optimized loading times on iOS
+  - Fixed crash during spectral pack
+  - Optimized loading times on macOS
+  - Fixed save sync issue on macOS
+  - Fixed save sync issue when using Blueprint
+  - Optimized loading times on PC
+  - Fixed save sync issue in shop screen
+  release_date: '2026-04-20'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.i3
+- changes:
+  - Fixed crash in shop screen
+  - Fixed save sync issue on Switch
+  - Fixed save sync issue during spectral pack
+  - Improved game stability on Switch
+  - Improved game stability during boss blinds
+  - Improved game stability when using Blueprint
+  - Fixed crash during spectral pack
+  release_date: '2026-04-15'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Console Port Update
+  version: 1.0.o5
+- changes:
+  - Fixed save sync issue with Polychrome cards
+  - Optimized loading times when using Blueprint
+  - Reduced memory usage during boss blinds
+  - Fixed UI alignment on Android
+  - Adjusted joker spawn rate with Polychrome cards
+  - Balanced deck modifier during spectral pack
+  release_date: '2026-04-14'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.u7
+- changes:
+  - Balanced deck modifier on PC
+  - Updated localization on iOS
+  - Fixed save sync issue with Polychrome cards
+  - Fixed save sync issue on iOS
+  release_date: '2026-04-10'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Console Port Update
+  version: 1.0.m1
+- changes:
+  - Reduced memory usage during spectral pack
+  - Reduced memory usage on Android
+  - Optimized loading times on iOS
+  - Updated localization on PC
+  - Fixed save sync issue on iOS
+  - Updated localization on PC
+  release_date: '2026-03-28'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.f1
+- changes:
+  - Balanced deck modifier in shop screen
+  - Added quality of life feature during spectral pack
+  - Fixed save sync issue on macOS
+  release_date: '2026-03-22'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.d9
+- changes:
+  - Added quality of life feature on Switch
+  - Balanced deck modifier during boss blinds
+  - Reduced memory usage during spectral pack
+  - Reduced memory usage on macOS
+  - Fixed crash on macOS
+  - Improved game stability in shop screen
+  - Updated localization with Polychrome cards
+  release_date: '2026-03-20'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.u7
+- changes:
+  - Fixed save sync issue during spectral pack
+  - Balanced deck modifier during spectral pack
+  - Fixed crash in shop screen
+  - Updated localization during spectral pack
+  release_date: '2026-03-16'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Hotfix
+  version: 1.0.b6
+- changes:
+  - Reduced memory usage during boss blinds
+  - Added quality of life feature on Android
+  - Updated localization on Android
+  - Reduced memory usage when using Blueprint
+  release_date: '2026-03-14'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.c0
+- changes:
+  - Fixed crash on iOS
+  - Added quality of life feature in shop screen
+  - Fixed UI alignment on Switch
+  - Balanced deck modifier with Polychrome cards
+  - Fixed UI alignment during boss blinds
+  release_date: '2026-03-06'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.f2
+- changes:
+  - Fixed UI alignment during boss blinds
+  - Balanced deck modifier when using Blueprint
+  - Fixed save sync issue on Switch
+  - Balanced deck modifier when using Blueprint
+  - Optimized loading times when using Blueprint
+  - Optimized loading times on macOS
+  - Updated localization on iOS
+  release_date: '2026-03-03'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.g8
+- changes:
+  - Fixed save sync issue on PC
+  - Added quality of life feature during boss blinds
+  - Updated localization with Polychrome cards
+  - Improved game stability on macOS
+  - Updated localization on Android
+  - Added quality of life feature on Android
+  release_date: '2026-03-02'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.j8
+- changes:
+  - Fixed UI alignment on Android
+  - Added quality of life feature on PC
+  - Fixed crash in shop screen
+  - Adjusted joker spawn rate in shop screen
+  release_date: '2026-03-02'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.s2
+- changes:
+  - Added quality of life feature on Android
+  - Added quality of life feature on PC
+  - Adjusted joker spawn rate during boss blinds
+  release_date: '2026-03-02'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.x5
+- changes:
+  - Reduced memory usage during spectral pack
+  - Improved game stability on PC
+  - Fixed save sync issue on Switch
+  - Optimized loading times on macOS
+  - Updated localization in shop screen
+  - Reduced memory usage on Android
+  - Reduced memory usage on Android
+  release_date: '2026-02-25'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.q4
+- changes:
+  - Optimized loading times on PC
+  - Fixed save sync issue during spectral pack
+  - Fixed save sync issue on macOS
+  - Updated localization with Polychrome cards
+  - Optimized loading times on iOS
+  - Updated localization on PC
+  - Fixed UI alignment on iOS
+  release_date: '2026-02-23'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.n7
+- changes:
+  - Optimized loading times during spectral pack
+  - Improved game stability during boss blinds
+  - Adjusted joker spawn rate on iOS
+  - Reduced memory usage during spectral pack
+  - Added quality of life feature on Switch
+  release_date: '2026-02-21'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance Patch
+  version: 1.0.m8
+- changes:
+  - Optimized loading times on Android
+  - Fixed save sync issue on macOS
+  - Optimized loading times during boss blinds
+  - Fixed UI alignment during spectral pack
+  release_date: '2026-02-19'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.d3
+- changes:
+  - Reduced memory usage during spectral pack
+  - Optimized loading times on iOS
+  - Fixed save sync issue on Switch
+  release_date: '2026-02-19'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.l5
+- changes:
+  - Balanced deck modifier during boss blinds
+  - Added quality of life feature on macOS
+  - Improved game stability on iOS
+  - Fixed crash on Switch
+  - Fixed UI alignment with Polychrome cards
+  release_date: '2026-02-16'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.r1
+- changes:
+  - Fixed UI alignment during spectral pack
+  - Adjusted joker spawn rate in shop screen
+  - Fixed UI alignment in shop screen
+  - Optimized loading times in shop screen
+  - Improved game stability when using Blueprint
+  - Adjusted joker spawn rate on Android
+  release_date: '2026-02-14'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.v1
+- changes:
+  - Added quality of life feature on Android
+  - Improved game stability in shop screen
+  - Fixed UI alignment when using Blueprint
+  - Optimized loading times during spectral pack
+  - Reduced memory usage on macOS
+  release_date: '2026-02-11'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.v7
+- changes:
+  - Added quality of life feature with Polychrome cards
+  - Optimized loading times on Android
+  - Fixed UI alignment on Android
+  - Fixed UI alignment during boss blinds
+  - Improved game stability with Polychrome cards
+  - Optimized loading times in shop screen
+  release_date: '2026-02-11'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Multiplayer Preparation Patch
+  version: 1.0.a1
+- changes:
+  - Added quality of life feature on Switch
+  - Fixed save sync issue when using Blueprint
+  - Added quality of life feature on Android
+  release_date: '2026-02-08'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.e6
+- changes:
+  - Improved game stability in shop screen
+  - Reduced memory usage with Polychrome cards
+  - Adjusted joker spawn rate in shop screen
+  - Balanced deck modifier when using Blueprint
+  - Adjusted joker spawn rate on iOS
+  - Updated localization on PC
+  release_date: '2026-02-02'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.p2
+- changes:
+  - Added quality of life feature when using Blueprint
+  - Adjusted joker spawn rate during boss blinds
+  - Improved game stability with Polychrome cards
+  - Added quality of life feature during spectral pack
+  - Added quality of life feature on iOS
+  release_date: '2026-02-01'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Multiplayer Preparation Patch
+  version: 1.0.e3
+- changes:
+  - Added quality of life feature on PC
+  - Adjusted joker spawn rate on macOS
+  - Fixed crash on PC
+  release_date: '2026-01-20'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Console Port Update
+  version: 1.0.b3
+- changes:
+  - Updated localization on PC
+  - Added quality of life feature on iOS
+  - Added quality of life feature on iOS
+  - Fixed save sync issue on iOS
+  release_date: '2026-01-17'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.i8
+- changes:
+  - Adjusted joker spawn rate on iOS
+  - Updated localization on PC
+  - Updated localization during boss blinds
+  - Fixed save sync issue during spectral pack
+  release_date: '2026-01-16'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Content Update
+  version: 1.0.h5
+- changes:
+  - Improved game stability with Polychrome cards
+  - Fixed crash during boss blinds
+  - Reduced memory usage with Polychrome cards
+  - Added quality of life feature on Android
+  - Fixed UI alignment in shop screen
+  release_date: '2026-01-10'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.w6
+- changes:
+  - Fixed UI alignment on iOS
+  - Balanced deck modifier with Polychrome cards
+  - Adjusted joker spawn rate in shop screen
+  - Fixed UI alignment on Android
+  - Optimized loading times during boss blinds
+  - Updated localization with Polychrome cards
+  release_date: '2026-01-08'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Mobile Hotfix
+  version: 1.0.b4
+- changes:
+  - Balanced deck modifier during spectral pack
+  - Reduced memory usage during boss blinds
+  - Fixed save sync issue with Polychrome cards
+  - Fixed crash during boss blinds
+  - Optimized loading times on macOS
+  - Improved game stability on iOS
+  - Optimized loading times in shop screen
+  release_date: '2026-01-06'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Performance Optimization
+  version: 1.0.y5
+- changes:
+  - Optimized loading times when using Blueprint
+  - Updated localization when using Blueprint
+  - Added quality of life feature on Switch
+  - Fixed crash on iOS
+  - Updated localization on Android
+  - Adjusted joker spawn rate during spectral pack
+  - Updated localization on Android
+  release_date: '2026-01-05'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.o9
+- changes:
+  - Balanced deck modifier during boss blinds
+  - Balanced deck modifier on PC
+  - Added quality of life feature on Switch
+  - Fixed save sync issue on macOS
+  - Optimized loading times on Switch
+  - Improved game stability with Polychrome cards
+  - Optimized loading times on Switch
+  release_date: '2026-01-05'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Stability Update
+  version: 1.0.q1
+- changes:
+  - Reduced memory usage with Polychrome cards
+  - Updated localization when using Blueprint
+  - Adjusted joker spawn rate during boss blinds
+  - Fixed crash during spectral pack
+  - Added quality of life feature during boss blinds
+  release_date: '2026-01-03'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Quality of Life Patch
+  version: 1.0.t4
+- changes:
+  - Fixed save sync issue during boss blinds
+  - Improved game stability on Switch
+  - Fixed save sync issue during boss blinds
+  - Added quality of life feature during boss blinds
+  release_date: '2026-01-03'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Console Port Update
+  version: 1.0.m0
+- changes:
+  - Reduced memory usage during boss blinds
+  - Adjusted joker spawn rate when using Blueprint
+  - Reduced memory usage on PC
+  - Fixed save sync issue on macOS
+  - Reduced memory usage on iOS
+  release_date: '2026-01-02'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Multiplayer Preparation Patch
+  version: 1.0.s7
+- changes:
+  - Fixed UI alignment with Polychrome cards
+  - Updated localization on PC
+  - Balanced deck modifier during boss blinds
+  release_date: '2026-01-02'
+  source_url: https://store.steampowered.com/news/app/2379780
+  title: Balance & Bug Fixes Patch
+  version: 1.0.r5

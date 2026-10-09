@@ -1,20 +1,1015 @@
-- title: Blueprint Joker Crash Post Blind 3
-  version: 1.0.1o
+- description: 'Players report: touch input delay on ipad. Multiple confirmed reports across community
+    channels.'
   platform: PC / Steam
+  reports: 150
+  severity: High
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Reported
+  title: Touch input delay on iPad
+  updated_at: '2026-08-13'
+  version: 1.0.k
+  workaround: Use windowed mode. Avoid the problematic combination.
+- description: 'Players report: save file corruption on steam cloud sync conflict. Multiple confirmed
+    reports across community channels.'
+  platform: Android
+  reports: 144
   severity: Critical
-  reports: 47
-  description: Game crashes immediately after selecting Blueprint Joker on or after
-    Blind 3.
-  workaround: Save before selecting Blueprint. Load previous save if crash occurs.
-  status: Reported - Not yet fixed
-  updated_at: '2026-10-09'
-- title: Save Corruption on Steam Cloud Sync
-  version: 1.0.1n
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fixed recently
+  title: Save file corruption on Steam Cloud sync conflict
+  updated_at: '2026-07-02'
+  version: 1.0.l
+  workaround: Restart the game and retry. Display bug only, scoring is correct.
+- description: 'Players report: ios crash when entering shop with full joker slots. Multiple confirmed
+    reports across community channels.'
+  platform: All platforms
+  reports: 144
+  severity: High
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Reported
+  title: iOS crash when entering shop with full Joker slots
+  updated_at: '2026-08-19'
+  version: 1.0.n
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: wrong stake level icon on continue screen.'
+  platform: All platforms
+  reports: 80
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Wrong stake level icon on continue screen
+  updated_at: '2026-10-19'
+  version: 1.0.m
+  workaround: Restart the game and retry. Display bug only, scoring is correct.
+- description: 'Community observation: wrong number of free rerolls shown.'
+  platform: All platforms
+  reports: 80
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Wrong number of free rerolls shown
+  updated_at: '2026-07-19'
+  version: 1.0.d
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: wrong hand rank for straight flush in scoring popup.'
+  platform: All platforms
+  reports: 79
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Wrong hand rank for Straight Flush in scoring popup
+  updated_at: '2026-09-10'
+  version: 1.0.s
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: run summary not showing final score correctly.'
+  platform: All platforms
+  reports: 79
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Run summary not showing final score correctly
+  updated_at: '2026-07-18'
+  version: 1.0.c
+  workaround: No known workaround. Monitor patch notes.
+- description: 'Community observation: run high score not saving on leaderboard.'
+  platform: Xbox Game Pass
+  reports: 79
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Run high score not saving on leaderboard
+  updated_at: '2026-09-15'
+  version: 1.0.m
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: negative joker sprite missing in dark mode.'
+  platform: Xbox Game Pass
+  reports: 77
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Negative joker sprite missing in dark mode
+  updated_at: '2026-01-04'
+  version: 1.0.j
+  workaround: Use windowed mode. Avoid the problematic combination.
+- description: 'Community observation: gold sticker not applying to selected card in mobile.'
+  platform: All platforms
+  reports: 75
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Gold sticker not applying to selected card in mobile
+  updated_at: '2026-07-12'
+  version: 1.0.b
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Players report: manifestation spectral card duplication. Multiple confirmed reports across
+    community channels.'
+  platform: All platforms
+  reports: 74
+  severity: Low
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Reported
+  title: Manifestation spectral card duplication
+  updated_at: '2026-06-27'
+  version: 1.0.p
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: wrong payout for full house in scoring.'
   platform: PC / Steam
+  reports: 74
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Wrong payout for Full House in scoring
+  updated_at: '2026-01-23'
+  version: 1.0.r
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: wrong hand type suggested by auto-select.'
+  platform: All platforms
+  reports: 74
   severity: Critical
-  reports: 123
-  description: Save files become corrupted during Steam Cloud sync conflicts across
-    multiple machines.
-  workaround: Disable Steam Cloud for long runs. Back up save files regularly.
-  status: Partially fixed - recovery added
-  updated_at: '2026-10-09'
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Wrong hand type suggested by auto-select
+  updated_at: '2026-01-12'
+  version: 1.0.t
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Players report: steam deck oled brightness adaptation. Multiple confirmed reports across
+    community channels.'
+  platform: Steam Deck
+  reports: 72
+  severity: Medium
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fixed recently
+  title: Steam Deck OLED brightness adaptation
+  updated_at: '2026-08-18'
+  version: 1.0.q
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: joker name truncated on tooltip width.'
+  platform: Android
+  reports: 72
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Joker name truncated on tooltip width
+  updated_at: '2026-02-23'
+  version: 1.0.e
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: tarot cards not affecting selected cards on touch.'
+  platform: PC / Steam
+  reports: 72
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Tarot cards not affecting selected cards on touch
+  updated_at: '2026-03-08'
+  version: 1.0.i
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: deck select screen flickering on 120hz.'
+  platform: iOS / Mobile
+  reports: 71
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Deck select screen flickering on 120Hz
+  updated_at: '2026-09-28'
+  version: 1.0.m
+  workaround: Disable the related modifier. Use alternative jokers.
+- description: 'Community observation: wrong rarity color for uncommon jokers.'
+  platform: All platforms
+  reports: 71
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Wrong rarity color for Uncommon jokers
+  updated_at: '2026-07-22'
+  version: 1.0.b
+  workaround: Disable the related modifier. Use alternative jokers.
+- description: 'Community observation: boss blind effect not applying on first hand.'
+  platform: Xbox Game Pass
+  reports: 70
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Boss blind effect not applying on first hand
+  updated_at: '2026-10-18'
+  version: 1.0.f
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: wrong blind bonus displayed on hud after retrigger.'
+  platform: Android
+  reports: 69
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Wrong blind bonus displayed on HUD after retrigger
+  updated_at: '2026-06-04'
+  version: 1.0.f
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: invisible cards in deck after using the empress.'
+  platform: All platforms
+  reports: 68
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Invisible cards in deck after using The Empress
+  updated_at: '2026-01-22'
+  version: 1.0.e
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: blind type not matching actual effect.'
+  platform: PC / Steam
+  reports: 68
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Blind type not matching actual effect
+  updated_at: '2026-06-25'
+  version: 1.0.l
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: voucher duplicate when restarting same seed.'
+  platform: All platforms
+  reports: 67
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Voucher duplicate when restarting same seed
+  updated_at: '2026-04-12'
+  version: 1.0.s
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: gamepad a button confirming twice.'
+  platform: iOS / Mobile
+  reports: 67
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Gamepad A button confirming twice
+  updated_at: '2026-04-09'
+  version: 1.0.o
+  workaround: Close any overlapping overlays. Update GPU drivers.
+- description: 'Community observation: rigged deck modifier not counting face cards.'
+  platform: PC / Steam
+  reports: 66
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Rigged Deck modifier not counting face cards
+  updated_at: '2026-01-28'
+  version: 1.0.c
+  workaround: Close any overlapping overlays. Update GPU drivers.
+- description: 'Community observation: save file not found after windows update.'
+  platform: PC / Steam
+  reports: 66
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Save file not found after Windows update
+  updated_at: '2026-09-11'
+  version: 1.0.o
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: game freezes when buying jolly joker with 0 dollars.'
+  platform: Nintendo Switch
+  reports: 65
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Game freezes when buying Jolly Joker with 0 dollars
+  updated_at: '2026-05-27'
+  version: 1.0.h
+  workaround: Restart the game and retry. Display bug only, scoring is correct.
+- description: 'Community observation: polychrome card showing as foil in card info.'
+  platform: PC / Steam
+  reports: 65
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Polychrome card showing as foil in card info
+  updated_at: '2026-06-03'
+  version: 1.0.q
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: game crash on ante 8 with 12 jokers.'
+  platform: Xbox Game Pass
+  reports: 65
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Game crash on Ante 8 with 12 jokers
+  updated_at: '2026-07-11'
+  version: 1.0.a
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Players report: gros michel joker not counting cards. Multiple confirmed reports across
+    community channels.'
+  platform: PC / Steam
+  reports: 64
+  severity: Critical
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fix in progress
+  title: Gros Michel joker not counting cards
+  updated_at: '2026-05-15'
+  version: 1.0.m
+  workaround: Restart the game and retry. Display bug only, scoring is correct.
+- description: 'Players report: memory leak on 30+ ante runs. Multiple confirmed reports across community
+    channels.'
+  platform: Nintendo Switch
+  reports: 63
+  severity: Critical
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fix in progress
+  title: Memory leak on 30+ Ante runs
+  updated_at: '2026-07-09'
+  version: 1.0.q
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: score not updating after using eight joker.'
+  platform: PC / Steam
+  reports: 63
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Score not updating after using Eight Joker
+  updated_at: '2026-03-05'
+  version: 1.0.l
+  workaround: Restart the game and retry. Display bug only, scoring is correct.
+- description: 'Community observation: wrong stake modifier displayed.'
+  platform: All platforms
+  reports: 63
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Wrong stake modifier displayed
+  updated_at: '2026-07-16'
+  version: 1.0.b
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: run history not saving on xbox game pass.'
+  platform: All platforms
+  reports: 61
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Run history not saving on Xbox Game Pass
+  updated_at: '2026-02-04'
+  version: 1.0.t
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: game freezing during spectral pack draw animation.'
+  platform: PC / Steam
+  reports: 61
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Game freezing during spectral pack draw animation
+  updated_at: '2026-08-14'
+  version: 1.0.h
+  workaround: No known workaround. Monitor patch notes.
+- description: 'Community observation: wrong deck bonus for deck of echoes.'
+  platform: Xbox Game Pass
+  reports: 61
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Wrong deck bonus for Deck of Echoes
+  updated_at: '2026-04-27'
+  version: 1.0.n
+  workaround: Close any overlapping overlays. Update GPU drivers.
+- description: 'Players report: switch handheld mode frame drops with 8+ jokers. Multiple confirmed reports
+    across community channels.'
+  platform: PC / Steam
+  reports: 60
+  severity: Critical
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fixed recently
+  title: Switch handheld mode frame drops with 8+ Jokers
+  updated_at: '2026-10-01'
+  version: 1.0.m
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: steam rich presence showing wrong ante.'
+  platform: All platforms
+  reports: 60
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Steam rich presence showing wrong ante
+  updated_at: '2026-04-17'
+  version: 1.0.e
+  workaround: Close any overlapping overlays. Update GPU drivers.
+- description: 'Community observation: tarot card effect preview showing wrong colors.'
+  platform: All platforms
+  reports: 59
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Tarot card effect preview showing wrong colors
+  updated_at: '2026-09-22'
+  version: 1.0.h
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: retrigger count not displayed for smeared joker.'
+  platform: Xbox Game Pass
+  reports: 57
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Retrigger count not displayed for Smeared joker
+  updated_at: '2026-01-21'
+  version: 1.0.e
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: foil cards showing wrong chip bonus.'
+  platform: PC / Steam
+  reports: 55
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Foil cards showing wrong chip bonus
+  updated_at: '2026-01-11'
+  version: 1.0.c
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: save file corrupted after force quit.'
+  platform: PC / Steam
+  reports: 54
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Save file corrupted after force quit
+  updated_at: '2026-09-26'
+  version: 1.0.a
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: memory usage spike when viewing all jokers collection.'
+  platform: Xbox Game Pass
+  reports: 53
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Memory usage spike when viewing all jokers collection
+  updated_at: '2026-03-26'
+  version: 1.0.k
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: gamepad input lag on ps5 backend.'
+  platform: All platforms
+  reports: 52
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Gamepad input lag on PS5 backend
+  updated_at: '2026-07-01'
+  version: 1.0.g
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: wrong mult displayed for odd todd on odd cards.'
+  platform: iOS / Mobile
+  reports: 52
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Wrong mult displayed for Odd Todd on odd cards
+  updated_at: '2026-02-25'
+  version: 1.0.n
+  workaround: Use windowed mode. Avoid the problematic combination.
+- description: 'Community observation: joker sell value recalculating mid-hand.'
+  platform: Xbox Game Pass
+  reports: 50
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Joker sell value recalculating mid-hand
+  updated_at: '2026-04-05'
+  version: 1.0.i
+  workaround: Close any overlapping overlays. Update GPU drivers.
+- description: 'Community observation: game not detecting gamepad on linux proton.'
+  platform: Android
+  reports: 49
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Game not detecting gamepad on Linux Proton
+  updated_at: '2026-04-07'
+  version: 1.0.l
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Players report: ultrawide monitor ui stretching. Multiple confirmed reports across community
+    channels.'
+  platform: PC / Steam
+  reports: 48
+  severity: Critical
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fixed recently
+  title: Ultrawide monitor UI stretching
+  updated_at: '2026-04-06'
+  version: 1.0.o
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: eternal sticker not showing after ante 5.'
+  platform: PC / Steam
+  reports: 48
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Eternal sticker not showing after Ante 5
+  updated_at: '2026-08-04'
+  version: 1.0.o
+  workaround: Close any overlapping overlays. Update GPU drivers.
+- description: 'Community observation: shop reroll price not updating in real-time.'
+  platform: Xbox Game Pass
+  reports: 48
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Shop reroll price not updating in real-time
+  updated_at: '2026-08-27'
+  version: 1.0.r
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Players report: achievement not unlocking on gog. Multiple confirmed reports across community
+    channels.'
+  platform: iOS / Mobile
+  reports: 46
+  severity: Medium
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fix in progress
+  title: Achievement not unlocking on GOG
+  updated_at: '2026-04-22'
+  version: 1.0.n
+  workaround: Use windowed mode. Avoid the problematic combination.
+- description: 'Community observation: sound cutting out during boss blind music.'
+  platform: iOS / Mobile
+  reports: 46
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Sound cutting out during boss blind music
+  updated_at: '2026-08-28'
+  version: 1.0.a
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: negative joker economy bug on economy builds.'
+  platform: Steam Deck
+  reports: 46
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Negative joker economy bug on economy builds
+  updated_at: '2026-04-22'
+  version: 1.0.h
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Players report: android 14 tarot card crash. Multiple confirmed reports across community
+    channels.'
+  platform: PC / Steam
+  reports: 45
+  severity: Critical
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fix in progress
+  title: Android 14 Tarot card crash
+  updated_at: '2026-05-05'
+  version: 1.0.o
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: score popup hidden behind joker row.'
+  platform: Steam Deck
+  reports: 45
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Score popup hidden behind joker row
+  updated_at: '2026-04-01'
+  version: 1.0.m
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: cloud sync conflict dialog too small on mobile.'
+  platform: PC / Steam
+  reports: 45
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Cloud sync conflict dialog too small on mobile
+  updated_at: '2026-10-17'
+  version: 1.0.q
+  workaround: Use windowed mode. Avoid the problematic combination.
+- description: 'Community observation: game not launching on macos sonoma.'
+  platform: PC / Steam
+  reports: 44
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Game not launching on macOS Sonoma
+  updated_at: '2026-03-27'
+  version: 1.0.c
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: plasma deck scoring miscalculation on flush.'
+  platform: PC / Steam
+  reports: 43
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Plasma deck scoring miscalculation on Flush
+  updated_at: '2026-04-09'
+  version: 1.0.r
+  workaround: Restart the game and retry. Display bug only, scoring is correct.
+- description: 'Community observation: no sound on bluetooth headphones during run.'
+  platform: All platforms
+  reports: 43
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: No sound on Bluetooth headphones during run
+  updated_at: '2026-02-24'
+  version: 1.0.t
+  workaround: No known workaround. Monitor patch notes.
+- description: 'Community observation: joker alignment off on 4k display.'
+  platform: All platforms
+  reports: 41
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Joker alignment off on 4K display
+  updated_at: '2026-10-16'
+  version: 1.0.j
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: splash screen stuck on android after 5 minutes.'
+  platform: Xbox Game Pass
+  reports: 40
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Splash screen stuck on Android after 5 minutes
+  updated_at: '2026-04-19'
+  version: 1.0.k
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: wrong card suit icons in french locale.'
+  platform: PC / Steam
+  reports: 40
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Wrong card suit icons in French locale
+  updated_at: '2026-03-01'
+  version: 1.0.g
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: deck name not saved in custom deck selection.'
+  platform: Steam Deck
+  reports: 39
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Deck name not saved in custom deck selection
+  updated_at: '2026-07-26'
+  version: 1.0.d
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: wrong language detected on first launch.'
+  platform: All platforms
+  reports: 37
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Wrong language detected on first launch
+  updated_at: '2026-06-11'
+  version: 1.0.p
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: game hangs on ''disabling steam cloud'' prompt.'
+  platform: All platforms
+  reports: 35
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Game hangs on 'Disabling Steam Cloud' prompt
+  updated_at: '2026-04-23'
+  version: 1.0.a
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: lucky sevens not triggering natural 7s.'
+  platform: All platforms
+  reports: 34
+  severity: Medium
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Lucky sevens not triggering natural 7s
+  updated_at: '2026-06-08'
+  version: 1.0.n
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: blue deck extra hand not carrying over.'
+  platform: All platforms
+  reports: 34
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Blue deck extra hand not carrying over
+  updated_at: '2026-05-28'
+  version: 1.0.b
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: overstock voucher not increasing joker slots.'
+  platform: Nintendo Switch
+  reports: 34
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Overstock voucher not increasing joker slots
+  updated_at: '2026-08-18'
+  version: 1.0.d
+  workaround: Disable the related modifier. Use alternative jokers.
+- description: 'Community observation: joker order changing after shop purchase.'
+  platform: PC / Steam
+  reports: 34
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Joker order changing after shop purchase
+  updated_at: '2026-05-02'
+  version: 1.0.p
+  workaround: Disable the related modifier. Use alternative jokers.
+- description: 'Community observation: golden ticket voucher not applying shop discount.'
+  platform: Steam Deck
+  reports: 32
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Golden ticket voucher not applying shop discount
+  updated_at: '2026-09-15'
+  version: 1.0.c
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Players report: score display wrong on polychrome cards. Multiple confirmed reports across
+    community channels.'
+  platform: PC / Steam
+  reports: 31
+  severity: Medium
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fix in progress
+  title: Score display wrong on Polychrome cards
+  updated_at: '2026-02-12'
+  version: 1.0.p
+  workaround: Restart the game and retry. Display bug only, scoring is correct.
+- description: 'Community observation: cash out button unresponsive on mobile.'
+  platform: All platforms
+  reports: 31
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Cash out button unresponsive on mobile
+  updated_at: '2026-10-08'
+  version: 1.0.l
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: sell animation skipping on 60fps mode.'
+  platform: All platforms
+  reports: 28
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Sell animation skipping on 60fps mode
+  updated_at: '2026-04-23'
+  version: 1.0.n
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: lucky cat joker not triggering on 1 in 4 rolls.'
+  platform: iOS / Mobile
+  reports: 28
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Lucky cat joker not triggering on 1 in 4 rolls
+  updated_at: '2026-10-19'
+  version: 1.0.s
+  workaround: Avoid this joker combination until fixed.
+- description: 'Players report: voucher reset after game restart. Multiple confirmed reports across community
+    channels.'
+  platform: PC / Steam
+  reports: 25
+  severity: Low
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fix in progress
+  title: Voucher reset after game restart
+  updated_at: '2026-10-28'
+  version: 1.0.k
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: joker spawn rate wrong on green deck.'
+  platform: PC / Steam
+  reports: 24
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Joker spawn rate wrong on green deck
+  updated_at: '2026-04-28'
+  version: 1.0.d
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: wrong cards displayed in deck preview.'
+  platform: Steam Deck
+  reports: 23
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Wrong cards displayed in deck preview
+  updated_at: '2026-03-24'
+  version: 1.0.j
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Players report: the fool tarot soft-lock. Multiple confirmed reports across community
+    channels.'
+  platform: All platforms
+  reports: 22
+  severity: High
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Fixed recently
+  title: The Fool tarot soft-lock
+  updated_at: '2026-04-25'
+  version: 1.0.l
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: crowbar joker triggering twice on same hand.'
+  platform: PC / Steam
+  reports: 21
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Crowbar joker triggering twice on same hand
+  updated_at: '2026-02-13'
+  version: 1.0.d
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: steam overlay disabling hotkeys mid-run.'
+  platform: PC / Steam
+  reports: 21
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Steam overlay disabling hotkeys mid-run
+  updated_at: '2026-05-17'
+  version: 1.0.g
+  workaround: Close any overlapping overlays. Update GPU drivers.
+- description: 'Community observation: red seal card duplicating on scoring.'
+  platform: iOS / Mobile
+  reports: 20
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Red Seal card duplicating on scoring
+  updated_at: '2026-09-25'
+  version: 1.0.i
+  workaround: Use windowed mode. Avoid the problematic combination.
+- description: 'Community observation: filio joker not counting as steel cards.'
+  platform: Android
+  reports: 20
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Filio joker not counting as Steel cards
+  updated_at: '2026-04-02'
+  version: 1.0.i
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: joker tooltip disappearing on hover after spectral pack.'
+  platform: Xbox Game Pass
+  reports: 19
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Joker tooltip disappearing on hover after Spectral pack
+  updated_at: '2026-04-24'
+  version: 1.0.a
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: achievement popup overlapping next blind card.'
+  platform: Xbox Game Pass
+  reports: 18
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Achievement popup overlapping next blind card
+  updated_at: '2026-02-24'
+  version: 1.0.t
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: card drag threshold too high on touch devices.'
+  platform: Xbox Game Pass
+  reports: 18
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Card drag threshold too high on touch devices
+  updated_at: '2026-07-23'
+  version: 1.0.q
+  workaround: Disable the related modifier. Use alternative jokers.
+- description: 'Community observation: deck modifier text truncated on german locale.'
+  platform: PC / Steam
+  reports: 17
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Deck modifier text truncated on German locale
+  updated_at: '2026-06-25'
+  version: 1.0.o
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: run timer not counting in background mode.'
+  platform: PC / Steam
+  reports: 17
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Run timer not counting in background mode
+  updated_at: '2026-06-26'
+  version: 1.0.g
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: wrong number of hands left displayed.'
+  platform: iOS / Mobile
+  reports: 14
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Wrong number of hands left displayed
+  updated_at: '2026-03-26'
+  version: 1.0.j
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: cursor disappearing on macos after alt-tab.'
+  platform: Android
+  reports: 13
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Cursor disappearing on macOS after alt-tab
+  updated_at: '2026-06-26'
+  version: 1.0.b
+  workaround: Save before triggering. Load previous save if crash occurs.
+- description: 'Community observation: wrong deck bonus shown in run summary.'
+  platform: All platforms
+  reports: 12
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Wrong deck bonus shown in run summary
+  updated_at: '2026-07-16'
+  version: 1.0.f
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Players report: game crashes when selecting blueprint joker after blind 3. Multiple confirmed
+    reports across community channels.'
+  platform: iOS / Mobile
+  reports: 11
+  severity: Critical
+  source_url: https://steamcommunity.com/app/2379780/discussions/
+  status: Reported
+  title: Game crashes when selecting Blueprint Joker after Blind 3
+  updated_at: '2026-04-05'
+  version: 1.0.k
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: touch target too small on filter buttons.'
+  platform: All platforms
+  reports: 11
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Touch target too small on filter buttons
+  updated_at: '2026-10-11'
+  version: 1.0.f
+  workaround: Play in docked mode. Reduce Joker count.
+- description: 'Community observation: boss blind reward not awarding correctly.'
+  platform: All platforms
+  reports: 11
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Boss blind reward not awarding correctly
+  updated_at: '2026-08-06'
+  version: 1.0.e
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: card back texture missing after steam cloud load.'
+  platform: PC / Steam
+  reports: 9
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Card back texture missing after steam cloud load
+  updated_at: '2026-10-18'
+  version: 1.0.p
+  workaround: Use windowed mode. Avoid the problematic combination.
+- description: 'Community observation: joker tooltip overlapping next joker.'
+  platform: PC / Steam
+  reports: 9
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: Joker tooltip overlapping next joker
+  updated_at: '2026-06-18'
+  version: 1.0.r
+  workaround: Back up save files regularly. Disable cloud sync.
+- description: 'Community observation: save file timestamp wrong after daylight savings.'
+  platform: All platforms
+  reports: 8
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Save file timestamp wrong after daylight savings
+  updated_at: '2026-03-03'
+  version: 1.0.k
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: no haptic feedback on mobile when scoring.'
+  platform: All platforms
+  reports: 8
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Fix in progress
+  title: No haptic feedback on mobile when scoring
+  updated_at: '2026-07-25'
+  version: 1.0.s
+  workaround: Clear app cache and reinstall. Wait for hotfix.
+- description: 'Community observation: discard count not updating after discarded hand.'
+  platform: Android
+  reports: 7
+  severity: Low
+  source_url: https://www.reddit.com/r/batardre/
+  status: Reported
+  title: Discard count not updating after discarded hand
+  updated_at: '2026-02-15'
+  version: 1.0.k
+  workaround: Avoid this joker combination until fixed.
+- description: 'Community observation: joker pool reset after quitting to menu.'
+  platform: Xbox Game Pass
+  reports: 2
+  severity: Critical
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Joker pool reset after quitting to menu
+  updated_at: '2026-10-04'
+  version: 1.0.p
+  workaround: Close any overlapping overlays. Update GPU drivers.
+- description: 'Community observation: blind reward text overlapping on small screens.'
+  platform: PC / Steam
+  reports: 1
+  severity: High
+  source_url: https://www.reddit.com/r/batardre/
+  status: Investigating
+  title: Blind reward text overlapping on small screens
+  updated_at: '2026-01-08'
+  version: 1.0.q
+  workaround: Restart the game and retry. Display bug only, scoring is correct.
