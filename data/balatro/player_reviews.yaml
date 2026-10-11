@@ -1,6 +1,24 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 40
+  title: Solid game, Balatro is a fun and addictive game.
+  content: Really enjoying this. Balatro is a fun and addictive game. It’s simple
+    to pick up. Hard to stop playing.
+  source: Steam Review
+  date: '2026-10-11'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 104
+  title: Great run, Massively addictive
+  content: I have to say, Massively addictive, but what else is new. Truly one of
+    the best games of all time.
+  source: Steam Review
+  date: '2026-10-11'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 28
   title: Solid game, my education has been ruined thanks to t
   content: Honestly, my education has been ruined thanks to this game. In the middle
@@ -520,21 +538,3 @@
     what I was supposed to be doing.
   source: Reddit r/batardre
   date: '2026-06-03'
-- rating: 5
-  author: Completionist
-  platform: Android
-  hours_played: 78
-  title: 'Better than expected #46'
-  content: The art style is charming. The card designs, the animations, the little
-    details when you play a hand - everything feels polished.
-  source: Reddit r/batardre
-  date: '2026-05-26'
-- rating: 4
-  author: Steam Player
-  platform: Mac
-  hours_played: 265
-  title: 'Endless replayability #41'
-  content: Great game to play while listening to podcasts. The runs are short enough
-    that you can zone out and still enjoy it.
-  source: Steam Review
-  date: '2026-05-21'
