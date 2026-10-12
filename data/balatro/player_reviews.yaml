@@ -1,6 +1,24 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 1
+  title: Solid game, Okay
+  content: Honestly, Okay, esto es adictivo. No sé en qué momento se me fueron 2 horas
+    (las cuales se sintieron como 30 minutos). ¿Cómo no probé esto antes?
+  source: Steam Review
+  date: '2026-10-12'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 19
+  title: Loving it — I didn't know I had a gambling addiction
+  content: Great game overall. I didn't know I had a gambling addiction until I played
+    this game!! 10/10
+  source: Steam Review
+  date: '2026-10-12'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 40
   title: Solid game, Balatro is a fun and addictive game.
   content: Really enjoying this. Balatro is a fun and addictive game. It’s simple
@@ -520,21 +538,3 @@
     you garbage jokers for 5 rounds straight, it feels terrible.
   source: Reddit r/batardre
   date: '2026-06-05'
-- rating: 5
-  author: Reddit User
-  platform: Android
-  hours_played: 191
-  title: 'A masterpiece of design #6'
-  content: The joker system is incredibly deep. I discovered new synergies after 100
-    hours. Every run feels different because the combinations are nearly endless.
-  source: Xbox Community
-  date: '2026-06-04'
-- rating: 2
-  author: Casual Player
-  platform: iOS
-  hours_played: 151
-  title: 'Too reliant on luck #68'
-  content: The learning curve is brutal. I watched YouTube guides just to understand
-    what I was supposed to be doing.
-  source: Reddit r/batardre
-  date: '2026-06-03'
