@@ -7,7 +7,7 @@
     Blind 3.
   workaround: Save before selecting Blueprint. Load previous save if crash occurs.
   status: Reported - Not yet fixed
-  updated_at: '2026-10-11'
+  updated_at: '2026-10-12'
 - title: Save Corruption on Steam Cloud Sync
   version: 1.0.1n
   platform: PC / Steam
@@ -17,4 +17,4 @@
     multiple machines.
   workaround: Disable Steam Cloud for long runs. Back up save files regularly.
   status: Partially fixed - recovery added
-  updated_at: '2026-10-11'
+  updated_at: '2026-10-12'
