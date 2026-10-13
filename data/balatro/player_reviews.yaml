@@ -1,6 +1,25 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 3
+  title: Great run, Jimbo me salvo de un incendio a mi y a t
+  content: This exceeded my expectations. Jimbo me salvo de un incendio a mi y a toda
+    mi familia, llego y uso el joker de splash! para apagar el fuego acumulando todas
+    las chips y el aura. Balatro salvo mi vida y me hizo un comodin legendario.
+  source: Steam Review
+  date: '2026-10-13'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 8
+  title: Solid game, It's a lot of fun
+  content: Great game overall. It's a lot of fun, and you really get the hang of it
+    quickly.
+  source: Steam Review
+  date: '2026-10-13'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 1
   title: Solid game, Okay
   content: Honestly, Okay, esto es adictivo. No sé en qué momento se me fueron 2 horas
@@ -520,21 +539,3 @@
     for money is incredible.
   source: App Store Review
   date: '2026-06-08'
-- rating: 5
-  author: Indie Game Fan
-  platform: Steam Deck
-  hours_played: 210
-  title: 'Casual but deep #54'
-  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
-    beats creates the perfect atmosphere for long sessions.
-  source: Reddit r/batardre
-  date: '2026-06-07'
-- rating: 3
-  author: Indie Game Fan
-  platform: Mac
-  hours_played: 137
-  title: 'Feels unfair sometimes #24'
-  content: Some runs are just unwinnable from the first shop. When the game gives
-    you garbage jokers for 5 rounds straight, it feels terrible.
-  source: Reddit r/batardre
-  date: '2026-06-05'
