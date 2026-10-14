@@ -1,6 +1,24 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 4
+  title: Loving it — Have this game on PS5 and Mobile.
+  content: I have to say, Have this game on PS5 and Mobile. Glad to have it on PC,
+    Espically with the mutiplayer mod and other cool things from the great community
+  source: Steam Review
+  date: '2026-10-14'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 12
+  title: Loving it — PEAK.
+  content: Great game overall. PEAK. Ive played this game more and more ever since
+    i got it. Absolute Cinema
+  source: Steam Review
+  date: '2026-10-14'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 3
   title: Great run, Jimbo me salvo de un incendio a mi y a t
   content: This exceeded my expectations. Jimbo me salvo de un incendio a mi y a toda
@@ -521,21 +539,3 @@
     hours. Every run feels different because the combinations are nearly endless.
   source: Reddit r/batardre
   date: '2026-06-12'
-- rating: 5
-  author: Casual Player
-  platform: Android
-  hours_played: 24
-  title: 'More than it looks #39'
-  content: I bought this on sale and it has become my most played game. The value
-    for money is incredible.
-  source: App Store Review
-  date: '2026-06-12'
-- rating: 5
-  author: Deck Builder Fan
-  platform: Mac
-  hours_played: 144
-  title: 'A genuine indie gem #52'
-  content: I bought this on sale and it has become my most played game. The value
-    for money is incredible.
-  source: App Store Review
-  date: '2026-06-08'
