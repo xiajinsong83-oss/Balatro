@@ -1,6 +1,25 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 59
+  title: Loving it — I suck at Poker
+  content: This exceeded my expectations. I suck at Poker, fortunately this game has
+    very little to do with Poker. though I also suck at this game.
+  source: Steam Review
+  date: '2026-10-15'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 61
+  title: Loving it — uga buga joga carta curinga mim jogar ta
+  content: This exceeded my expectations. uga buga joga carta curinga mim jogar taro
+    mim ver mult subir feliz ficar mult aplicar em ficha mim ficar feliz cerebro fica
+    feliz vendo curinga ativar dopamina dopamina
+  source: Steam Review
+  date: '2026-10-15'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 4
   title: Loving it — Have this game on PS5 and Mobile.
   content: I have to say, Have this game on PS5 and Mobile. Glad to have it on PC,
@@ -521,21 +540,3 @@
     after release. Community feedback actually matters.
   source: App Store Review
   date: '2026-07-04'
-- rating: 4
-  author: Indie Game Fan
-  platform: Mac
-  hours_played: 90
-  title: 'Can''t stop playing #33'
-  content: As someone who hates poker, I love this game. It distills the fun parts
-    of building a broken system and watching numbers go up.
-  source: Reddit r/batardre
-  date: '2026-06-22'
-- rating: 5
-  author: Deck Builder Fan
-  platform: iOS
-  hours_played: 98
-  title: 'New favorite game #32'
-  content: The joker system is incredibly deep. I discovered new synergies after 100
-    hours. Every run feels different because the combinations are nearly endless.
-  source: Reddit r/batardre
-  date: '2026-06-12'
