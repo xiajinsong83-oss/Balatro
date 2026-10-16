@@ -1,6 +1,27 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 41
+  title: Solid game, You see numbers go up
+  content: I have to say, You see numbers go up, you get a boner, you blow your load,
+    you lose, feel sad, press play again repeat. Best card game I have ever played.
+    It's simple, it's addictive, good way to pass the time or play while chatting
+    with friends.
+  source: Steam Review
+  date: '2026-10-16'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 34
+  title: Great run, The most brilliant and unfair way to pla
+  content: Honestly, The most brilliant and unfair way to play Poker. I actually discovered
+    Balatro for the first time as a minigame inside Dave the Diver. Back then, I dove
+    deep into the Sea People Village just to play this arcade version down there!
+  source: Steam Review
+  date: '2026-10-16'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 59
   title: Loving it — I suck at Poker
   content: This exceeded my expectations. I suck at Poker, fortunately this game has
@@ -522,21 +543,3 @@
     single useful card for 3 consecutive antes.
   source: Xbox Community
   date: '2026-07-10'
-- rating: 5
-  author: Deck Builder Fan
-  platform: PC / Steam
-  hours_played: 209
-  title: 'Best roguelike in years #73'
-  content: Beating Gold Stake for the first time was one of the most satisfying gaming
-    moments I have ever had.
-  source: Reddit r/batardre
-  date: '2026-07-08'
-- rating: 5
-  author: Completionist
-  platform: PC / Steam
-  hours_played: 150
-  title: 'Endless replayability #42'
-  content: The dev team is amazing. They keep patching and adding content over a year
-    after release. Community feedback actually matters.
-  source: App Store Review
-  date: '2026-07-04'
