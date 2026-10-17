@@ -1,6 +1,24 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 23
+  title: Loving it — Jogo divertido
+  content: Really enjoying this. Jogo divertido, facil de entender e otimo de passar
+    o tempo
+  source: Steam Review
+  date: '2026-10-17'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 1016
+  title: Great run, i got all of the the gold stickers on jo
+  content: Really enjoying this. i got all of the the gold stickers on jokers and
+    didn't get the achievement :(
+  source: Steam Review
+  date: '2026-10-17'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 41
   title: Solid game, You see numbers go up
   content: I have to say, You see numbers go up, you get a boner, you blow your load,
@@ -525,21 +543,3 @@
     first 10 runs. The game does not explain enough.
   source: Steam Review
   date: '2026-07-13'
-- rating: 5
-  author: Mobile Gamer
-  platform: iOS
-  hours_played: 109
-  title: 'New favorite game #14'
-  content: Great game to play while listening to podcasts. The runs are short enough
-    that you can zone out and still enjoy it.
-  source: Steam Review
-  date: '2026-07-12'
-- rating: 2
-  author: Steam Player
-  platform: Mac
-  hours_played: 235
-  title: 'Stake levels too grindy #38'
-  content: The RNG can feel rigged. I have had runs where the shop never offered a
-    single useful card for 3 consecutive antes.
-  source: Xbox Community
-  date: '2026-07-10'
