@@ -1,6 +1,16 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 143
+  title: Loving it — Jogo de cartas é sempre muito bom
+  content: Really enjoying this. Jogo de cartas é sempre muito bom, eu gosto bastante,
+    o jogo é maravilhoso, mas cada pessoa tem sua opinião pessoal então na minha opinião
+    é muito bom, recomendo balatro.
+  source: Steam Review
+  date: '2026-10-18'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 23
   title: Loving it — Jogo divertido
   content: Really enjoying this. Jogo divertido, facil de entender e otimo de passar
@@ -532,14 +542,5 @@
   title: 'Addictive as hell #51'
   content: Runs great on the Steam Deck. The touch controls work surprisingly well
     for a game with this much UI.
-  source: Steam Review
-  date: '2026-07-13'
-- rating: 2
-  author: Casual Player
-  platform: Mac
-  hours_played: 282
-  title: 'Stake levels too grindy #91'
-  content: The tutorial is way too thin. New players will be completely lost for the
-    first 10 runs. The game does not explain enough.
   source: Steam Review
   date: '2026-07-13'
