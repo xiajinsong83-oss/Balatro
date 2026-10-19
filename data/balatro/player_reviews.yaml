@@ -1,6 +1,25 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 12
+  title: Solid game, I LOVE THIS GAME SO MUCH AND HAVE BOUGHT
+  content: This exceeded my expectations. I LOVE THIS GAME SO MUCH AND HAVE BOUGHT
+    IT ON EVERY PLATFORM, tho i would say a new update is needed cause when you want
+    to only get good runs there is only a certain amout of good combos
+  source: Steam Review
+  date: '2026-10-19'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 6
+  title: Great run, From the mesmerizing music to the additi
+  content: Really enjoying this. From the mesmerizing music to the additive counter
+    of your multi increasing. This game is fun to play 9/10.
+  source: Steam Review
+  date: '2026-10-19'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 143
   title: Loving it — Jogo de cartas é sempre muito bom
   content: Really enjoying this. Jogo de cartas é sempre muito bom, eu gosto bastante,
@@ -526,21 +545,3 @@
     details when you play a hand - everything feels polished.
   source: Reddit r/batardre
   date: '2026-07-16'
-- rating: 5
-  author: Indie Game Fan
-  platform: iOS
-  hours_played: 157
-  title: 'Better than expected #28'
-  content: I started playing for 10 minutes and lost 3 hours. The pacing is perfect
-    - short runs that keep pulling you back for one more try.
-  source: Reddit r/batardre
-  date: '2026-07-14'
-- rating: 5
-  author: Reddit User
-  platform: PC / Steam
-  hours_played: 33
-  title: 'Addictive as hell #51'
-  content: Runs great on the Steam Deck. The touch controls work surprisingly well
-    for a game with this much UI.
-  source: Steam Review
-  date: '2026-07-13'
