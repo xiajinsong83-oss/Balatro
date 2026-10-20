@@ -1,6 +1,24 @@
 - rating: 5
   author: Community Player
   platform: PC / Steam
+  hours_played: 33
+  title: Loving it — bir gün bir kral bir askere demiş ki san
+  content: Great game overall. bir gün bir kral bir askere demiş ki sana bu montta
+    kalma ben sana soğuk getircem
+  source: Steam Review
+  date: '2026-10-20'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 79
+  title: Great run, play balatreo eberyday amd get balabrain
+  content: I have to say, play balatreo eberyday amd get balabrain become balagenius
+    Ψ(￣∀￣)Ψ
+  source: Steam Review
+  date: '2026-10-20'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
   hours_played: 12
   title: Solid game, I LOVE THIS GAME SO MUCH AND HAVE BOUGHT
   content: This exceeded my expectations. I LOVE THIS GAME SO MUCH AND HAVE BOUGHT
@@ -527,21 +545,3 @@
     you garbage jokers for 5 rounds straight, it feels terrible.
   source: Steam Review
   date: '2026-07-21'
-- rating: 2
-  author: Steam Player
-  platform: Android
-  hours_played: 265
-  title: 'RNG is too punishing #84'
-  content: Some runs are just unwinnable from the first shop. When the game gives
-    you garbage jokers for 5 rounds straight, it feels terrible.
-  source: Steam Review
-  date: '2026-07-17'
-- rating: 5
-  author: Mobile Gamer
-  platform: iOS
-  hours_played: 199
-  title: 'Better than expected #63'
-  content: The art style is charming. The card designs, the animations, the little
-    details when you play a hand - everything feels polished.
-  source: Reddit r/batardre
-  date: '2026-07-16'
