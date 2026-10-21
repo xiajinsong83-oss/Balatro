@@ -1,3 +1,31 @@
+- rating: 2
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 568
+  title: Issues — This game has received a lot of hype but
+  content: Having mixed feelings. This game has received a lot of hype but I must
+    say it gets very repetitive after some time, and I don't feel it allows for a
+    lot of variation in gameplay. It is quite addictive though.
+  source: Steam Review
+  date: '2026-10-21'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 229
+  title: Great run, This was my first introduction to roguel
+  content: Really enjoying this. This was my first introduction to roguelikes and
+    it got me hooked. One of the greatest deck builders of all time
+  source: Steam Review
+  date: '2026-10-21'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 2
+  title: Great run, Really good.
+  content: I have to say, Really good. Bought a copy on my phone and PC. There are
+    some issues with scaling into late game but no game lasts forever.
+  source: Steam Review
+  date: '2026-10-21'
 - rating: 5
   author: Community Player
   platform: PC / Steam
@@ -518,30 +546,3 @@
     beats creates the perfect atmosphere for long sessions.
   source: Reddit r/batardre
   date: '2026-08-07'
-- rating: 5
-  author: Reddit User
-  platform: Mac
-  hours_played: 183
-  title: 'Innovative deck builder #22'
-  content: The joker system is incredibly deep. I discovered new synergies after 100
-    hours. Every run feels different because the combinations are nearly endless.
-  source: Reddit r/batardre
-  date: '2026-08-05'
-- rating: 4
-  author: Casual Player
-  platform: Mac
-  hours_played: 294
-  title: 'Best roguelike in years #92'
-  content: The joker system is incredibly deep. I discovered new synergies after 100
-    hours. Every run feels different because the combinations are nearly endless.
-  source: Reddit r/batardre
-  date: '2026-07-26'
-- rating: 3
-  author: Indie Game Fan
-  platform: PC / Steam
-  hours_played: 78
-  title: 'Mobile version needs work #12'
-  content: Some runs are just unwinnable from the first shop. When the game gives
-    you garbage jokers for 5 rounds straight, it feels terrible.
-  source: Steam Review
-  date: '2026-07-21'
