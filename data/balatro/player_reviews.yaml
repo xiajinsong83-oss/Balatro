@@ -1,6 +1,33 @@
 - rating: 2
   author: Community Player
   platform: PC / Steam
+  hours_played: 40
+  title: 'Issues — Can’t believe people nominated this for '
+  content: I want to love it but Can’t believe people nominated this for a GOTY. There’s
+    nothing more to this than an average cookie clicker. Sure it’s fun for a few hours,
+    an essential experience it is not.
+  source: Steam Review
+  date: '2026-10-22'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 273
+  title: Great run, 打牌佬为了全成就，打了200多个小时牌，贴金之路漫长。凑够数值和找到没贴金的牌，
+  content: Really enjoying this. 打牌佬为了全成就，打了200多个小时牌，贴金之路漫长。凑够数值和找到没贴金的牌，但第8注一个克制的boss让你瞬间红温前功尽弃，黑牌+金注+靛紫之杯能惩罚每一个打牌佬。全成就那一刻感觉已解脱
+  source: Steam Review
+  date: '2026-10-22'
+- rating: 5
+  author: Community Player
+  platform: PC / Steam
+  hours_played: 11
+  title: Solid game, Zakochałem się od pierwszego przetasowan
+  content: As someone who put in the hours, Zakochałem się od pierwszego przetasowania
+    i rozdania. Już widzę, że trochę godzin przyjemnych uleci mi przy tej gierce.
+  source: Steam Review
+  date: '2026-10-22'
+- rating: 2
+  author: Community Player
+  platform: PC / Steam
   hours_played: 568
   title: Issues — This game has received a lot of hype but
   content: Having mixed feelings. This game has received a lot of hype but I must
@@ -519,30 +546,3 @@
     for a game with this much UI.
   source: Steam Review
   date: '2026-08-16'
-- rating: 3
-  author: Deck Builder Fan
-  platform: Mac
-  hours_played: 183
-  title: 'Mobile version needs work #59'
-  content: The mobile version crashes too often. It is frustrating when you lose a
-    2-hour run because of a random crash.
-  source: Xbox Community
-  date: '2026-08-14'
-- rating: 2
-  author: Mobile Gamer
-  platform: Android
-  hours_played: 12
-  title: 'Feels unfair sometimes #25'
-  content: Some runs are just unwinnable from the first shop. When the game gives
-    you garbage jokers for 5 rounds straight, it feels terrible.
-  source: App Store Review
-  date: '2026-08-09'
-- rating: 4
-  author: Casual Player
-  platform: Android
-  hours_played: 169
-  title: 'My most played game this year #11'
-  content: The soundtrack is unexpectedly good. Casino jazz mixed with electronic
-    beats creates the perfect atmosphere for long sessions.
-  source: Reddit r/batardre
-  date: '2026-08-07'
