@@ -4,7 +4,7 @@
     Deck. There are 15 total decks to unlock.
   workaround: ''
   source_note: Aggregated from community knowledge base
-  updated_at: '2026-10-23'
+  updated_at: '2026-10-24'
 - question: Why does Blueprint Joker crash my game?
   summary: Multiple players report crashes after selecting Blueprint Joker on or after
     Blind 3 in v1.0.1o. The crash appears when Blueprint copies an active Joker to
@@ -12,4 +12,4 @@
   workaround: Save before selecting Blueprint. Avoid picking this joker until next
     patch.
   source_note: Aggregated from 47+ community reports
-  updated_at: '2026-10-23'
+  updated_at: '2026-10-24'
